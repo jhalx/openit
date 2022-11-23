@@ -1,5 +1,13 @@
 proxies:
-- name: "\U0001F1EF\U0001F1F5 JP 1 VMS"
+- name: "\U0001F1F0\U0001F1F7 KR 1 TJN"
+  server: kr05.wangxd.life
+  port: 3052
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 JP 2 VMS"
   server: 152.69.197.60
   type: vmess
   country: "\U0001F1FA\U0001F1F8US"
@@ -12,7 +20,7 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: "\U0001F1ED\U0001F1F0 HK 2 VMS"
+- name: "\U0001F1ED\U0001F1F0 HK 3 VMS"
   server: univstar-104-208-117-86.nip.io
   port: 443
   type: vmess
@@ -27,15 +35,36 @@ proxies:
     HOST: univstar-104-208-117-86.nip.io
   skip-cert-verify: true
   servername: univstar-104-208-117-86.nip.io
-- name: "\U0001F1E6\U0001F1FA AU 3 TJN"
-  server: 140.238.205.173
-  type: trojan
-  country: "\U0001F1E6\U0001F1FAAU"
+- name: "\U0001F1FA\U0001F1F8 US 4 VMS"
+  server: vus4.0bad.com
   port: 443
-  password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
+  type: vmess
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 0
+  cipher: auto
+  tls: true
+  network: ws
+  http-opts: {}
+  ws-path: /chat
+  ws-headers:
+    HOST: vus4.0bad.com
   skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EB\U0001F1F7 FR 4 VMS"
+  servername: vus4.0bad.com
+- name: "\U0001F1EF\U0001F1F5 JP 5 VMS"
+  server: 00000000000000000000000000000000000000000000000000000000000034a.rui77.com
+  type: vmess
+  country: "\U0001F1E6\U0001F1FAAU"
+  port: 12356
+  uuid: 1617ff1b-4e85-4a8a-81c3-511b3c2efad8
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
+  servername: trs09.bolab.net
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: "\U0001F1EB\U0001F1F7 FR 6 VMS"
   server: 57.128.45.161
   type: vmess
   country: "\U0001F1E7\U0001F1EABE"
@@ -51,7 +80,7 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: "\U0001F1FA\U0001F1F8 US 5 TJN"
+- name: "\U0001F1FA\U0001F1F8 US 7 TJN"
   server: 23.247.137.70
   type: trojan
   country: "\U0001F1E7\U0001F1EDBH"
@@ -59,7 +88,7 @@ proxies:
   password: d4e41ff772c7fd45
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 6 VMS"
+- name: "\U0001F1F8\U0001F1EC SG 8 VMS"
   server: 139.99.91.95
   type: vmess
   country: "\U0001F1E8\U0001F1E6CA"
@@ -73,7 +102,7 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: "\U0001F1E8\U0001F1E6 CA 7 TJN"
+- name: "\U0001F1E8\U0001F1E6 CA 9 TJN"
   server: 149.56.141.11
   type: trojan
   country: "\U0001F1E8\U0001F1E6CA"
@@ -81,24 +110,24 @@ proxies:
   password: 67960bfb-00de-4a6b-9a7a-e74fc9e8b158
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1ED CH 8 VMS"
-  server: www.liuyiyang19891222.tk
+- name: "\U0001F1E8\U0001F1ED CH 10 VMS"
+  server: www.kehuai.tk
   type: vmess
   country: "\U0001F1E8\U0001F1EDCH"
   port: 443
-  uuid: ad48ebeb-f949-472b-9717-e8c8f0f7984d
+  uuid: 353b3a7d-28d2-4e4b-9633-1c90f23b6514
   alterId: 0
   cipher: auto
   network: ws
   ws-path: /
-  servername: www.liuyiyang19891222.tk
+  servername: www.kehuai.tk
   ws-headers:
-    HOST: www.liuyiyang19891222.tk
+    HOST: www.kehuai.tk
   http-opts: {}
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: "\U0001F1E8\U0001F1F3 CN 9 VMS"
+- name: "\U0001F1E8\U0001F1F3 CN 11 VMS"
   server: zfd-moblev2.gatknqh.cn
   type: vmess
   country: "\U0001F1E8\U0001F1F3 CN"
@@ -112,7 +141,7 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: "\U0001F1E8\U0001F1F3 CN 10 VMS"
+- name: "\U0001F1E8\U0001F1F3 CN 12 VMS"
   server: 34.wgong1.top
   type: vmess
   country: "\U0001F1E8\U0001F1F3 CN"
@@ -126,23 +155,37 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: "\U0001F1E8\U0001F1F3 CN 11 TJN"
-  server: 20007.purefast2.com
-  type: trojan
-  country: "\U0001F1E8\U0001F1F3CN"
-  port: 20007
-  password: bab40563-cafe-39c1-9d76-c3e627d73758
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 12 TJN"
-  server: 20005.purefast2.com
-  type: trojan
-  country: "\U0001F1E8\U0001F1F3CN"
-  port: 20005
-  password: bab40563-cafe-39c1-9d76-c3e627d73758
-  skip-cert-verify: true
-  udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 13 TJN"
+  server: 20013.purefast2.com
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 20013
+  password: 357827e5-a45d-3f09-9b73-ef4431dfb323
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 14 VMS"
+  server: zfd-moble.gatknqh.cn
+  type: vmess
+  country: "\U0001F1E8\U0001F1F3CN"
+  port: 16108
+  uuid: f1d39fe1-bfa3-34ff-86a2-29250af03183
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /guolicheng/us2
+  servername: www.189.cn
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: "\U0001F1E8\U0001F1F3 CN 15 TJN"
+  server: 20003.purefast2.com
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3CN"
+  port: 20003
+  password: bab40563-cafe-39c1-9d76-c3e627d73758
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 16 TJN"
   server: 20013.purefast2.com
   type: trojan
   country: "\U0001F1E8\U0001F1F3CN"
@@ -150,7 +193,7 @@ proxies:
   password: a71df8e7-d563-3ebc-a26a-168c8dc8c9f3
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 14 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 17 TJN"
   server: 20011.purefast2.com
   type: trojan
   country: "\U0001F1E8\U0001F1F3CN"
@@ -158,7 +201,7 @@ proxies:
   password: bab40563-cafe-39c1-9d76-c3e627d73758
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 15 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 18 TJN"
   server: 20008.purefast2.com
   type: trojan
   country: "\U0001F1E8\U0001F1F3CN"
@@ -166,7 +209,15 @@ proxies:
   password: bab40563-cafe-39c1-9d76-c3e627d73758
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 16 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 19 TJN"
+  server: 20010.purefast2.com
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3CN"
+  port: 20010
+  password: bab40563-cafe-39c1-9d76-c3e627d73758
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 20 TJN"
   server: 20009.purefast2.com
   type: trojan
   country: "\U0001F1E8\U0001F1F3CN"
@@ -174,7 +225,7 @@ proxies:
   password: bab40563-cafe-39c1-9d76-c3e627d73758
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 17 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 21 TJN"
   server: 20004.purefast2.com
   type: trojan
   country: "\U0001F1E8\U0001F1F3CN"
@@ -182,7 +233,7 @@ proxies:
   password: a71df8e7-d563-3ebc-a26a-168c8dc8c9f3
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 18 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 22 TJN"
   server: 20005.purefast2.com
   type: trojan
   country: "\U0001F1E8\U0001F1F3CN"
@@ -190,15 +241,7 @@ proxies:
   password: a71df8e7-d563-3ebc-a26a-168c8dc8c9f3
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 19 TJN"
-  server: 20003.purefast2.com
-  type: trojan
-  country: "\U0001F1E8\U0001F1F3CN"
-  port: 20003
-  password: a71df8e7-d563-3ebc-a26a-168c8dc8c9f3
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 20 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 23 TJN"
   server: 20002.purefast2.com
   type: trojan
   country: "\U0001F1E8\U0001F1F3CN"
@@ -206,7 +249,7 @@ proxies:
   password: bab40563-cafe-39c1-9d76-c3e627d73758
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 21 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 24 TJN"
   server: 20012.purefast2.com
   type: trojan
   country: "\U0001F1E8\U0001F1F3CN"
@@ -214,23 +257,23 @@ proxies:
   password: a71df8e7-d563-3ebc-a26a-168c8dc8c9f3
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 22 TJN"
-  server: 20004.purefast2.com
+- name: "\U0001F1E8\U0001F1F3 CN 25 TJN"
+  server: 20005.purefast2.com
   type: trojan
   country: "\U0001F1E8\U0001F1F3CN"
-  port: 20004
+  port: 20005
   password: bab40563-cafe-39c1-9d76-c3e627d73758
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 23 TJN"
-  server: 20011.purefast2.com
+- name: "\U0001F1F0\U0001F1F7 KR 26 TJN"
+  server: official.seoulcitygovernment.com.ua
   type: trojan
   country: "\U0001F1E8\U0001F1F3CN"
-  port: 20011
-  password: 0989fa4f-7b43-34fd-8f7f-ce06427dce06
+  port: 8443
+  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 24 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 27 TJN"
   server: 20000.purefast2.com
   type: trojan
   country: "\U0001F1E8\U0001F1F3CN"
@@ -238,15 +281,7 @@ proxies:
   password: a71df8e7-d563-3ebc-a26a-168c8dc8c9f3
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 25 TJN"
-  server: official.seoulcityhall.com.ua
-  type: trojan
-  country: "\U0001F1E8\U0001F1F3CN"
-  port: 8443
-  password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 26 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 28 TJN"
   server: 20001.purefast2.com
   type: trojan
   country: "\U0001F1E8\U0001F1F3CN"
@@ -254,7 +289,7 @@ proxies:
   password: 83a3b688-04e5-3c28-85b7-82698a174e41
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 27 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 29 TJN"
   server: 20015.purefast2.com
   type: trojan
   country: "\U0001F1E8\U0001F1F3CN"
@@ -262,7 +297,7 @@ proxies:
   password: 83a3b688-04e5-3c28-85b7-82698a174e41
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 28 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 30 TJN"
   server: 20012.purefast2.com
   type: trojan
   country: "\U0001F1E8\U0001F1F3CN"
@@ -270,7 +305,7 @@ proxies:
   password: 83a3b688-04e5-3c28-85b7-82698a174e41
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 29 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 31 TJN"
   server: v1r.centaur.network
   type: trojan
   country: "\U0001F1E8\U0001F1F3CN"
@@ -278,35 +313,19 @@ proxies:
   password: 86114b8a-078f-4c7b-acdd-bfc91b2e9a3b
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 30 TJN"
-  server: 223.111.202.148
-  type: trojan
-  country: "\U0001F1E8\U0001F1F3CN"
-  port: 30070
-  password: 6b4ced5e-835a-4a7a-9d03-6a46e94668cb
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 31 TJN"
-  server: 223.111.202.148
-  type: trojan
-  country: "\U0001F1E8\U0001F1F3CN"
-  port: 30010
-  password: 6b4ced5e-835a-4a7a-9d03-6a46e94668cb
-  skip-cert-verify: true
-  udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 32 TJN"
-  server: 223.111.202.148
+  server: 20006.purefast2.com
   type: trojan
   country: "\U0001F1E8\U0001F1F3CN"
-  port: 30020
-  password: 6b4ced5e-835a-4a7a-9d03-6a46e94668cb
+  port: 20006
+  password: 83a3b688-04e5-3c28-85b7-82698a174e41
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 33 TJN"
   server: 223.111.202.148
   type: trojan
   country: "\U0001F1E8\U0001F1F3CN"
-  port: 30030
+  port: 30070
   password: 6b4ced5e-835a-4a7a-9d03-6a46e94668cb
   skip-cert-verify: true
   udp: true
@@ -314,11 +333,35 @@ proxies:
   server: 223.111.202.148
   type: trojan
   country: "\U0001F1E8\U0001F1F3CN"
-  port: 30100
+  port: 30010
   password: 6b4ced5e-835a-4a7a-9d03-6a46e94668cb
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 35 TJN"
+  server: 223.111.202.148
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3CN"
+  port: 30020
+  password: 6b4ced5e-835a-4a7a-9d03-6a46e94668cb
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 36 TJN"
+  server: 223.111.202.148
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3CN"
+  port: 30030
+  password: 6b4ced5e-835a-4a7a-9d03-6a46e94668cb
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 37 TJN"
+  server: 20011.purefast2.com
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3CN"
+  port: 20011
+  password: 0989fa4f-7b43-34fd-8f7f-ce06427dce06
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 38 TJN"
   server: p3r.centaur.network
   type: trojan
   country: "\U0001F1E8\U0001F1F3CN"
@@ -326,23 +369,7 @@ proxies:
   password: e199b516-00f9-469e-9ee5-fe609b4bc34e
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 36 TJN"
-  server: 20002.purefast2.com
-  type: trojan
-  country: "\U0001F1E8\U0001F1F3CN"
-  port: 20002
-  password: a71df8e7-d563-3ebc-a26a-168c8dc8c9f3
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 37 TJN"
-  server: 20009.purefast2.com
-  type: trojan
-  country: "\U0001F1E8\U0001F1F3CN"
-  port: 20009
-  password: a71df8e7-d563-3ebc-a26a-168c8dc8c9f3
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 38 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 39 TJN"
   server: 20014.purefast2.com
   type: trojan
   country: "\U0001F1E8\U0001F1F3CN"
@@ -350,7 +377,7 @@ proxies:
   password: 83a3b688-04e5-3c28-85b7-82698a174e41
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 39 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 40 TJN"
   server: 20004.purefast2.com
   type: trojan
   country: "\U0001F1E8\U0001F1F3CN"
@@ -358,7 +385,7 @@ proxies:
   password: 07730e7a-427a-35b5-8095-b70a6535fd23
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 40 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 41 TJN"
   server: 20004.purefast2.com
   type: trojan
   country: "\U0001F1E8\U0001F1F3CN"
@@ -366,7 +393,7 @@ proxies:
   password: a1d4c471-61d1-3f61-8502-63b14b8b56be
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 41 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 42 TJN"
   server: v1r.centaur.network
   type: trojan
   country: "\U0001F1E8\U0001F1F3CN"
@@ -374,7 +401,7 @@ proxies:
   password: 86114b8a-078f-4c7b-acdd-bfc91b2e9a3b
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 42 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 43 TJN"
   server: 20010.purefast2.com
   type: trojan
   country: "\U0001F1E8\U0001F1F3CN"
@@ -382,23 +409,7 @@ proxies:
   password: 5f42a7e5-1b5a-3f89-a75a-306e68d8ac1a
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 43 TJN"
-  server: 20009.purefast2.com
-  type: trojan
-  country: "\U0001F1E8\U0001F1F3CN"
-  port: 20009
-  password: 83a3b688-04e5-3c28-85b7-82698a174e41
-  skip-cert-verify: true
-  udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 44 TJN"
-  server: 20000.purefast2.com
-  type: trojan
-  country: "\U0001F1E8\U0001F1F3CN"
-  port: 20000
-  password: a1d4c471-61d1-3f61-8502-63b14b8b56be
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 45 TJN"
   server: p3r.centaur.network
   type: trojan
   country: "\U0001F1E8\U0001F1F3CN"
@@ -406,15 +417,7 @@ proxies:
   password: e199b516-00f9-469e-9ee5-fe609b4bc34e
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 46 TJN"
-  server: 20008.purefast2.com
-  type: trojan
-  country: "\U0001F1E8\U0001F1F3CN"
-  port: 20008
-  password: 83a3b688-04e5-3c28-85b7-82698a174e41
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 47 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 45 TJN"
   server: v1r.centaur.network
   type: trojan
   country: "\U0001F1E8\U0001F1F3CN"
@@ -422,31 +425,7 @@ proxies:
   password: 86114b8a-078f-4c7b-acdd-bfc91b2e9a3b
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 48 TJN"
-  server: 20013.purefast2.com
-  type: trojan
-  country: "\U0001F1E8\U0001F1F3CN"
-  port: 20013
-  password: 83a3b688-04e5-3c28-85b7-82698a174e41
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 49 TJN"
-  server: 20003.purefast2.com
-  type: trojan
-  country: "\U0001F1E8\U0001F1F3CN"
-  port: 20003
-  password: 83a3b688-04e5-3c28-85b7-82698a174e41
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 50 TJN"
-  server: v1r.centaur.network
-  type: trojan
-  country: "\U0001F1E8\U0001F1F3CN"
-  port: 16801
-  password: 86114b8a-078f-4c7b-acdd-bfc91b2e9a3b
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 51 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 46 TJN"
   server: v1r.centaur.network
   type: trojan
   country: "\U0001F1E8\U0001F1F3CN"
@@ -454,7 +433,7 @@ proxies:
   password: 86114b8a-078f-4c7b-acdd-bfc91b2e9a3b
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 52 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 47 TJN"
   server: 223.111.202.148
   type: trojan
   country: "\U0001F1E8\U0001F1F3CN"
@@ -462,15 +441,7 @@ proxies:
   password: ae7cc604-d970-4200-9a9b-eb45087b4fc1
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 53 TJN"
-  server: 20012.purefast2.com
-  type: trojan
-  country: "\U0001F1E8\U0001F1F3CN"
-  port: 20012
-  password: bab40563-cafe-39c1-9d76-c3e627d73758
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 54 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 48 TJN"
   server: 20007.purefast2.com
   type: trojan
   country: "\U0001F1E8\U0001F1F3CN"
@@ -478,7 +449,7 @@ proxies:
   password: a71df8e7-d563-3ebc-a26a-168c8dc8c9f3
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 55 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 49 TJN"
   server: 223.111.202.148
   type: trojan
   country: "\U0001F1E8\U0001F1F3CN"
@@ -486,7 +457,7 @@ proxies:
   password: a1b16d10-4f43-4dd9-8c4f-52065b2b0910
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 56 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 50 TJN"
   server: 223.111.202.148
   type: trojan
   country: "\U0001F1E8\U0001F1F3CN"
@@ -494,7 +465,7 @@ proxies:
   password: a1b16d10-4f43-4dd9-8c4f-52065b2b0910
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 57 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 51 TJN"
   server: v1r.centaur.network
   type: trojan
   country: "\U0001F1E8\U0001F1F3CN"
@@ -502,7 +473,7 @@ proxies:
   password: 86114b8a-078f-4c7b-acdd-bfc91b2e9a3b
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 58 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 52 TJN"
   server: 223.111.202.148
   type: trojan
   country: "\U0001F1E8\U0001F1F3CN"
@@ -510,15 +481,44 @@ proxies:
   password: 6b4ced5e-835a-4a7a-9d03-6a46e94668cb
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1FF CZ 59 TJN"
-  server: v2cross.com.02.v2ce.com
+- name: "\U0001F1E8\U0001F1F3 CN 53 TJN"
+  server: v1r.centaur.network
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3CN"
+  port: 16801
+  password: 86114b8a-078f-4c7b-acdd-bfc91b2e9a3b
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1F3 CN 54 TJN"
+  server: 223.111.202.148
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3CN"
+  port: 30100
+  password: 6b4ced5e-835a-4a7a-9d03-6a46e94668cb
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1FF CZ 55 TJN"
+  server: 92.118.149.85
   type: trojan
   country: "\U0001F1E8\U0001F1FFCZ"
   port: 443
   password: 3gLlCYBipVwr6Y5F
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 60 VMS"
+- name: "\U0001F1E9\U0001F1EA DE 56 VMS"
+  server: 159.89.13.84
+  type: vmess
+  country: "\U0001F1E9\U0001F1EADE"
+  port: 58130
+  uuid: bcd266dc-d6e9-4ea4-8285-dba7e4b167b2
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: "\U0001F1FA\U0001F1F8 US 57 VMS"
   server: 5.161.105.171
   type: vmess
   country: "\U0001F1E9\U0001F1EADE"
@@ -534,7 +534,7 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: "\U0001F1FA\U0001F1F8 US 61 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 58 VMS"
   server: 5.161.105.171
   type: vmess
   country: "\U0001F1E9\U0001F1EADE"
@@ -550,7 +550,7 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: "\U0001F1E9\U0001F1EA DE 62 TJN"
+- name: "\U0001F1E9\U0001F1EA DE 59 TJN"
   server: 89.163.220.99
   type: trojan
   country: "\U0001F1E9\U0001F1EADE"
@@ -558,15 +558,7 @@ proxies:
   password: 6b4ced5e-835a-4a7a-9d03-6a46e94668cb
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EB\U0001F1F7 FR 63 TJN"
-  server: 141.94.76.177
-  type: trojan
-  country: "\U0001F1E9\U0001F1EADE"
-  port: 443
-  password: 6e3b4240-38f9-4321-9b3c-bc669a34b848
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F8\U0001F1EC SG 64 TJN"
+- name: "\U0001F1F8\U0001F1EC SG 60 TJN"
   server: trojan-ctb-sg01.globalssh.xyz
   type: trojan
   country: "\U0001F1E9\U0001F1EADE"
@@ -574,7 +566,23 @@ proxies:
   password: '123456'
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EB\U0001F1F7 FR 65 TJN"
+- name: "\U0001F1E9\U0001F1EA DE 61 TJN"
+  server: 188.40.251.19
+  type: trojan
+  country: "\U0001F1E9\U0001F1EADE"
+  port: 443
+  password: origin
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EB\U0001F1F7 FR 62 TJN"
+  server: 141.94.76.177
+  type: trojan
+  country: "\U0001F1E9\U0001F1EADE"
+  port: 443
+  password: 6e3b4240-38f9-4321-9b3c-bc669a34b848
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EB\U0001F1F7 FR 63 TJN"
   server: 51.77.71.134
   type: trojan
   country: "\U0001F1EB\U0001F1F7 FR"
@@ -582,15 +590,7 @@ proxies:
   password: origin
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EB\U0001F1F7 FR 66 TJN"
-  server: content-provider26.cdn-delivery.akamaicd.com
-  type: trojan
-  country: "\U0001F1EB\U0001F1F7 FR"
-  port: 443
-  password: origin
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EB\U0001F1F7 FR 67 TJN"
+- name: "\U0001F1EB\U0001F1F7 FR 64 TJN"
   server: ukt-2.opensvr.net
   type: trojan
   country: "\U0001F1EB\U0001F1F7 FR"
@@ -598,7 +598,15 @@ proxies:
   password: opentunnel.net-trhrst5ju45s
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 68 VMS"
+- name: "\U0001F1EB\U0001F1F7 FR 65 TJN"
+  server: content-provider26.cdn-delivery.akamaicd.com
+  type: trojan
+  country: "\U0001F1EB\U0001F1F7 FR"
+  port: 443
+  password: origin
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EC\U0001F1E7 GB 66 VMS"
   server: 51.89.100.10
   type: vmess
   country: "\U0001F1EB\U0001F1F7FR"
@@ -612,23 +620,7 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: "\U0001F1F7\U0001F1FA RU 69 TJN"
-  server: 51.75.76.22
-  type: trojan
-  country: "\U0001F1EB\U0001F1F7FR"
-  port: 443
-  password: c60fbf90-4b55-11ed-b935-225401db9d57
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EB\U0001F1F7 FR 70 TJN"
-  server: content-provider5.cdn-delivery.akamaicd.com
-  type: trojan
-  country: "\U0001F1EB\U0001F1F7FR"
-  port: 443
-  password: Sp3eDVp
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EB\U0001F1F7 FR 71 TJN"
+- name: "\U0001F1EB\U0001F1F7 FR 67 TJN"
   server: ukt1.sshocean.net
   type: trojan
   country: "\U0001F1EB\U0001F1F7FR"
@@ -636,15 +628,23 @@ proxies:
   password: 0f5e6d9a-49af-4bc0-b04b-503102382144
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EB\U0001F1F7 FR 72 TJN"
-  server: 62.210.254.72
+- name: "\U0001F1EB\U0001F1F7 FR 68 TJN"
+  server: 51.77.71.131
   type: trojan
   country: "\U0001F1EB\U0001F1F7FR"
-  port: 28443
-  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
+  port: 443
+  password: Sp3eDVp
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 73 TJN"
+- name: "\U0001F1F7\U0001F1FA RU 69 TJN"
+  server: de.tjvpn.org
+  type: trojan
+  country: "\U0001F1EB\U0001F1F7FR"
+  port: 443
+  password: c60fbf90-4b55-11ed-b935-225401db9d57
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EC\U0001F1E7 GB 70 TJN"
   server: 146.19.230.241
   type: trojan
   country: "\U0001F1EB\U0001F1F7FR"
@@ -652,7 +652,15 @@ proxies:
   password: xxoo
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 74 TJN"
+- name: "\U0001F1EB\U0001F1F7 FR 71 TJN"
+  server: 62.210.254.72
+  type: trojan
+  country: "\U0001F1EB\U0001F1F7FR"
+  port: 28443
+  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F0\U0001F1F7 KR 72 TJN"
   server: 144.24.72.126
   type: trojan
   country: "\U0001F1EC\U0001F1E7GB"
@@ -660,7 +668,7 @@ proxies:
   password: 7118b5f4-0ea4-4c11-be7f-11471cb91e4a
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 75 TJN"
+- name: "\U0001F1EC\U0001F1E7 GB 73 TJN"
   server: content-provider20.cdn-delivery.akamaicd.com
   type: trojan
   country: "\U0001F1EC\U0001F1E7GB"
@@ -668,7 +676,7 @@ proxies:
   password: shefelnak
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1ED\U0001F1F0 HK 76 TJN"
+- name: "\U0001F1ED\U0001F1F0 HK 74 TJN"
   server: ca.liangyuandian.top
   type: trojan
   country: "\U0001F1ED\U0001F1F0 HK"
@@ -676,29 +684,32 @@ proxies:
   password: cc55e294-b76f-425a-9301-c18afbecaa22
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1ED\U0001F1F0 HK 77 VMS"
-  server: 00000000000000000000000000000000000000000000000000000000000032a.rui77.com
+- name: "\U0001F1ED\U0001F1F0 HK 75 VMS"
+  server: az.hk01.paopaocloud.cyou
   type: vmess
   country: "\U0001F1ED\U0001F1F0HK"
-  port: 12356
-  uuid: 2100274e-55ae-4686-a380-a66ae8b0ef1b
+  port: 10010
+  uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2
   alterId: 0
   cipher: auto
-  network: tcp
-  ws-path: /
-  servername: 00000000000000000000000000000000000000000000000000000000000032a.rui77.com
+  network: ws
+  ws-path: /v2ray
+  servername: az.hk01.paopaocloud.cyou
+  ws-headers:
+    HOST: az.hk01.paopaocloud.cyou
   http-opts: {}
   h2-opts: {}
+  tls: true
   skip-cert-verify: true
-- name: "\U0001F1ED\U0001F1F0 HK 78 TJN"
-  server: uk01.awcloud.top
+- name: "\U0001F1ED\U0001F1F0 HK 76 TJN"
+  server: download2hkt.windowsupdate.lol
   type: trojan
   country: "\U0001F1ED\U0001F1F0HK"
   port: 443
-  password: 59e806eb-8f89-4c37-a961-86ee23211300
+  password: 5d07a7bd-3696-4bc2-ab37-e7082c86f5cb
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 79 TJN"
+- name: "\U0001F1EF\U0001F1F5 JP 77 TJN"
   server: kh.iamnotagoodman.com
   type: trojan
   country: "\U0001F1ED\U0001F1F0HK"
@@ -706,7 +717,7 @@ proxies:
   password: f8d19ba5-8684-45f2-8523-77dbea588955
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1ED\U0001F1F0 HK 80 TJN"
+- name: "\U0001F1ED\U0001F1F0 HK 78 TJN"
   server: cn-hk-33.hyperlinkvpn.xyz
   type: trojan
   country: "\U0001F1ED\U0001F1F0HK"
@@ -714,7 +725,7 @@ proxies:
   password: 47b39b1f-fdff-4afb-9f8b-aaa6c01a4abe
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1ED\U0001F1F0 HK 81 TJN"
+- name: "\U0001F1ED\U0001F1F0 HK 79 TJN"
   server: 103.135.102.156
   type: trojan
   country: "\U0001F1ED\U0001F1F0HK"
@@ -722,15 +733,7 @@ proxies:
   password: 750a29bf-0a40-437f-b120-38de74ae7eaf
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1ED\U0001F1F0 HK 82 TJN"
-  server: download2hkt.windowsupdate.lol
-  type: trojan
-  country: "\U0001F1ED\U0001F1F0HK"
-  port: 443
-  password: b1171e62-aad8-46dc-8014-1478a9aabb04
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1ED\U0001F1F0 HK 83 TJN"
+- name: "\U0001F1ED\U0001F1F0 HK 80 TJN"
   server: 210.0.158.220
   type: trojan
   country: "\U0001F1ED\U0001F1F0HK"
@@ -738,7 +741,15 @@ proxies:
   password: 750a29bf-0a40-437f-b120-38de74ae7eaf
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EE\U0001F1E9 ID 84 TJN"
+- name: "\U0001F1ED\U0001F1F0 HK 81 TJN"
+  server: uk01.awcloud.top
+  type: trojan
+  country: "\U0001F1ED\U0001F1F0HK"
+  port: 443
+  password: 59e806eb-8f89-4c37-a961-86ee23211300
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EE\U0001F1E9 ID 82 TJN"
   server: idc1.vpn-akcelluler.my.id
   type: trojan
   country: "\U0001F1EE\U0001F1E9ID"
@@ -746,31 +757,35 @@ proxies:
   password: idc117okt
   skip-cert-verify: true
   udp: true
+- name: "\U0001F1EF\U0001F1F5 JP 83 VMS"
+  server: 00000000000000000000000000000000000000000000000000000000000003a.rui77.com
+  type: vmess
+  country: "\U0001F1EF\U0001F1F5JP"
+  port: 80
+  uuid: f3fda0c6-4025-4da7-82b4-88423d9ec489
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
+  servername: cn2.us.xlkjjs.top
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: "\U0001F1EF\U0001F1F5 JP 84 VMS"
+  server: 00000000000000000000000000000000000000000000000000000000000024a.rui77.com
+  type: vmess
+  country: "\U0001F1EF\U0001F1F5JP"
+  port: 52356
+  uuid: c5c32a05-8dac-47f3-b8f3-c927f03ccd05
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
+  servername: 00000000000000000000000000000000000000000000000000000000000024a.rui77.com
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
 - name: "\U0001F1EF\U0001F1F5 JP 85 TJN"
-  server: trs12.bolab.net
-  type: trojan
-  country: "\U0001F1EF\U0001F1F5JP"
-  port: 443
-  password: 14bdba6dede262387ebdebaa706e1c90
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 86 TJN"
-  server: kr1.api-aws.com
-  type: trojan
-  country: "\U0001F1EF\U0001F1F5JP"
-  port: 443
-  password: 84773125-8f79-481c-a80b-e1f4aad86850
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 87 TJN"
-  server: trs09.bolab.net
-  type: trojan
-  country: "\U0001F1EF\U0001F1F5JP"
-  port: 443
-  password: 7a566d21dfcd0f12490275fd3dd3cfc4
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 88 TJN"
   server: 168.138.44.176
   type: trojan
   country: "\U0001F1EF\U0001F1F5JP"
@@ -778,7 +793,15 @@ proxies:
   password: 8d2d5953-d649-4034-94f2-72f2df2623da
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 89 TJN"
+- name: "\U0001F1EF\U0001F1F5 JP 86 TJN"
+  server: trs09.bolab.net
+  type: trojan
+  country: "\U0001F1EF\U0001F1F5JP"
+  port: 443
+  password: 7a566d21dfcd0f12490275fd3dd3cfc4
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 JP 87 TJN"
   server: 168.138.43.89
   type: trojan
   country: "\U0001F1EF\U0001F1F5JP"
@@ -786,8 +809,24 @@ proxies:
   password: d06a3f01-1ff0-4792-9b8e-a5a604bc74a2
   skip-cert-verify: true
   udp: true
+- name: "\U0001F1EF\U0001F1F5 JP 88 TJN"
+  server: trs12.bolab.net
+  type: trojan
+  country: "\U0001F1EF\U0001F1F5JP"
+  port: 443
+  password: 14bdba6dede262387ebdebaa706e1c90
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F0\U0001F1F7 KR 89 TJN"
+  server: kr1.api-aws.com
+  type: trojan
+  country: "\U0001F1EF\U0001F1F5JP"
+  port: 443
+  password: 0d8285f8-33da-4076-bb24-d498bd83f2f9
+  skip-cert-verify: true
+  udp: true
 - name: "\U0001F1F0\U0001F1F7 KR 90 VMS"
-  server: 13.124.228.70
+  server: 54.180.150.171
   type: vmess
   country: "\U0001F1F0\U0001F1F7KR"
   port: 42517
@@ -799,7 +838,54 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: "\U0001F1F3\U0001F1F1 NL 91 TJN"
+- name: "\U0001F1F0\U0001F1F7 KR 91 VMS"
+  server: 54.180.117.118
+  type: vmess
+  country: "\U0001F1F0\U0001F1F7KR"
+  port: 42517
+  uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: "\U0001F1F0\U0001F1F7 KR 92 VMS"
+  server: 54.180.131.191
+  type: vmess
+  country: "\U0001F1F0\U0001F1F7KR"
+  port: 42517
+  uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: "\U0001F1FA\U0001F1F8 US 93 VMS"
+  server: 84.32.4.25
+  type: vmess
+  country: "\U0001F1F1\U0001F1F9LT"
+  port: 3389
+  uuid: 886868e2-b3fc-4a2c-8c66-1d2691861671
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: "\U0001F1F3\U0001F1F1 NL 94 TJN"
+  server: 185.212.200.75
+  type: trojan
+  country: "\U0001F1F3\U0001F1F1NL"
+  port: 443
+  password: Sp3eDVp
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F3\U0001F1F1 NL 95 TJN"
   server: content-provider23.cdn-delivery.akamaicd.com
   type: trojan
   country: "\U0001F1F3\U0001F1F1NL"
@@ -807,7 +893,7 @@ proxies:
   password: Sp3eDVp
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EC\U0001F1E7 GB 92 TJN"
+- name: "\U0001F1EC\U0001F1E7 GB 96 TJN"
   server: content-provider13.cdn-delivery.akamaicd.com
   type: trojan
   country: "\U0001F1F3\U0001F1F1NL"
@@ -815,15 +901,15 @@ proxies:
   password: Sp3eDVp
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 93 TJN"
-  server: 138.124.183.222
+- name: "\U0001F1FA\U0001F1F8 US 97 TJN"
+  server: 138.124.183.226
   type: trojan
   country: "\U0001F1F3\U0001F1F4NO"
   port: 443
   password: xxoo
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F1\U0001F1FA LU 94 VMS"
+- name: "\U0001F1F1\U0001F1FA LU 98 VMS"
   server: cl-gl2d3b3310.gcdn.co
   type: vmess
   country: "\U0001F1F7\U0001F1FARU"
@@ -839,23 +925,7 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: "\U0001F1F7\U0001F1FA RU 95 VMS"
-  server: 176.119.159.245
-  type: vmess
-  country: "\U0001F1F7\U0001F1FARU"
-  port: 37672
-  uuid: 86b4e35c-1061-47b3-8c6c-811d1853a477
-  alterId: 64
-  cipher: auto
-  network: http
-  servername: apple.com
-  http-opts:
-    method: GET
-    path:
-    - /
-  h2-opts: {}
-  skip-cert-verify: true
-- name: "\U0001F1E8\U0001F1F3 CN 96 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 99 TJN"
   server: 194.156.99.39
   type: trojan
   country: "\U0001F1F7\U0001F1FARU"
@@ -863,29 +933,15 @@ proxies:
   password: xxoo
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 97 VMS"
-  server: 00000000000000000000000000000000000000000000000000000000000005a.rui77.com
-  type: vmess
-  country: "\U0001F1F8\U0001F1ECSG"
-  port: 80
-  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  servername: 00000000000000000000000000000000000000000000000000000000000005a.rui77.com
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: "\U0001F1F8\U0001F1EC SG 98 TJN"
-  server: de.liangyuandian.top
+- name: "\U0001F1F8\U0001F1EC SG 100 TJN"
+  server: jp.liangyuandian.top
   type: trojan
   country: "\U0001F1F8\U0001F1ECSG"
   port: 443
-  password: 176196e4-7cf7-4561-87a9-21a1b4e344be
+  password: cc55e294-b76f-425a-9301-c18afbecaa22
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 99 TJN"
+- name: "\U0001F1F8\U0001F1EC SG 101 TJN"
   server: 139.162.45.139
   type: trojan
   country: "\U0001F1F8\U0001F1ECSG"
@@ -893,15 +949,7 @@ proxies:
   password: FLpONjB2Lb
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1ED\U0001F1F0 HK 100 TJN"
-  server: de.iamnotagoodman.com
-  type: trojan
-  country: "\U0001F1F8\U0001F1ECSG"
-  port: 443
-  password: 28bccca2-43d2-47f8-bd63-b1361ce7d362
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F9\U0001F1FC TW 101 VMS"
+- name: "\U0001F1F9\U0001F1FC TW 102 VMS"
   server: tw-tb-b.zc20200426.club
   type: vmess
   country: "\U0001F1F9\U0001F1FCTW"
@@ -915,31 +963,7 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: "\U0001F1F9\U0001F1FC TW 102 TJN"
-  server: 60.249.3.125
-  type: trojan
-  country: "\U0001F1F9\U0001F1FCTW"
-  port: 3389
-  password: 182228812d1e0f23
-  skip-cert-verify: true
-  udp: true
 - name: "\U0001F1F9\U0001F1FC TW 103 TJN"
-  server: 211.72.35.157
-  type: trojan
-  country: "\U0001F1F9\U0001F1FCTW"
-  port: 3389
-  password: 7b06d22a8a7c764f
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F9\U0001F1FC TW 104 TJN"
-  server: 211.72.35.152
-  type: trojan
-  country: "\U0001F1F9\U0001F1FCTW"
-  port: 3389
-  password: 182228812d1e0f23
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F9\U0001F1FC TW 105 TJN"
   server: 211.72.35.155
   type: trojan
   country: "\U0001F1F9\U0001F1FCTW"
@@ -947,39 +971,15 @@ proxies:
   password: b09d2aaa443af97a
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F9\U0001F1FC TW 106 TJN"
-  server: 60.249.3.231
+- name: "\U0001F1F9\U0001F1FC TW 104 TJN"
+  server: 211.72.35.157
   type: trojan
   country: "\U0001F1F9\U0001F1FCTW"
   port: 3389
-  password: 182228812d1e0f23
+  password: 0cc6b4268dea0ba8
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F9\U0001F1FC TW 107 TJN"
-  server: 211.72.35.158
-  type: trojan
-  country: "\U0001F1F9\U0001F1FCTW"
-  port: 3389
-  password: 7b06d22a8a7c764f
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F9\U0001F1FC TW 108 TJN"
-  server: 211.72.35.153
-  type: trojan
-  country: "\U0001F1F9\U0001F1FCTW"
-  port: 3389
-  password: 7b06d22a8a7c764f
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F9\U0001F1FC TW 109 TJN"
-  server: 60.249.3.230
-  type: trojan
-  country: "\U0001F1F9\U0001F1FCTW"
-  port: 3389
-  password: 182228812d1e0f23
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F9\U0001F1FC TW 110 TJN"
+- name: "\U0001F1F9\U0001F1FC TW 105 TJN"
   server: 211.72.35.154
   type: trojan
   country: "\U0001F1F9\U0001F1FCTW"
@@ -987,7 +987,23 @@ proxies:
   password: 7b06d22a8a7c764f
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F9\U0001F1FC TW 111 TJN"
+- name: "\U0001F1F9\U0001F1FC TW 106 TJN"
+  server: 211.72.35.152
+  type: trojan
+  country: "\U0001F1F9\U0001F1FCTW"
+  port: 3389
+  password: 182228812d1e0f23
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F9\U0001F1FC TW 107 TJN"
+  server: 60.249.3.231
+  type: trojan
+  country: "\U0001F1F9\U0001F1FCTW"
+  port: 3389
+  password: 182228812d1e0f23
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F9\U0001F1FC TW 108 TJN"
   server: 211.72.35.156
   type: trojan
   country: "\U0001F1F9\U0001F1FCTW"
@@ -995,7 +1011,47 @@ proxies:
   password: 7b06d22a8a7c764f
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1FF CZ 112 TJN"
+- name: "\U0001F1F9\U0001F1FC TW 109 TJN"
+  server: 60.249.3.125
+  type: trojan
+  country: "\U0001F1F9\U0001F1FCTW"
+  port: 3389
+  password: 182228812d1e0f23
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F9\U0001F1FC TW 110 TJN"
+  server: 211.72.35.153
+  type: trojan
+  country: "\U0001F1F9\U0001F1FCTW"
+  port: 3389
+  password: 7b06d22a8a7c764f
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F9\U0001F1FC TW 111 TJN"
+  server: 60.249.3.230
+  type: trojan
+  country: "\U0001F1F9\U0001F1FCTW"
+  port: 3389
+  password: 182228812d1e0f23
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F9\U0001F1FC TW 112 TJN"
+  server: 211.72.35.158
+  type: trojan
+  country: "\U0001F1F9\U0001F1FCTW"
+  port: 3389
+  password: 7b06d22a8a7c764f
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F9\U0001F1FC TW 113 TJN"
+  server: TW.xibai6.top
+  type: trojan
+  country: "\U0001F1F9\U0001F1FCTW"
+  port: 31007
+  password: ca2345ba-46e7-3991-b1b7-45d18954caf1
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1FF CZ 114 TJN"
   server: v2cross.com.04.v2ce.com
   type: trojan
   country: "\U0001F1FA\U0001F1E6UA"
@@ -1003,103 +1059,7 @@ proxies:
   password: vGWCNNfBHwSY6m6M
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 113 TJN"
-  server: ust-2.opensvr.net
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 443
-  password: opentunnel.net-j6rtj4rtjrs56j
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 114 VMS"
-  server: lc-kr02-direct01.lc-kr02.lc-node.com
-  type: vmess
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 443
-  uuid: ec736482-173e-3eff-9114-b49df8056e7d
-  alterId: 2
-  cipher: auto
-  network: ws
-  ws-path: /
-  servername: lc-kr02-direct01.lc-kr02.lc-node.com
-  ws-headers:
-    HOST: lc-kr02-direct01.lc-kr02.lc-node.com
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
 - name: "\U0001F1FA\U0001F1F8 US 115 VMS"
-  server: ca.0112233.xyz
-  type: vmess
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 443
-  uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /
-  servername: ca.0112233.xyz
-  ws-headers:
-    HOST: ca.0112233.xyz
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: "\U0001F1F0\U0001F1F7 KR 116 VMS"
-  server: 152.70.241.18
-  type: vmess
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 26676
-  uuid: ecd274c0-175d-45f7-8276-a3da93786632
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: "\U0001F1EF\U0001F1F5 JP 117 VMS"
-  server: 138.2.44.211
-  type: vmess
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 20081
-  uuid: 593b8525-0c48-4b0f-d9af-2d73a9148973
-  alterId: 64
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: "\U0001F1ED\U0001F1F0 HK 118 VMS"
-  server: 206.119.112.6
-  type: vmess
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 8189
-  uuid: a90597c1-bab3-4217-ad6f-0838675c8638
-  alterId: 10
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: "\U0001F1EF\U0001F1F5 JP 119 VMS"
-  server: 00000000000000000000000000000000000000000000000000000000000033a.rui77.com
-  type: vmess
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 12356
-  uuid: 2100274e-55ae-4686-a380-a66ae8b0ef1b
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  servername: 00000000000000000000000000000000000000000000000000000000000033a.rui77.com
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: "\U0001F1FA\U0001F1F8 US 120 VMS"
   server: 67.21.72.44
   type: vmess
   country: "\U0001F1FA\U0001F1F8US"
@@ -1116,52 +1076,109 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: "\U0001F1ED\U0001F1F0 HK 121 VMS"
-  server: ah.yd01.paopaocloud.cyou
+- name: "\U0001F1FA\U0001F1F8 US 116 VMS"
+  server: lc-kr02-direct01.lc-kr02.lc-node.com
   type: vmess
   country: "\U0001F1FA\U0001F1F8US"
-  port: 10015
-  uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2
-  alterId: 0
+  port: 443
+  uuid: ec736482-173e-3eff-9114-b49df8056e7d
+  alterId: 2
   cipher: auto
   network: ws
-  ws-path: /v2ray
-  servername: paopao.v2.jp02.paopaocloud.cyou
+  ws-path: /
+  servername: lc-kr02-direct01.lc-kr02.lc-node.com
   ws-headers:
-    HOST: paopao.v2.jp02.paopaocloud.cyou
+    HOST: lc-kr02-direct01.lc-kr02.lc-node.com
   http-opts: {}
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: "\U0001F1FA\U0001F1F8 US 122 VMS"
-  server: 23.105.199.160
+- name: "\U0001F1FA\U0001F1F8 US 117 VMS"
+  server: 23.230.146.254
   type: vmess
   country: "\U0001F1FA\U0001F1F8US"
-  port: 25078
-  uuid: 964f9b2b-7ff1-4026-d4a9-41b824f4b3bb
+  port: 1258
+  uuid: edeb41cc-a76a-47f2-fa96-b9141e66a2b0
   alterId: 0
   cipher: auto
   network: tcp
   ws-path: /
-  servername: 120.241.144.71
   http-opts: {}
   h2-opts: {}
+  skip-cert-verify: true
+- name: "\U0001F1FA\U0001F1F3 UN 118 VMS"
+  server: ca.0112233.xyz
+  type: vmess
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 443
+  uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /
+  servername: ca.0112233.xyz
+  ws-headers:
+    HOST: ca.0112233.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: "\U0001F1FA\U0001F1F8 US 119 VMS"
+  server: 00000000000000000000000000000000000000000000000000000000000012a.rui77.com
+  type: vmess
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 10392
+  uuid: 78065c14-fc80-40b5-a46c-0e34efdf82fa
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
+  servername: httah.freetrade.link
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: "\U0001F1F0\U0001F1F7 KR 120 VMS"
+  server: 152.70.241.18
+  type: vmess
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 26676
+  uuid: ecd274c0-175d-45f7-8276-a3da93786632
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: "\U0001F1FA\U0001F1F8 US 121 VMS"
+  server: 23.105.199.160
+  type: vmess
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 37584
+  uuid: 61914893-393a-4685-fc2d-13328bd8e491
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
+  servername: dc1-download.windowsupdate1.com
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: "\U0001F1ED\U0001F1F0 HK 122 VMS"
+  server: hk1vdf-node.aiqiche123.com
+  type: vmess
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 8189
+  uuid: a90597c1-bab3-4217-ad6f-0838675c8638
+  alterId: 10
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  tls: true
   skip-cert-verify: true
 - name: "\U0001F1FA\U0001F1F8 US 123 VMS"
-  server: 23.105.199.160
-  type: vmess
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 23166
-  uuid: f1cda9da-c859-4f26-f609-a2e8837cc9b8
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  servername: glc.hruqoaw.cn
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: "\U0001F1FA\U0001F1F8 US 124 VMS"
   server: 67.21.72.41
   type: vmess
   country: "\U0001F1FA\U0001F1F8US"
@@ -1178,199 +1195,15 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: "\U0001F1FA\U0001F1F8 US 125 VMS"
-  server: 23.105.199.160
-  type: vmess
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 37584
-  uuid: 61914893-393a-4685-fc2d-13328bd8e491
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  servername: dc1-download.windowsupdate1.com
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: "\U0001F1FA\U0001F1F8 US 126 VMS"
-  server: 23.105.199.160
-  type: vmess
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 27317
-  uuid: 01832c71-50ac-4891-ae37-1dea8f42ae2d
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: "\U0001F1FA\U0001F1F8 US 127 VMS"
-  server: 23.105.199.160
-  type: vmess
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 23903
-  uuid: 60b6c1a6-6306-4e28-91d9-8d2be2449ae8
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: "\U0001F1FA\U0001F1F8 US 128 TJN"
-  server: agroup.node5.t.nodelist-gfwairport.download
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 50001
-  password: e00b75c0-3211-4acb-abc6-cec81b3fab8e
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EE\U0001F1F3 IN 129 TJN"
-  server: 152.67.162.166
+- name: "\U0001F1FA\U0001F1F8 US 124 TJN"
+  server: 129.146.135.157
   type: trojan
   country: "\U0001F1FA\U0001F1F8US"
   port: 443
-  password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
+  password: e23f408a-012e-4030-8b31-02022031cb50
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 130 TJN"
-  server: 51.81.211.171
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 443
-  password: 2dab5d78-5c56-4252-850d-c037753a40db
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 131 TJN"
-  server: fhcarm1.gaox.ml
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 443
-  password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 132 TJN"
-  server: 138.2.113.248
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 443
-  password: 9c822f05-cfdc-479a-9534-60f3d4127435
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EE\U0001F1F3 IN 133 TJN"
-  server: trojanjp.hktkcloud.cloud
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 443
-  password: '1919810'
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 134 TJN"
-  server: 150.230.96.103
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 443
-  password: da777aae-defb-41d0-a183-2c27da2b4677
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F8\U0001F1EC SG 135 TJN"
-  server: 168.138.189.17
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 28443
-  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 136 TJN"
-  server: 45.88.148.234
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 28443
-  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 137 TJN"
-  server: 45.82.253.234
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 28443
-  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F8\U0001F1EC SG 138 TJN"
-  server: lux.iamnotagoodman.com
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 443
-  password: 4f8c0e41-dbdb-40f1-99cb-2c2a0b909b52
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 139 TJN"
-  server: 212.90.123.133
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 28443
-  password: a1b16d10-4f43-4dd9-8c4f-52065b2b0910
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 140 TJN"
-  server: 45.88.148.237
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 28443
-  password: a1b16d10-4f43-4dd9-8c4f-52065b2b0910
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 141 TJN"
-  server: 45.82.253.237
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 28443
-  password: a1b16d10-4f43-4dd9-8c4f-52065b2b0910
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 142 TJN"
-  server: 155.248.172.87
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 28443
-  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 143 TJN"
-  server: 51.81.82.15
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 443
-  password: c2b0a060-44b0-11ed-ad2e-1239d0255272
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 144 TJN"
-  server: 212.90.123.130
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 28443
-  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 145 TJN"
-  server: 138.2.45.243
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 443
-  password: c19d1432-8b3e-4818-8837-3d160cf65908
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EE\U0001F1F3 IN 146 TJN"
-  server: jgwhdlb3.gaox.ml
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 443
-  password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 147 TJN"
+- name: "\U0001F1FA\U0001F1F8 US 125 TJN"
   server: 129.146.190.42
   type: trojan
   country: "\U0001F1FA\U0001F1F8US"
@@ -1378,71 +1211,7 @@ proxies:
   password: dbf9bf9c-2c3f-474a-8031-d4c00666a989
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 148 TJN"
-  server: 150.230.217.213
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 443
-  password: c09eb137-bf68-4658-84e0-102d94b74168
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EE\U0001F1F3 IN 149 TJN"
-  server: 152.67.160.174
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 443
-  password: 54080134-2cba-4535-8599-95650bd9aa54
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 150 TJN"
-  server: 138.2.113.84
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 443
-  password: b291d129-ee55-4801-a9b8-b5316e5c37b7
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 151 TJN"
-  server: fhcarm2.gaox.ml
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 443
-  password: f39bd244-f5fe-415c-8b98-a1e5250bf178
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 152 TJN"
-  server: us.dogintnode.com
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 443
-  password: 91a3db80-baf5-3f35-8c0e-b6483aefa1fd
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 153 TJN"
-  server: 138.2.114.255
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 443
-  password: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 154 TJN"
-  server: 141.147.191.85
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 28443
-  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1ED\U0001F1F0 HK 155 TJN"
-  server: azgy001.xibai6.top
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 20789
-  password: ca2345ba-46e7-3991-b1b7-45d18954caf1
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 156 TJN"
+- name: "\U0001F1FA\U0001F1F8 US 126 TJN"
   server: s162.s2022.xyz
   type: trojan
   country: "\U0001F1FA\U0001F1F8US"
@@ -1450,7 +1219,191 @@ proxies:
   password: d724e4d0-841b-3b92-ac0d-70fcbbb7e934
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F3\U0001F1F1 NL 157 VMS"
+- name: "\U0001F1EF\U0001F1F5 JP 127 TJN"
+  server: 150.230.217.213
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 443
+  password: c09eb137-bf68-4658-84e0-102d94b74168
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F0\U0001F1F7 KR 128 TJN"
+  server: 138.2.113.84
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 443
+  password: b291d129-ee55-4801-a9b8-b5316e5c37b7
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EE\U0001F1F3 IN 129 TJN"
+  server: jgwhdlb3.gaox.ml
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 443
+  password: 006baa3f-4bc3-4915-b60d-c8c5dae11a11
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EE\U0001F1F3 IN 130 TJN"
+  server: trojanjp.hktkcloud.cloud
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 443
+  password: Free
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F0\U0001F1F7 KR 131 TJN"
+  server: 138.2.113.248
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 443
+  password: 9c822f05-cfdc-479a-9534-60f3d4127435
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 JP 132 TJN"
+  server: 150.230.96.103
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 443
+  password: da777aae-defb-41d0-a183-2c27da2b4677
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 133 TJN"
+  server: 168.138.189.17
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 28443
+  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 134 TJN"
+  server: 45.88.148.234
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 28443
+  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 135 TJN"
+  server: 45.82.253.234
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 28443
+  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EE\U0001F1F3 IN 136 TJN"
+  server: jgwhdlb2.gaox.ml
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 443
+  password: 54080134-2cba-4535-8599-95650bd9aa54
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 137 TJN"
+  server: 212.90.123.133
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 28443
+  password: a1b16d10-4f43-4dd9-8c4f-52065b2b0910
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 138 TJN"
+  server: 45.88.148.237
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 28443
+  password: a1b16d10-4f43-4dd9-8c4f-52065b2b0910
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 139 TJN"
+  server: 45.82.253.237
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 28443
+  password: a1b16d10-4f43-4dd9-8c4f-52065b2b0910
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 JP 140 TJN"
+  server: 155.248.172.87
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 28443
+  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 141 TJN"
+  server: 51.81.82.15
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 443
+  password: c2b0a060-44b0-11ed-ad2e-1239d0255272
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 142 TJN"
+  server: 212.90.123.130
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 28443
+  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 143 TJN"
+  server: 129.146.255.158
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 443
+  password: f39bd244-f5fe-415c-8b98-a1e5250bf178
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F0\U0001F1F7 KR 144 TJN"
+  server: 138.2.114.255
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 443
+  password: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 JP 145 TJN"
+  server: 141.147.191.85
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 28443
+  password: 750a29bf-0a40-437f-b120-38de74ae7eaf
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 146 TJN"
+  server: 129.146.242.130
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 443
+  password: 05742120-ce23-4cc8-88f5-6d221ce45bf4
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EE\U0001F1F3 IN 147 TJN"
+  server: jgwhdlb1.gaox.ml
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 443
+  password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 148 TJN"
+  server: 51.81.211.171
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 443
+  password: 2dab5d78-5c56-4252-850d-c037753a40db
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1E6 CA 149 TJN"
+  server: 148.113.141.99
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 443
+  password: HdsUZmsHQW
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F3\U0001F1F1 NL 150 VMS"
   server: 188.114.97.111
   type: vmess
   country: "\U0001F3C1ZZ"
@@ -1467,7 +1420,7 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: "\U0001F1ED\U0001F1F0 HK 158 TJN"
+- name: "\U0001F1ED\U0001F1F0 HK 151 TJN"
   server: 45.11.104.94
   type: trojan
   country: "\U0001F3C1ZZ"
@@ -1475,15 +1428,35 @@ proxies:
   password: d4e41ff772c7fd45
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F2\U0001F1F4 MO 159 TJN"
+- name: "\U0001F1ED\U0001F1F0 HK 152 TJN"
+  server: 219.76.13.180
+  type: trojan
+  port: 443
+  password: ZRYSly2IRuFlgpZCaep3Ey3DDXqTDczO04aeC8F36OjaYSCABnA573wN8xxK9S
+  sni: httah.freetrade.link
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F2\U0001F1F4 MO 153 TJN"
   server: 45.64.22.55
   type: trojan
   port: 443
-  password: NqYpxKxB8A5jnDaISe834lAOaTwEOYzCeSD7CSZyFa0C3ypcR2F9XD3ug36lZR
-  sni: pbvre.freetrade.link
+  password: ZCRe0IlTyApFDO73qeaSlyDEaXwSOYCZ9B3j6ca3Anxg84CDKF2SxpzuNY58R3
+  sni: leeihs.freetrade.link
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1ED\U0001F1F0 HK 160 TJN"
+- name: "\U0001F1E9\U0001F1EA DE 154 VMS"
+  server: 150.230.149.55
+  type: vmess
+  port: 6374
+  udp: true
+  uuid: 80f25361-877d-46d4-8404-f0dce1faf84f
+  alterId: 0
+  cipher: auto
+  network: ws
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: "\U0001F1ED\U0001F1F0 HK 155 TJN"
   server: 219.76.13.181
   type: trojan
   port: 443
@@ -1491,7 +1464,7 @@ proxies:
   sni: arbettp.freetrade.link
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1ED\U0001F1F0 HK 161 TJN"
+- name: "\U0001F1ED\U0001F1F0 HK 156 TJN"
   server: 47.52.101.237
   type: trojan
   port: 443
@@ -1499,7 +1472,7 @@ proxies:
   sni: httah.freetrade.link
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 162 TJN"
+- name: "\U0001F1F0\U0001F1F7 KR 157 TJN"
   server: 121.78.213.3
   type: trojan
   port: 443
@@ -1507,27 +1480,37 @@ proxies:
   sni: httah.freetrade.link
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1ED\U0001F1F0 HK 163 TJN"
-  server: azgy001.xibai6.top
-  type: trojan
-  port: 20790
-  password: ca2345ba-46e7-3991-b1b7-45d18954caf1
-  sni: ssl.ssl12.xyz
-- name: "\U0001F1FA\U0001F1F8 US 164 VMS"
-  server: 30.72img.xyz
+- name: "\U0001F1E9\U0001F1EA DE 158 VMS"
+  server: 206.81.31.184
   type: vmess
-  port: 443
+  port: 6245
   udp: true
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  uuid: 9d39cb34-5261-43fb-b0f8-4f8a22b10f15
   alterId: 0
   cipher: auto
   network: ws
   http-opts: {}
   h2-opts: {}
+  skip-cert-verify: true
+- name: "\U0001F1F0\U0001F1F7 KR 159 VMS"
+  server: 129.154.194.163
+  type: vmess
+  country: "\U0001F1E6\U0001F1FAAU"
+  port: 443
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /
+  servername: tgunivstar.168-138-94-194.sslip.io
+  ws-headers:
+    HOST: tgunivstar.168-138-94-194.sslip.io
+  http-opts: {}
+  h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: "\U0001F1E8\U0001F1F3 CN 165 SSR"
-  server: 42.157.195.245
+- name: "\U0001F1E8\U0001F1F3 CN 160 SSR"
+  server: 14.152.92.78
   type: ssr
   country: "\U0001F1E8\U0001F1F3CN"
   port: 12127
@@ -1536,9 +1519,9 @@ proxies:
   protocol: auth_aes128_sha1
   protocol-param: 600777:154T8b
   obfs: http_simple
-  obfs-param: 0f099600777.v23f7nM0
-- name: "\U0001F1E8\U0001F1F3 CN 166 SSR"
-  server: 42.157.195.231
+  obfs-param: MGYwOTk2MDA3NzcudjIzZjduTTA=
+- name: "\U0001F1E8\U0001F1F3 CN 161 SSR"
+  server: 14.152.92.77
   type: ssr
   country: "\U0001F1E8\U0001F1F3CN"
   port: 12127
@@ -1547,19 +1530,7 @@ proxies:
   protocol: auth_aes128_sha1
   protocol-param: 600777:154T8b
   obfs: http_simple
-  obfs-param: MGYwOTk2MDA3NzcudjIzZjduTTA
-- name: "\U0001F1E8\U0001F1F3 CN 167 SSR"
-  server: 14.152.92.72
-  type: ssr
-  country: "\U0001F1E8\U0001F1F3CN"
-  port: 12127
-  password: 68xdgu9eyif
-  cipher: aes-256-cfb
-  protocol: auth_aes128_sha1
-  protocol-param: 600777:154T8b
-  obfs: http_simple
-  obfs-param: MGYwOTk2MDA3NzcudjIzZjduTTA
-- name: "\U0001F1E8\U0001F1F3 CN 168 SSR"
+- name: "\U0001F1E8\U0001F1F3 CN 162 SSR"
   server: 42.157.195.241
   type: ssr
   country: "\U0001F1E8\U0001F1F3CN"
@@ -1570,7 +1541,18 @@ proxies:
   protocol-param: 600777:154T8b
   obfs: http_simple
   obfs-param: MGYwOTk2MDA3NzcudjIzZjduTTA
-- name: "\U0001F1E8\U0001F1F3 CN 169 SSR"
+- name: "\U0001F1E8\U0001F1F3 CN 163 SSR"
+  server: 14.152.92.72
+  type: ssr
+  country: "\U0001F1E8\U0001F1F3CN"
+  port: 12127
+  password: 68xdgu9eyif
+  cipher: aes-256-cfb
+  protocol: auth_aes128_sha1
+  protocol-param: 600777:154T8b
+  obfs: http_simple
+  obfs-param: MGYwOTk2MDA3NzcudjIzZjduTTA
+- name: "\U0001F1E8\U0001F1F3 CN 164 SSR"
   server: shgez3.eucdurl.me
   type: ssr
   country: "\U0001F1E8\U0001F1F3CN"
@@ -1581,7 +1563,7 @@ proxies:
   protocol-param: 31583:SVIPTIZ8
   obfs: plain
   obfs-param: 23ffd711.microsoft.com
-- name: "\U0001F1E8\U0001F1E6 CA 170 VMS"
+- name: "\U0001F1E8\U0001F1E6 CA 165 VMS"
   server: ca2.v2rayserv.com
   type: vmess
   country: "\U0001F1E8\U0001F1E6CA"
@@ -1597,97 +1579,30 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: "\U0001F1E8\U0001F1E6 CA 171 VMS"
-  server: 167.114.67.25
+- name: "\U0001F1E8\U0001F1F3 CN 166 VMS"
+  server: 34.wgong1.top
   type: vmess
+  country: "\U0001F1E8\U0001F1F3 CN"
+  port: 52234
+  uuid: 9fee262e-87e1-312a-8d8e-cbb9e01a5657
+  alterId: 2
+  cipher: auto
+  network: tcp
+  ws-path: /
+  servername: cu.kapoknode.com
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: "\U0001F1E8\U0001F1E6 CA 167 TJN"
+  server: univstar.167.114.67.25.sslip.io
+  type: trojan
   country: "\U0001F1E8\U0001F1E6CA"
   port: 443
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /
-  servername: tgunivstar.168-138-94-194.sslip.io
-  ws-headers:
-    HOST: tgunivstar.168-138-94-194.sslip.io
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: "\U0001F1EC\U0001F1E7 GB 172 TJN"
-  server: 132.145.51.172
-  type: trojan
-  country: "\U0001F1EC\U0001F1E7GB"
-  port: 443
-  password: 02e653c9-7c93-46a9-999d-11834bd0c577
+  password: ZRYSly2IRuFlgpZCaep3Ey3DDXqTDczO04aeC8F36OjaYSCABnA573wN8xxK9S
+  sni: httah.freetrade.link
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1ED\U0001F1F0 HK 173 VMS"
-  server: 219.76.13.169
-  type: vmess
-  country: "\U0001F1ED\U0001F1F0HK"
-  port: 443
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /
-  servername: tgunivstar.168-138-94-194.sslip.io
-  ws-headers:
-    HOST: tgunivstar.168-138-94-194.sslip.io
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: "\U0001F1EE\U0001F1F3 IN 174 VMS"
-  server: 144.24.150.126
-  type: vmess
-  country: "\U0001F1EC\U0001F1E7GB"
-  port: 443
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: "\U0001F1ED\U0001F1F0 HK 175 VMS"
-  server: 119.237.43.217
-  type: vmess
-  country: "\U0001F1ED\U0001F1F0HK"
-  port: 443
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /
-  servername: tgunivstar.168-138-94-194.sslip.io
-  ws-headers:
-    HOST: tgunivstar.168-138-94-194.sslip.io
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: "\U0001F1F0\U0001F1F7 KR 176 VMS"
-  server: 146.56.149.205
-  type: vmess
-  country: "\U0001F1EF\U0001F1F5JP"
-  port: 443
-  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /ray
-  servername: lg30.cfcdn3.xyz
-  ws-headers:
-    HOST: lg30.cfcdn3.xyz
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: "\U0001F1F0\U0001F1F7 KR 177 VMS"
+- name: "\U0001F1F0\U0001F1F7 KR 168 VMS"
   server: 146.56.162.25
   type: vmess
   country: "\U0001F1EF\U0001F1F5JP"
@@ -1704,7 +1619,50 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: "\U0001F1F0\U0001F1F7 KR 178 TJN"
+- name: "\U0001F1F0\U0001F1F7 KR 169 VMS"
+  server: 146.56.149.205
+  type: vmess
+  country: "\U0001F1EF\U0001F1F5JP"
+  port: 443
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /ray
+  servername: lg30.cfcdn3.xyz
+  ws-headers:
+    HOST: lg30.cfcdn3.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: "\U0001F1ED\U0001F1F0 HK 170 TJN"
+  server: 119.247.119.212
+  type: trojan
+  country: "\U0001F1ED\U0001F1F0HK"
+  port: 443
+  password: '123456'
+  sni: trojan-ctb-sg01.globalssh.xyz
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1ED\U0001F1F0 HK 171 VMS"
+  server: 159.100.206.88
+  type: vmess
+  country: "\U0001F1ED\U0001F1F0HK"
+  port: 443
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /ray
+  servername: lg30.cfcdn3.xyz
+  ws-headers:
+    HOST: lg30.cfcdn3.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: "\U0001F1F0\U0001F1F7 KR 172 TJN"
   server: 146.56.189.146
   type: trojan
   country: "\U0001F1EF\U0001F1F5JP"
@@ -1712,10 +1670,35 @@ proxies:
   password: f2117e99-9b6e-47fd-b0a9-634a0b15b998
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 179 VMS"
-  server: 92.223.61.21
+- name: "\U0001F1ED\U0001F1F0 HK 173 VMS"
+  server: 167.179.32.53
   type: vmess
-  country: "\U0001F1F0\U0001F1F7KR"
+  country: "\U0001F1EE\U0001F1F3IN"
+  port: 443
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /ray
+  servername: lg30.cfcdn3.xyz
+  ws-headers:
+    HOST: lg30.cfcdn3.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: "\U0001F1F3\U0001F1F1 NL 174 TJN"
+  server: content-provider1.cdn-delivery.akamaicd.com
+  type: trojan
+  country: "\U0001F1F3\U0001F1F1NL"
+  port: 443
+  password: TestingServer@@
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1EF\U0001F1F5 JP 175 VMS"
+  server: 31.184.207.4
+  type: vmess
+  country: "\U0001F1F7\U0001F1FARU"
   port: 443
   uuid: 06d3d7a6-bc43-46f2-be8e-ad46c4416a27
   alterId: 0
@@ -1729,31 +1712,7 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: "\U0001F1F3\U0001F1F1 NL 180 VMS"
-  server: nl2.v2rayserv.com
-  type: vmess
-  country: "\U0001F1F3\U0001F1F1NL"
-  port: 80
-  uuid: 364cf68d-8821-4e57-8189-0d16bac31a58
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /
-  servername: nl2.v2rayserv.com
-  ws-headers:
-    HOST: nl2.v2rayserv.com
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: "\U0001F1F3\U0001F1F1 NL 181 TJN"
-  server: content-provider1.cdn-delivery.akamaicd.com
-  type: trojan
-  country: "\U0001F1F3\U0001F1F1NL"
-  port: 443
-  password: TestingServer@@
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1ED\U0001F1F0 HK 182 VMS"
+- name: "\U0001F1ED\U0001F1F0 HK 176 VMS"
   server: 8.210.181.145
   type: vmess
   country: "\U0001F1F8\U0001F1ECSG"
@@ -1770,20 +1729,92 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: "\U0001F1F8\U0001F1EC SG 183 VMS"
-  server: 172.104.162.207
+- name: "\U0001F1F8\U0001F1EC SG 177 VMS"
+  server: 8.219.173.2
   type: vmess
   country: "\U0001F1F8\U0001F1ECSG"
-  port: 16520
-  uuid: 1f145a5f-24dc-4252-e19f-8bfede2d15d8
+  port: 443
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
   alterId: 0
   cipher: auto
   network: ws
-  ws-path: /hkaa0
+  ws-path: /ray
+  servername: lg30.cfcdn3.xyz
+  ws-headers:
+    HOST: lg30.cfcdn3.xyz
   http-opts: {}
   h2-opts: {}
+  tls: true
   skip-cert-verify: true
-- name: "\U0001F1E9\U0001F1EA DE 184 VMS"
+- name: "\U0001F1F8\U0001F1EC SG 178 VMS"
+  server: 8.219.173.108
+  type: vmess
+  country: "\U0001F1F8\U0001F1ECSG"
+  port: 443
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /ray
+  servername: lg30.cfcdn3.xyz
+  ws-headers:
+    HOST: lg30.cfcdn3.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: "\U0001F1F8\U0001F1EC SG 179 VMS"
+  server: 8.219.85.227
+  type: vmess
+  country: "\U0001F1F8\U0001F1ECSG"
+  port: 443
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /ray
+  servername: lg30.cfcdn3.xyz
+  ws-headers:
+    HOST: lg30.cfcdn3.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: "\U0001F1F8\U0001F1EC SG 180 VMS"
+  server: 8.219.58.58
+  type: vmess
+  country: "\U0001F1F8\U0001F1ECSG"
+  port: 443
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /ray
+  servername: lg30.cfcdn3.xyz
+  ws-headers:
+    HOST: lg30.cfcdn3.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: "\U0001F1E9\U0001F1EA DE 181 VMS"
+  server: 8.209.116.246
+  type: vmess
+  country: "\U0001F1F8\U0001F1ECSG"
+  port: 443
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /ray
+  servername: lg30.cfcdn3.xyz
+  ws-headers:
+    HOST: lg30.cfcdn3.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: "\U0001F1E9\U0001F1EA DE 182 VMS"
   server: 8.209.113.77
   type: vmess
   country: "\U0001F1F8\U0001F1ECSG"
@@ -1800,113 +1831,41 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: "\U0001F1EF\U0001F1F5 JP 185 VMS"
-  server: 15.168.13.39
-  type: vmess
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 80
-  uuid: 8ae99d30-65a6-4f38-8ecc-56c1c3f4d679
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /images
-  servername: shoutingtoutiao3.10010.com
-  ws-headers:
-    HOST: shoutingtoutiao3.10010.com
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: "\U0001F1FA\U0001F1F8 US 186 VMS"
-  server: 144.126.214.218
+- name: "\U0001F1FA\U0001F1F8 US 183 VMS"
+  server: 104.25.200.217
   type: vmess
   country: "\U0001F1FA\U0001F1F8US"
   port: 443
-  uuid: 2757fd62-fcf0-4946-9b46-1b697741575b
+  uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94
   alterId: 0
   cipher: auto
   network: ws
-  ws-path: /m1
+  ws-path: /chcara
+  servername: v2fly.samrt.website
+  ws-headers:
+    HOST: v2fly.samrt.website
   http-opts: {}
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: "\U0001F1FA\U0001F1F8 US 187 TJN"
-  server: 129.146.135.157
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 443
-  password: e23f408a-012e-4030-8b31-02022031cb50
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 188 VMS"
-  server: 155.94.198.8
+- name: "\U0001F1FA\U0001F1F8 US 184 VMS"
+  server: 172.67.136.58
   type: vmess
   country: "\U0001F1FA\U0001F1F8US"
   port: 443
-  uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
+  uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94
   alterId: 0
   cipher: auto
   network: ws
-  ws-path: /dongtaiwang.com
-  servername: v2ray2.ssr-free2.xyz
+  ws-path: /chcara
+  servername: v2fly.samrt.website
   ws-headers:
-    HOST: v2ray2.ssr-free2.xyz
+    HOST: v2fly.samrt.website
   http-opts: {}
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: "\U0001F1FA\U0001F1F8 US 189 VMS"
-  server: 204.44.96.137
-  type: vmess
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 443
-  uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /dongtaiwang.com
-  servername: v2ray2.ssr-free2.xyz
-  ws-headers:
-    HOST: v2ray2.ssr-free2.xyz
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: "\U0001F1FA\U0001F1F8 US 190 VMS"
-  server: 172.66.43.1
-  type: vmess
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 443
-  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /
-  servername: 38.72img.xyz
-  ws-headers:
-    HOST: 38.72img.xyz
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: "\U0001F1FA\U0001F1F8 US 191 VMS"
-  server: 128.14.140.254
-  type: vmess
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 443
-  uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /dongtaiwang.com
-  servername: v2ray2.ssr-free2.xyz
-  ws-headers:
-    HOST: v2ray2.ssr-free2.xyz
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: "\U0001F1FA\U0001F1F8 US 192 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 185 VMS"
   server: 66.212.20.3
   type: vmess
   country: "\U0001F1FA\U0001F1F8US"
@@ -1923,8 +1882,25 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: "\U0001F1FA\U0001F1F8 US 193 VMS"
-  server: 172.67.183.35
+- name: "\U0001F1FA\U0001F1F8 US 186 VMS"
+  server: do-3.heicloud.cf
+  type: vmess
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 443
+  uuid: 2757fd62-fcf0-4946-9b46-1b697741575b
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /m3
+  servername: do-3.heicloud.cf
+  ws-headers:
+    HOST: do-3.heicloud.cf
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: "\U0001F1FA\U0001F1F8 US 187 VMS"
+  server: 172.67.125.28
   type: vmess
   country: "\U0001F1FA\U0001F1F8US"
   port: 443
@@ -1940,7 +1916,7 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: "\U0001F1F0\U0001F1F7 KR 194 VMS"
+- name: "\U0001F1F0\U0001F1F7 KR 188 VMS"
   server: 138.2.122.225
   type: vmess
   country: "\U0001F1FA\U0001F1F8US"
@@ -1957,21 +1933,124 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: "\U0001F1FB\U0001F1F3 VN 195 VMS"
-  server: 103.147.126.127
+- name: "\U0001F1FA\U0001F1F8 US 189 VMS"
+  server: 172.64.148.111
   type: vmess
-  country: "\U0001F1FB\U0001F1F3VN"
-  port: 80
-  uuid: c863dd9d-55f2-4615-b1a1-549da098722e
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 443
+  uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5
   alterId: 0
   cipher: auto
   network: ws
-  ws-path: /nkpvpn.site
-  servername: 103.147.126.127
+  ws-path: /ray
+  servername: fr2.cfcdn4.xyz
   ws-headers:
-    HOST: 103.147.126.127
+    HOST: fr2.cfcdn4.xyz
   http-opts: {}
   h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: "\U0001F1FA\U0001F1F8 US 190 VMS"
+  server: 128.14.140.254
+  type: vmess
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 443
+  uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /dongtaiwang.com
+  servername: v2ray2.ssr-free2.xyz
+  ws-headers:
+    HOST: v2ray2.ssr-free2.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: "\U0001F1FA\U0001F1F8 US 191 VMS"
+  server: 172.67.225.31
+  type: vmess
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 443
+  uuid: 81d93f62-15a2-4994-adb9-0b5d906aac7e
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /
+  servername: 38.72img.xyz
+  ws-headers:
+    HOST: 38.72img.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: "\U0001F1FA\U0001F1F8 US 192 VMS"
+  server: 155.94.198.8
+  type: vmess
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 443
+  uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /dongtaiwang.com
+  servername: v2ray2.ssr-free2.xyz
+  ws-headers:
+    HOST: v2ray2.ssr-free2.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: "\U0001F1FA\U0001F1F8 US 193 VMS"
+  server: 172.64.152.150
+  type: vmess
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 443
+  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /dongtaiwang.com
+  servername: clash6.ssr-free.xyz
+  ws-headers:
+    HOST: clash6.ssr-free.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: "\U0001F1FA\U0001F1F8 US 194 VMS"
+  server: 204.44.96.137
+  type: vmess
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 443
+  uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /dongtaiwang.com
+  servername: v2ray2.ssr-free2.xyz
+  ws-headers:
+    HOST: v2ray2.ssr-free2.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: "\U0001F1EB\U0001F1F7 FR 195 VMS"
+  server: 152.228.191.232
+  type: vmess
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 443
+  uuid: 91646f9a-b4e9-4aca-bfe3-8892b3e58fe7
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /ray
+  servername: lg30.cfcdn3.xyz
+  ws-headers:
+    HOST: lg30.cfcdn3.xyz
+  http-opts: {}
+  h2-opts: {}
+  tls: true
   skip-cert-verify: true
 - name: "\U0001F1FA\U0001F1F3 UN 196 VMS"
   server: 104.22.25.131
@@ -1989,16 +2068,16 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: "\U0001F1E8\U0001F1E6 CA 197 TJN"
-  server: 148.113.141.99
+- name: "\U0001F1F8\U0001F1EC SG 197 TJN"
+  server: 138.2.81.70
   type: trojan
   country: "\U0001F1FA\U0001F1F8US"
   port: 443
-  password: HdsUZmsHQW
+  password: 81d93f62-15a2-4994-adb9-0b5d906aac7e
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 198 VMS"
-  server: 172.64.154.201
+- name: "\U0001F1EC\U0001F1E7 GB 198 VMS"
+  server: 198.244.148.214
   type: vmess
   country: "\U0001F1FA\U0001F1F8US"
   port: 443
@@ -2014,38 +2093,7 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: "\U0001F1FA\U0001F1F8 US 199 VMS"
-  server: 172.64.152.150
-  type: vmess
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 443
-  uuid: 5f64fa65-7b14-49c5-954d-aa15c6bfcacd
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /dongtaiwang.com
-  servername: clash6.ssr-free.xyz
-  ws-headers:
-    HOST: clash6.ssr-free.xyz
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: "\U0001F1F8\U0001F1EC SG 200 VMS"
-  server: 168.138.171.65
-  type: vmess
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 443
-  uuid: 4af6fd9a-e8b4-46f2-da3a-207f4577656c
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: "\U0001F1FA\U0001F1F8 US 201 TJN"
+- name: "\U0001F1FA\U0001F1F8 US 199 TJN"
   server: tgunivstar.34.150.180.124.sslip.io
   type: trojan
   country: "\U0001F1FA\U0001F1F8US"
@@ -2054,92 +2102,57 @@ proxies:
   sni: httah.freetrade.link
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 202 VMS"
-  server: 1.1808.cf
+- name: "\U0001F1FB\U0001F1F3 VN 200 VMS"
+  server: 103.161.112.225
   type: vmess
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 443
-  uuid: ffffffff-ffff-ffff-ffff-ffffffffffff
+  country: "\U0001F3C1ZZ"
+  port: 80
+  uuid: fc49716a-3594-47b2-8667-0bfba2a88e60
   alterId: 0
   cipher: auto
   network: ws
-  ws-path: /vmess
-  servername: v2.chigua.tk
+  ws-path: /vpndata.shop
+  servername: mobiedu.vn
   ws-headers:
-    HOST: v2.chigua.tk
+    HOST: mobiedu.vn
   http-opts: {}
   h2-opts: {}
-  tls: true
   skip-cert-verify: true
-- name: "\U0001F1FA\U0001F1F8 US 203 VMS"
-  server: 104.25.200.217
-  type: vmess
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 443
-  uuid: 9e6ceeff-2546-3690-ac00-6fcdf31dec94
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /chcara
-  servername: v2fly.samrt.website
-  ws-headers:
-    HOST: v2fly.samrt.website
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: "\U0001F1FA\U0001F1F3 UN 204 VMS"
-  server: ca.0112233.xyz
-  type: vmess
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 8443
-  uuid: c3000e9d-bee7-4fdb-b312-dd07030f325d
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /home
-  servername: ca.0112233.xyz
-  ws-headers:
-    HOST: ca.0112233.xyz
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: "\U0001F1FA\U0001F1F3 UN 205 VMS"
-  server: 141.101.114.100
+- name: "\U0001F1FA\U0001F1F3 UN 201 VMS"
+  server: 141.101.115.111
   type: vmess
   country: "\U0001F3C1ZZ"
   port: 443
-  uuid: 4679f00e-90ce-430d-9714-6a19367ba112
+  uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5
   alterId: 0
   cipher: auto
   network: ws
-  ws-path: /dongtaiwang.com
-  servername: v2ray1.zhujicn2.org
+  ws-path: /ray
+  servername: fr2.cfcdn4.xyz
   ws-headers:
-    HOST: v2ray1.zhujicn2.org
+    HOST: fr2.cfcdn4.xyz
   http-opts: {}
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: "\U0001F1FA\U0001F1F3 UN 206 VMS"
-  server: 141.101.114.200
+- name: "\U0001F1FA\U0001F1F3 UN 202 VMS"
+  server: 198.41.212.122
   type: vmess
   country: "\U0001F3C1ZZ"
   port: 443
-  uuid: 0479eb9d-999d-4bff-ae3f-4f7cc440ce46
+  uuid: f33957e8-372e-4fba-99ed-f4db32cce9e5
   alterId: 0
   cipher: auto
   network: ws
-  ws-path: /dongtaiwang.com
-  servername: v2ray2.ssr-free2.xyz
+  ws-path: /ray
+  servername: fr2.cfcdn4.xyz
   ws-headers:
-    HOST: v2ray2.ssr-free2.xyz
+    HOST: fr2.cfcdn4.xyz
   http-opts: {}
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: "\U0001F1FA\U0001F1F3 UN 207 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 203 VMS"
   server: 198.41.212.145
   type: vmess
   country: "\U0001F3C1ZZ"
@@ -2156,25 +2169,8 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: "\U0001F1FA\U0001F1F3 UN 208 VMS"
-  server: 198.41.212.155
-  type: vmess
-  country: "\U0001F3C1ZZ"
-  port: 443
-  uuid: 267a9f38-40d8-4ed6-ab58-cafc67e9c933
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /VHONOFZ3
-  servername: lg1.cfcdn2.xyz
-  ws-headers:
-    HOST: lg1.cfcdn2.xyz
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: "\U0001F1E8\U0001F1F3 CN 209 SSR"
-  server: 14.152.92.78
+- name: "\U0001F1E8\U0001F1F3 CN 204 SSR"
+  server: 42.157.195.244
   type: ssr
   country: "\U0001F1E8\U0001F1F3CN"
   port: 12127
@@ -2184,34 +2180,7 @@ proxies:
   protocol-param: 600777:154T8b
   obfs: http_simple
   obfs-param: MGYwOTk2MDA3NzcudjIzZjduTTA=
-- name: "\U0001F1E8\U0001F1F3 CN 210 VMS"
-  server: zfd-moble.gatknqh.cn
-  type: vmess
-  country: "\U0001F1E8\U0001F1F3CN"
-  port: 16108
-  uuid: f1d39fe1-bfa3-34ff-86a2-29250af03183
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /guolicheng/us2
-  servername: www.189.cn
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: "\U0001F1ED\U0001F1F0 HK 211 VMS"
-  server: 128.1.134.126
-  type: vmess
-  country: "\U0001F1ED\U0001F1F0HK"
-  port: 6666
-  uuid: 7fb3b571-cda8-40f6-c9e6-db9765ea8faa
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: "\U0001F1ED\U0001F1F0 HK 212 VMS"
+- name: "\U0001F1ED\U0001F1F0 HK 205 VMS"
   server: 23.91.100.243
   type: vmess
   country: "\U0001F1ED\U0001F1F0HK"
@@ -2224,87 +2193,139 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: "\U0001F1EF\U0001F1F5 JP 213 TJN"
-  server: jp1.sanfen001.pics
-  type: trojan
-  country: "\U0001F1EF\U0001F1F5JP"
-  port: 443
-  password: 80e94af6-e42a-4dbc-8f4b-c5f99bf97d3d
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1F9\U0001F1FC TW 214 VMS"
-  server: tw-tb-c.zc20200426.club
+- name: "\U0001F1ED\U0001F1F0 HK 206 VMS"
+  server: 128.1.134.126
   type: vmess
-  country: "\U0001F1F9\U0001F1FCTW"
-  port: 39999
-  uuid: 67c50f6a-816d-3555-89b4-19dd29608f8b
+  country: "\U0001F1ED\U0001F1F0HK"
+  port: 6666
+  uuid: 7fb3b571-cda8-40f6-c9e6-db9765ea8faa
   alterId: 0
   cipher: auto
   network: tcp
   ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: "\U0001F1E8\U0001F1ED CH 207 VMS"
+  server: www.liuyiyang19891222.tk
+  type: vmess
+  country: "\U0001F1E8\U0001F1EDCH"
+  port: 443
+  uuid: ad48ebeb-f949-472b-9717-e8c8f0f7984d
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /
+  servername: www.liuyiyang19891222.tk
+  ws-headers:
+    HOST: www.liuyiyang19891222.tk
   http-opts: {}
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: "\U0001F1FA\U0001F1F8 US 215 VMS"
-  server: 150.230.41.9
-  type: vmess
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 23292
-  uuid: 956c6c2f-bf54-4b87-fafd-4b767ca12750
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  servername: 1002hk1326.tfzhc.top
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: "\U0001F1F8\U0001F1EC SG 216 TJN"
-  server: 31.72img.xyz
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8US"
-  port: 443
-  password: 81d93f62-15a2-4994-adb9-0b5d906aac7e
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 217 VMS"
-  server: agroup.node1.v.nodelist-gfwairport.download
-  type: vmess
-  country: "\U0001F1EF\U0001F1F5JP"
-  port: 50001
-  uuid: e00b75c0-3211-4acb-abc6-cec81b3fab8e
-  alterId: 0
-  cipher: auto
-  network: tcp
-  ws-path: /
-  servername: agroup.node1.v.nodelist-gfwairport.download
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: "\U0001F1E8\U0001F1F3 CN 218 VMS"
-  server: 34.wgong1.top
-  type: vmess
-  country: "\U0001F1E8\U0001F1F3 CN"
-  port: 52234
-  uuid: 9fee262e-87e1-312a-8d8e-cbb9e01a5657
-  alterId: 2
-  cipher: auto
-  network: tcp
-  ws-path: /
-  servername: cu.kapoknode.com
-  http-opts: {}
-  h2-opts: {}
-  skip-cert-verify: true
-- name: "\U0001F1EF\U0001F1F5 JP 219 TJN"
-  server: 49.212.221.47
+- name: "\U0001F1EF\U0001F1F5 JP 208 TJN"
+  server: 153.121.74.146
   type: trojan
   country: "\U0001F1EF\U0001F1F5JP"
   port: 2053
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1ED\U0001F1F0 HK 220 VMS"
+- name: "\U0001F1E8\U0001F1F3 CN 209 TJN"
+  server: 20013.purefast2.com
+  type: trojan
+  country: "\U0001F1E8\U0001F1F3CN"
+  port: 20013
+  password: 357827e5-a45d-3f09-9b73-ef4431dfb323
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1F8\U0001F1EC SG 210 VMS"
+  server: vsg1.0bad.com
+  type: vmess
+  country: "\U0001F1F8\U0001F1ECSG"
+  port: 443
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /chat
+  servername: vsg1.0bad.com
+  ws-headers:
+    HOST: vsg1.0bad.com
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: "\U0001F1ED\U0001F1F0 HK 211 VMS"
+  server: ah.yd01.paopaocloud.cyou
+  type: vmess
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 10009
+  uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /v2ray
+  servername: paopao.v2.hk06.paopaocloud.cyou
+  ws-headers:
+    HOST: paopao.v2.hk06.paopaocloud.cyou
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: "\U0001F1FA\U0001F1F8 US 212 VMS"
+  server: vus3.0bad.com
+  type: vmess
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 443
+  uuid: 927094d3-d678-4763-8591-e240d0bcae87
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /chat
+  servername: '%7B%22Host%22:%22vus3.0bad.com%22%7D'
+  ws-headers:
+    HOST: '%7B%22Host%22:%22vus3.0bad.com%22%7D'
+  http-opts: {}
+  h2-opts: {}
+  tls: true
+  skip-cert-verify: true
+- name: "\U0001F1FA\U0001F1F8 US 213 TJN"
+  server: ust-2.opensvr.net
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 443
+  password: opentunnel.net-j6rtj4rtjrs56j
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 214 VMS"
+  server: 23.105.199.160
+  type: vmess
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 23166
+  uuid: f1cda9da-c859-4f26-f609-a2e8837cc9b8
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
+  servername: glc.hruqoaw.cn
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: "\U0001F1FA\U0001F1F8 US 215 VMS"
+  server: 23.105.199.160
+  type: vmess
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 27317
+  uuid: 01832c71-50ac-4891-ae37-1dea8f42ae2d
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: "\U0001F1ED\U0001F1F0 HK 216 VMS"
   server: ah.yd01.paopaocloud.cyou
   type: vmess
   country: "\U0001F1ED\U0001F1F0HK"
@@ -2321,7 +2342,21 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: "\U0001F1EF\U0001F1F5 JP 221 TJN"
+- name: "\U0001F1FA\U0001F1F8 US 217 VMS"
+  server: 23.105.199.160
+  type: vmess
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 25078
+  uuid: 964f9b2b-7ff1-4026-d4a9-41b824f4b3bb
+  alterId: 0
+  cipher: auto
+  network: tcp
+  ws-path: /
+  servername: 120.241.144.71
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: "\U0001F1EF\U0001F1F5 JP 218 TJN"
   server: 160.16.145.107
   type: trojan
   country: "\U0001F1EF\U0001F1F5JP"
@@ -2329,41 +2364,37 @@ proxies:
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1ED\U0001F1F0 HK 222 VMS"
-  server: ah.yd01.paopaocloud.cyou
+- name: "\U0001F1F0\U0001F1F7 KR 219 VMS"
+  server: 13.209.68.219
+  type: vmess
+  country: "\U0001F1F0\U0001F1F7KR"
+  port: 42517
+  uuid: b5b5209f-bcbd-4bac-b044-0d179698c62d
+  alterId: 0
+  cipher: auto
+  network: ws
+  ws-path: /
+  http-opts: {}
+  h2-opts: {}
+  skip-cert-verify: true
+- name: "\U0001F1ED\U0001F1F0 HK 220 VMS"
+  server: az.hk01.paopaocloud.cyou
   type: vmess
   country: "\U0001F1FA\U0001F1F8US"
-  port: 10025
+  port: 10018
   uuid: d8c5b486-84bb-3887-a1d9-07455ea608f2
   alterId: 0
   cipher: auto
   network: ws
   ws-path: /v2ray
-  servername: paopao.v2.us05.paopaocloud.cyou
+  servername: ssru.v2.us03.2yun.win
   ws-headers:
-    HOST: paopao.v2.us05.paopaocloud.cyou
+    HOST: ssru.v2.us03.2yun.win
   http-opts: {}
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: "\U0001F1EF\U0001F1F5 JP 223 VMS"
-  server: vjp1.0bad.com
-  type: vmess
-  country: "\U0001F1EF\U0001F1F5JP"
-  port: 443
-  uuid: 927094d3-d678-4763-8591-e240d0bcae87
-  alterId: 0
-  cipher: auto
-  network: ws
-  ws-path: /chat
-  servername: vjp1.0bad.com
-  ws-headers:
-    HOST: vjp1.0bad.com
-  http-opts: {}
-  h2-opts: {}
-  tls: true
-  skip-cert-verify: true
-- name: "\U0001F1ED\U0001F1F0 HK 224 VMS"
+- name: "\U0001F1ED\U0001F1F0 HK 221 VMS"
   server: az.hk01.paopaocloud.cyou
   type: vmess
   country: "\U0001F1ED\U0001F1F0HK"
@@ -2380,7 +2411,15 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: "\U0001F1E6\U0001F1FA AU 225 TJN"
+- name: "\U0001F1FA\U0001F1F8 US 222 TJN"
+  server: 138.124.183.222
+  type: trojan
+  country: "\U0001F1F3\U0001F1F4NO"
+  port: 443
+  password: xxoo
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E6\U0001F1FA AU 223 TJN"
   server: sg-server-01.selfupay.com
   type: trojan
   country: "\U0001F1E6\U0001F1FA AU"
@@ -2388,7 +2427,7 @@ proxies:
   password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E6\U0001F1FA AU 226 TJN"
+- name: "\U0001F1E6\U0001F1FA AU 224 TJN"
   server: jgwxn4.gaox.ml
   type: trojan
   country: "\U0001F1E6\U0001F1FA AU"
@@ -2396,7 +2435,15 @@ proxies:
   password: e8c1ab3c-89b3-4933-92df-682e6dce7819
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1E6 CA 227 TJN"
+- name: "\U0001F1E6\U0001F1FA AU 225 TJN"
+  server: jgwxn3.gaox.ml
+  type: trojan
+  country: "\U0001F1E6\U0001F1FA AU"
+  port: 443
+  password: cb43b7c2-b744-41c5-bcc2-fd7467b332cf
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1E8\U0001F1E6 CA 226 TJN"
   server: ca-trojan.bonds.id
   type: trojan
   country: "\U0001F1E8\U0001F1E6 CA"
@@ -2404,7 +2451,7 @@ proxies:
   password: bc7593fe-0604-4fbe-a70bYWVzLTI1Ni1nY2ac5a3ef0-b4ab-11eb-b65e-1239d0255272
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 228 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 227 TJN"
   server: js04.balala2016.xyz
   type: trojan
   country: "\U0001F1E8\U0001F1F3 CN"
@@ -2412,7 +2459,7 @@ proxies:
   password: ED177480-E516-11EA-8B44-BBC4E882BA0B
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 229 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 228 TJN"
   server: 116.129.254.47
   type: trojan
   country: "\U0001F1E8\U0001F1F3 CN"
@@ -2420,7 +2467,7 @@ proxies:
   password: 9a27800ca7b52ee0
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 230 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 229 TJN"
   server: 116.129.254.47
   type: trojan
   country: "\U0001F1E8\U0001F1F3 CN"
@@ -2428,7 +2475,7 @@ proxies:
   password: e37c6d7efa845d60
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 231 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 230 TJN"
   server: 116.129.253.227
   type: trojan
   country: "\U0001F1E8\U0001F1F3 CN"
@@ -2436,7 +2483,7 @@ proxies:
   password: e37c6d7efa845d60
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 232 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 231 TJN"
   server: 116.129.254.47
   type: trojan
   country: "\U0001F1E8\U0001F1F3 CN"
@@ -2444,7 +2491,7 @@ proxies:
   password: a170b44c2dfac9e6
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 233 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 232 TJN"
   server: 116.129.254.47
   type: trojan
   country: "\U0001F1E8\U0001F1F3 CN"
@@ -2452,7 +2499,7 @@ proxies:
   password: ca4596fb9bc63cf2
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1F3 CN 234 TJN"
+- name: "\U0001F1E8\U0001F1F3 CN 233 TJN"
   server: 116.129.254.47
   type: trojan
   country: "\U0001F1E8\U0001F1F3 CN"
@@ -2460,7 +2507,7 @@ proxies:
   password: d66013c645b93c5c
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1FF CZ 235 TJN"
+- name: "\U0001F1E8\U0001F1FF CZ 234 TJN"
   server: v2cross.com.01.v2ce.com
   type: trojan
   country: "\U0001F1E8\U0001F1FF CZ"
@@ -2468,7 +2515,7 @@ proxies:
   password: mMQ6qJB9xbhiRvgg
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EB\U0001F1F7 FR 236 TJN"
+- name: "\U0001F1EB\U0001F1F7 FR 235 TJN"
   server: fr-trojan.bonds.id
   type: trojan
   country: "\U0001F1EB\U0001F1F7 FR"
@@ -2476,7 +2523,7 @@ proxies:
   password: 7c9b7560-b0f7-11eb-a397-1239d0255272
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 237 VMS"
+- name: "\U0001F1F0\U0001F1F7 KR 236 VMS"
   server: 144.24.88.101
   type: vmess
   country: "\U0001F1EC\U0001F1E7 GB"
@@ -2489,7 +2536,7 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: "\U0001F1FA\U0001F1F8 US 238 TJN"
+- name: "\U0001F1FA\U0001F1F8 US 237 TJN"
   server: api.mjj-home.com
   type: trojan
   country: "\U0001F1EC\U0001F1E7 GB"
@@ -2497,7 +2544,7 @@ proxies:
   password: share.mjj-home.com
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E6\U0001F1FA AU 239 TJN"
+- name: "\U0001F1E6\U0001F1FA AU 238 TJN"
   server: 21.earths.team
   type: trojan
   country: "\U0001F1EC\U0001F1E7 GB"
@@ -2505,7 +2552,7 @@ proxies:
   password: 6593b778-e45e-4f94-b5ae-641d4b7b02ae
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 240 TJN"
+- name: "\U0001F1EF\U0001F1F5 JP 239 TJN"
   server: 45.66.134.219
   type: trojan
   country: "\U0001F1EF\U0001F1F5 JP"
@@ -2513,7 +2560,7 @@ proxies:
   password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 241 TJN"
+- name: "\U0001F1EF\U0001F1F5 JP 240 TJN"
   server: 106.180.225.69
   type: trojan
   country: "\U0001F1EF\U0001F1F5 JP"
@@ -2521,7 +2568,7 @@ proxies:
   password: 7x42LetRa0
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 242 TJN"
+- name: "\U0001F1F0\U0001F1F7 KR 241 TJN"
   server: jgw4.gaox.ml
   type: trojan
   country: "\U0001F1EF\U0001F1F5 JP"
@@ -2529,7 +2576,7 @@ proxies:
   password: b7e0e71f-070c-437a-9826-6e23caeb0307
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F0\U0001F1F7 KR 243 TJN"
+- name: "\U0001F1F0\U0001F1F7 KR 242 TJN"
   server: jgw3.gaox.ml
   type: trojan
   country: "\U0001F1F0\U0001F1F7 KR"
@@ -2537,7 +2584,7 @@ proxies:
   password: a1718180-d616-4b71-9bb6-3e96ba20f921
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F3\U0001F1F1 NL 244 TJN"
+- name: "\U0001F1F3\U0001F1F1 NL 243 TJN"
   server: nl-trojan.bonds.id
   type: trojan
   country: "\U0001F1F3\U0001F1F1 NL"
@@ -2545,7 +2592,7 @@ proxies:
   password: 7e6256a0-b4ab-11eb-bc8f-1239d0255272
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 245 TJN"
+- name: "\U0001F1EF\U0001F1F5 JP 244 TJN"
   server: jp.useanlo.cf
   type: trojan
   country: "\U0001F1F3\U0001F1F1 NL"
@@ -2553,7 +2600,7 @@ proxies:
   password: b64b0f9c-23df-3112-a790-d8aa068aa2fe
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1ED CH 246 TJN"
+- name: "\U0001F1E8\U0001F1ED CH 245 TJN"
   server: 185.126.116.235
   type: trojan
   country: "\U0001F1F7\U0001F1F4 RO"
@@ -2561,7 +2608,7 @@ proxies:
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 247 TJN"
+- name: "\U0001F1F8\U0001F1EC SG 246 TJN"
   server: sg3-trojan.bonds.id
   type: trojan
   country: "\U0001F1F8\U0001F1EC SG"
@@ -2569,7 +2616,7 @@ proxies:
   password: 4c7985e0-79e8-11eb-b8d3-1239d0255272
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 248 TJN"
+- name: "\U0001F1F8\U0001F1EC SG 247 TJN"
   server: w12.udpgw.com
   type: trojan
   country: "\U0001F1F8\U0001F1EC SG"
@@ -2577,7 +2624,7 @@ proxies:
   password: 08964210-e7b8-11ec-95aa-1239d0255272
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 249 TJN"
+- name: "\U0001F1F8\U0001F1EC SG 248 TJN"
   server: trojan1.udpgw.com
   type: trojan
   country: "\U0001F1F8\U0001F1EC SG"
@@ -2585,7 +2632,7 @@ proxies:
   password: affae2e0-e84b-11ec-b09f-1239d0255272
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 250 TJN"
+- name: "\U0001F1F8\U0001F1EC SG 249 TJN"
   server: 18.141.8.87
   type: trojan
   country: "\U0001F1F8\U0001F1EC SG"
@@ -2593,7 +2640,7 @@ proxies:
   password: iyinglong
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 251 TJN"
+- name: "\U0001F1F8\U0001F1EC SG 250 TJN"
   server: trojan2.udpgw.com
   type: trojan
   country: "\U0001F1F8\U0001F1EC SG"
@@ -2601,7 +2648,7 @@ proxies:
   password: 973ef350-f6a5-11ec-9274-1239d0255272
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 252 TJN"
+- name: "\U0001F1F8\U0001F1EC SG 251 TJN"
   server: hk31.ssgnode.ga
   type: trojan
   country: "\U0001F1F8\U0001F1EC SG"
@@ -2609,7 +2656,7 @@ proxies:
   password: 41742_920c8caa
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 253 TJN"
+- name: "\U0001F1F8\U0001F1EC SG 252 TJN"
   server: trojan3.udpgw.com
   type: trojan
   country: "\U0001F1F8\U0001F1EC SG"
@@ -2617,7 +2664,7 @@ proxies:
   password: 8db1b560-019d-11ed-8bdf-1239d0255272
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 254 TJN"
+- name: "\U0001F1F8\U0001F1EC SG 253 TJN"
   server: 18.140.67.76
   type: trojan
   country: "\U0001F1F8\U0001F1EC SG"
@@ -2625,7 +2672,7 @@ proxies:
   password: iyinglong
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 255 TJN"
+- name: "\U0001F1F8\U0001F1EC SG 254 TJN"
   server: sg1-trojan.bonds.id
   type: trojan
   country: "\U0001F1F8\U0001F1EC SG"
@@ -2633,7 +2680,7 @@ proxies:
   password: 5c5ceb40-902b-11eb-945a-1239d0255272
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 256 TJN"
+- name: "\U0001F1F8\U0001F1EC SG 255 TJN"
   server: 81.90.189.85
   type: trojan
   country: "\U0001F1F8\U0001F1EC SG"
@@ -2641,7 +2688,7 @@ proxies:
   password: 28d98f761aca9d636f44db62544628eb
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 257 TJN"
+- name: "\U0001F1F8\U0001F1EC SG 256 TJN"
   server: w11.udpgw.com
   type: trojan
   country: "\U0001F1F8\U0001F1EC SG"
@@ -2649,7 +2696,7 @@ proxies:
   password: f64e69c0-e7b7-11ec-ab81-1239d0255272
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F9\U0001F1FC TW 258 TJN"
+- name: "\U0001F1F9\U0001F1FC TW 257 TJN"
   server: 60.249.3.126
   type: trojan
   country: "\U0001F1F9\U0001F1FC TW"
@@ -2657,7 +2704,7 @@ proxies:
   password: ca4596fb9bc63cf2
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F9\U0001F1FC TW 259 TJN"
+- name: "\U0001F1F9\U0001F1FC TW 258 TJN"
   server: tw01.balala2016.xyz
   type: trojan
   country: "\U0001F1F9\U0001F1FC TW"
@@ -2665,7 +2712,7 @@ proxies:
   password: ED177480-E516-11EA-8B44-BBC4E882BA0B
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F9\U0001F1FC TW 260 TJN"
+- name: "\U0001F1F9\U0001F1FC TW 259 TJN"
   server: 2.58.242.43
   type: trojan
   country: "\U0001F1F9\U0001F1FC TW"
@@ -2673,7 +2720,7 @@ proxies:
   password: YWVzLTI1Ni1nY206eHBRd3lWNFc1RmRBNk5NQU5KSng3M1VT
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1FF CZ 261 TJN"
+- name: "\U0001F1E8\U0001F1FF CZ 260 TJN"
   server: ce.rutracker-cn.com
   type: trojan
   country: "\U0001F1FA\U0001F1E6 UA"
@@ -2681,7 +2728,7 @@ proxies:
   password: 5y8y3CwxRVYhyfSY
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1FF CZ 262 TJN"
+- name: "\U0001F1E8\U0001F1FF CZ 261 TJN"
   server: cz5.v2ce.com
   type: trojan
   country: "\U0001F1FA\U0001F1E6 UA"
@@ -2689,7 +2736,7 @@ proxies:
   password: HTrovQkamDxNfaD5
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 263 VMS"
+- name: "\U0001F1EF\U0001F1F5 JP 262 VMS"
   server: 168.138.207.66
   type: vmess
   country: "\U0001F1FA\U0001F1F8 US"
@@ -2702,15 +2749,7 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: "\U0001F1F0\U0001F1F7 KR 264 TJN"
-  server: kr05.wangxd.life
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 3052
-  password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1FA\U0001F1F8 US 265 TJN"
+- name: "\U0001F1FA\U0001F1F8 US 263 TJN"
   server: 56789.gq
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
@@ -2718,7 +2757,7 @@ proxies:
   password: dc1453e4-e5c4-4b30-bee3-6ed2adce9ee3
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 266 TJN"
+- name: "\U0001F1EF\U0001F1F5 JP 264 TJN"
   server: tw.softbank.mjj-home.com
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
@@ -2726,7 +2765,7 @@ proxies:
   password: share.mjj-home.com
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 267 TJN"
+- name: "\U0001F1FA\U0001F1F8 US 265 TJN"
   server: 72.167.45.6
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
@@ -2734,7 +2773,7 @@ proxies:
   password: a3fa58b581353bb375d2ddad0f327938
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 268 TJN"
+- name: "\U0001F1EF\U0001F1F5 JP 266 TJN"
   server: www.cjf0423.cf
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
@@ -2742,7 +2781,7 @@ proxies:
   password: '111111'
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 269 TJN"
+- name: "\U0001F1F8\U0001F1EC SG 267 TJN"
   server: singapore.anthoncloud.com
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
@@ -2750,7 +2789,7 @@ proxies:
   password: 6589ce99-9ff7-3c1b-a744-ca3f4abfe386
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 270 TJN"
+- name: "\U0001F1FA\U0001F1F8 US 268 TJN"
   server: ukt-1.opensvr.net
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
@@ -2758,7 +2797,7 @@ proxies:
   password: opentunnel.net-zdrgvbhjnmhgfx
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 271 TJN"
+- name: "\U0001F1F8\U0001F1EC SG 269 TJN"
   server: 184.168.127.50
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
@@ -2766,7 +2805,7 @@ proxies:
   password: 36ebef7d1b1d6205fd0c55f28800e674
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 272 TJN"
+- name: "\U0001F1FA\U0001F1F8 US 270 TJN"
   server: cd.rutracker-cn.com
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
@@ -2774,7 +2813,7 @@ proxies:
   password: ukMzuFSmIXDvgW0h
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 273 TJN"
+- name: "\U0001F1FA\U0001F1F8 US 271 TJN"
   server: permissions.freetrade.link
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
@@ -2782,7 +2821,7 @@ proxies:
   password: lCYI0KOB8exTgp736ac3ZR3DnXwaOFS5pACRuZzSyeYy4N3j2D8qAxF9alDSEC
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 274 TJN"
+- name: "\U0001F1FA\U0001F1F8 US 272 TJN"
   server: 209.141.47.137
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
@@ -2790,7 +2829,7 @@ proxies:
   password: b3d27d09-77fe-431d-9829-6eba7dce20b0
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 275 TJN"
+- name: "\U0001F1FA\U0001F1F8 US 273 TJN"
   server: listener.freetrade.link
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
@@ -2798,7 +2837,7 @@ proxies:
   password: Z9TS0AeB8S5ZlpFNRea3aypDaXISOyzY67xCO33lF4gKq38jw2uDEnDYRCCxAc
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 276 TJN"
+- name: "\U0001F1FA\U0001F1F8 US 274 TJN"
   server: xioix.gq
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
@@ -2806,7 +2845,7 @@ proxies:
   password: 9b7195ba-f029-4d7d-a728-ece6e0fdc363
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1E8\U0001F1E6 CA 277 TJN"
+- name: "\U0001F1E8\U0001F1E6 CA 275 TJN"
   server: 170.187.182.212
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
@@ -2814,7 +2853,7 @@ proxies:
   password: a1e12464-9208-4583-bd21-ab6889fdd242
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 278 TJN"
+- name: "\U0001F1EF\U0001F1F5 JP 276 TJN"
   server: www.tokyo2023.ga
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
@@ -2822,7 +2861,7 @@ proxies:
   password: 4f7dc540-d244-4e64-af21-4b5bb300add3
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 279 TJN"
+- name: "\U0001F1F8\U0001F1EC SG 277 TJN"
   server: www.anloao.cf
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
@@ -2830,7 +2869,7 @@ proxies:
   password: b64b0f9c-23df-3112-a790-d8aa068aa2fe
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 280 TJN"
+- name: "\U0001F1F8\U0001F1EC SG 278 TJN"
   server: 5.44.249.43
   type: trojan
   country: "\U0001F3C1 ZZ"
@@ -2838,7 +2877,7 @@ proxies:
   password: ffec9f6ea19e1dd1
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FB\U0001F1F3 VN 281 TJN"
+- name: "\U0001F1FB\U0001F1F3 VN 279 TJN"
   server: 103.173.155.72
   type: trojan
   country: "\U0001F3C1 ZZ"
@@ -2850,20 +2889,20 @@ proxy-groups:
 - name: automatic
   type: url-test
   proxies:
-  - "\U0001F1EF\U0001F1F5 JP 1 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 2 VMS"
-  - "\U0001F1E6\U0001F1FA AU 3 TJN"
-  - "\U0001F1EB\U0001F1F7 FR 4 VMS"
-  - "\U0001F1FA\U0001F1F8 US 5 TJN"
-  - "\U0001F1F8\U0001F1EC SG 6 VMS"
-  - "\U0001F1E8\U0001F1E6 CA 7 TJN"
-  - "\U0001F1E8\U0001F1ED CH 8 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 9 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 10 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 11 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 12 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 1 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 2 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 3 VMS"
+  - "\U0001F1FA\U0001F1F8 US 4 VMS"
+  - "\U0001F1EF\U0001F1F5 JP 5 VMS"
+  - "\U0001F1EB\U0001F1F7 FR 6 VMS"
+  - "\U0001F1FA\U0001F1F8 US 7 TJN"
+  - "\U0001F1F8\U0001F1EC SG 8 VMS"
+  - "\U0001F1E8\U0001F1E6 CA 9 TJN"
+  - "\U0001F1E8\U0001F1ED CH 10 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 11 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 12 VMS"
   - "\U0001F1E8\U0001F1F3 CN 13 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 14 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 14 VMS"
   - "\U0001F1E8\U0001F1F3 CN 15 TJN"
   - "\U0001F1E8\U0001F1F3 CN 16 TJN"
   - "\U0001F1E8\U0001F1F3 CN 17 TJN"
@@ -2874,8 +2913,8 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 22 TJN"
   - "\U0001F1E8\U0001F1F3 CN 23 TJN"
   - "\U0001F1E8\U0001F1F3 CN 24 TJN"
-  - "\U0001F1F0\U0001F1F7 KR 25 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 26 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 25 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 26 TJN"
   - "\U0001F1E8\U0001F1F3 CN 27 TJN"
   - "\U0001F1E8\U0001F1F3 CN 28 TJN"
   - "\U0001F1E8\U0001F1F3 CN 29 TJN"
@@ -2904,54 +2943,54 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 52 TJN"
   - "\U0001F1E8\U0001F1F3 CN 53 TJN"
   - "\U0001F1E8\U0001F1F3 CN 54 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 55 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 56 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 57 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 58 TJN"
-  - "\U0001F1E8\U0001F1FF CZ 59 TJN"
-  - "\U0001F1FA\U0001F1F8 US 60 VMS"
-  - "\U0001F1FA\U0001F1F8 US 61 VMS"
-  - "\U0001F1E9\U0001F1EA DE 62 TJN"
+  - "\U0001F1E8\U0001F1FF CZ 55 TJN"
+  - "\U0001F1E9\U0001F1EA DE 56 VMS"
+  - "\U0001F1FA\U0001F1F8 US 57 VMS"
+  - "\U0001F1FA\U0001F1F8 US 58 VMS"
+  - "\U0001F1E9\U0001F1EA DE 59 TJN"
+  - "\U0001F1F8\U0001F1EC SG 60 TJN"
+  - "\U0001F1E9\U0001F1EA DE 61 TJN"
+  - "\U0001F1EB\U0001F1F7 FR 62 TJN"
   - "\U0001F1EB\U0001F1F7 FR 63 TJN"
-  - "\U0001F1F8\U0001F1EC SG 64 TJN"
+  - "\U0001F1EB\U0001F1F7 FR 64 TJN"
   - "\U0001F1EB\U0001F1F7 FR 65 TJN"
-  - "\U0001F1EB\U0001F1F7 FR 66 TJN"
+  - "\U0001F1EC\U0001F1E7 GB 66 VMS"
   - "\U0001F1EB\U0001F1F7 FR 67 TJN"
-  - "\U0001F1EC\U0001F1E7 GB 68 VMS"
+  - "\U0001F1EB\U0001F1F7 FR 68 TJN"
   - "\U0001F1F7\U0001F1FA RU 69 TJN"
-  - "\U0001F1EB\U0001F1F7 FR 70 TJN"
+  - "\U0001F1EC\U0001F1E7 GB 70 TJN"
   - "\U0001F1EB\U0001F1F7 FR 71 TJN"
-  - "\U0001F1EB\U0001F1F7 FR 72 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 72 TJN"
   - "\U0001F1EC\U0001F1E7 GB 73 TJN"
-  - "\U0001F1F0\U0001F1F7 KR 74 TJN"
-  - "\U0001F1EC\U0001F1E7 GB 75 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 74 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 75 VMS"
   - "\U0001F1ED\U0001F1F0 HK 76 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 77 VMS"
+  - "\U0001F1EF\U0001F1F5 JP 77 TJN"
   - "\U0001F1ED\U0001F1F0 HK 78 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 79 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 79 TJN"
   - "\U0001F1ED\U0001F1F0 HK 80 TJN"
   - "\U0001F1ED\U0001F1F0 HK 81 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 82 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 83 TJN"
-  - "\U0001F1EE\U0001F1E9 ID 84 TJN"
+  - "\U0001F1EE\U0001F1E9 ID 82 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 83 VMS"
+  - "\U0001F1EF\U0001F1F5 JP 84 VMS"
   - "\U0001F1EF\U0001F1F5 JP 85 TJN"
-  - "\U0001F1F0\U0001F1F7 KR 86 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 86 TJN"
   - "\U0001F1EF\U0001F1F5 JP 87 TJN"
   - "\U0001F1EF\U0001F1F5 JP 88 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 89 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 89 TJN"
   - "\U0001F1F0\U0001F1F7 KR 90 VMS"
-  - "\U0001F1F3\U0001F1F1 NL 91 TJN"
-  - "\U0001F1EC\U0001F1E7 GB 92 TJN"
-  - "\U0001F1FA\U0001F1F8 US 93 TJN"
-  - "\U0001F1F1\U0001F1FA LU 94 VMS"
-  - "\U0001F1F7\U0001F1FA RU 95 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 96 TJN"
-  - "\U0001F1F8\U0001F1EC SG 97 VMS"
-  - "\U0001F1F8\U0001F1EC SG 98 TJN"
-  - "\U0001F1F8\U0001F1EC SG 99 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 100 TJN"
-  - "\U0001F1F9\U0001F1FC TW 101 VMS"
-  - "\U0001F1F9\U0001F1FC TW 102 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 91 VMS"
+  - "\U0001F1F0\U0001F1F7 KR 92 VMS"
+  - "\U0001F1FA\U0001F1F8 US 93 VMS"
+  - "\U0001F1F3\U0001F1F1 NL 94 TJN"
+  - "\U0001F1F3\U0001F1F1 NL 95 TJN"
+  - "\U0001F1EC\U0001F1E7 GB 96 TJN"
+  - "\U0001F1FA\U0001F1F8 US 97 TJN"
+  - "\U0001F1F1\U0001F1FA LU 98 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 99 TJN"
+  - "\U0001F1F8\U0001F1EC SG 100 TJN"
+  - "\U0001F1F8\U0001F1EC SG 101 TJN"
+  - "\U0001F1F9\U0001F1FC TW 102 VMS"
   - "\U0001F1F9\U0001F1FC TW 103 TJN"
   - "\U0001F1F9\U0001F1FC TW 104 TJN"
   - "\U0001F1F9\U0001F1FC TW 105 TJN"
@@ -2961,141 +3000,141 @@ proxy-groups:
   - "\U0001F1F9\U0001F1FC TW 109 TJN"
   - "\U0001F1F9\U0001F1FC TW 110 TJN"
   - "\U0001F1F9\U0001F1FC TW 111 TJN"
-  - "\U0001F1E8\U0001F1FF CZ 112 TJN"
-  - "\U0001F1FA\U0001F1F8 US 113 TJN"
-  - "\U0001F1FA\U0001F1F8 US 114 VMS"
+  - "\U0001F1F9\U0001F1FC TW 112 TJN"
+  - "\U0001F1F9\U0001F1FC TW 113 TJN"
+  - "\U0001F1E8\U0001F1FF CZ 114 TJN"
   - "\U0001F1FA\U0001F1F8 US 115 VMS"
-  - "\U0001F1F0\U0001F1F7 KR 116 VMS"
-  - "\U0001F1EF\U0001F1F5 JP 117 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 118 VMS"
-  - "\U0001F1EF\U0001F1F5 JP 119 VMS"
-  - "\U0001F1FA\U0001F1F8 US 120 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 121 VMS"
-  - "\U0001F1FA\U0001F1F8 US 122 VMS"
+  - "\U0001F1FA\U0001F1F8 US 116 VMS"
+  - "\U0001F1FA\U0001F1F8 US 117 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 118 VMS"
+  - "\U0001F1FA\U0001F1F8 US 119 VMS"
+  - "\U0001F1F0\U0001F1F7 KR 120 VMS"
+  - "\U0001F1FA\U0001F1F8 US 121 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 122 VMS"
   - "\U0001F1FA\U0001F1F8 US 123 VMS"
-  - "\U0001F1FA\U0001F1F8 US 124 VMS"
-  - "\U0001F1FA\U0001F1F8 US 125 VMS"
-  - "\U0001F1FA\U0001F1F8 US 126 VMS"
-  - "\U0001F1FA\U0001F1F8 US 127 VMS"
-  - "\U0001F1FA\U0001F1F8 US 128 TJN"
+  - "\U0001F1FA\U0001F1F8 US 124 TJN"
+  - "\U0001F1FA\U0001F1F8 US 125 TJN"
+  - "\U0001F1FA\U0001F1F8 US 126 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 127 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 128 TJN"
   - "\U0001F1EE\U0001F1F3 IN 129 TJN"
-  - "\U0001F1FA\U0001F1F8 US 130 TJN"
-  - "\U0001F1FA\U0001F1F8 US 131 TJN"
-  - "\U0001F1F0\U0001F1F7 KR 132 TJN"
-  - "\U0001F1EE\U0001F1F3 IN 133 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 134 TJN"
-  - "\U0001F1F8\U0001F1EC SG 135 TJN"
-  - "\U0001F1FA\U0001F1F8 US 136 TJN"
+  - "\U0001F1EE\U0001F1F3 IN 130 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 131 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 132 TJN"
+  - "\U0001F1F8\U0001F1EC SG 133 TJN"
+  - "\U0001F1FA\U0001F1F8 US 134 TJN"
+  - "\U0001F1FA\U0001F1F8 US 135 TJN"
+  - "\U0001F1EE\U0001F1F3 IN 136 TJN"
   - "\U0001F1FA\U0001F1F8 US 137 TJN"
-  - "\U0001F1F8\U0001F1EC SG 138 TJN"
+  - "\U0001F1FA\U0001F1F8 US 138 TJN"
   - "\U0001F1FA\U0001F1F8 US 139 TJN"
-  - "\U0001F1FA\U0001F1F8 US 140 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 140 TJN"
   - "\U0001F1FA\U0001F1F8 US 141 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 142 TJN"
+  - "\U0001F1FA\U0001F1F8 US 142 TJN"
   - "\U0001F1FA\U0001F1F8 US 143 TJN"
-  - "\U0001F1FA\U0001F1F8 US 144 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 144 TJN"
   - "\U0001F1EF\U0001F1F5 JP 145 TJN"
-  - "\U0001F1EE\U0001F1F3 IN 146 TJN"
-  - "\U0001F1FA\U0001F1F8 US 147 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 148 TJN"
-  - "\U0001F1EE\U0001F1F3 IN 149 TJN"
-  - "\U0001F1F0\U0001F1F7 KR 150 TJN"
-  - "\U0001F1FA\U0001F1F8 US 151 TJN"
-  - "\U0001F1FA\U0001F1F8 US 152 TJN"
-  - "\U0001F1F0\U0001F1F7 KR 153 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 154 TJN"
+  - "\U0001F1FA\U0001F1F8 US 146 TJN"
+  - "\U0001F1EE\U0001F1F3 IN 147 TJN"
+  - "\U0001F1FA\U0001F1F8 US 148 TJN"
+  - "\U0001F1E8\U0001F1E6 CA 149 TJN"
+  - "\U0001F1F3\U0001F1F1 NL 150 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 151 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 152 TJN"
+  - "\U0001F1F2\U0001F1F4 MO 153 TJN"
+  - "\U0001F1E9\U0001F1EA DE 154 VMS"
   - "\U0001F1ED\U0001F1F0 HK 155 TJN"
-  - "\U0001F1FA\U0001F1F8 US 156 TJN"
-  - "\U0001F1F3\U0001F1F1 NL 157 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 158 TJN"
-  - "\U0001F1F2\U0001F1F4 MO 159 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 160 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 161 TJN"
-  - "\U0001F1F0\U0001F1F7 KR 162 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 163 TJN"
-  - "\U0001F1FA\U0001F1F8 US 164 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 165 SSR"
-  - "\U0001F1E8\U0001F1F3 CN 166 SSR"
-  - "\U0001F1E8\U0001F1F3 CN 167 SSR"
-  - "\U0001F1E8\U0001F1F3 CN 168 SSR"
-  - "\U0001F1E8\U0001F1F3 CN 169 SSR"
-  - "\U0001F1E8\U0001F1E6 CA 170 VMS"
-  - "\U0001F1E8\U0001F1E6 CA 171 VMS"
-  - "\U0001F1EC\U0001F1E7 GB 172 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 156 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 157 TJN"
+  - "\U0001F1E9\U0001F1EA DE 158 VMS"
+  - "\U0001F1F0\U0001F1F7 KR 159 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 160 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 161 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 162 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 163 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 164 SSR"
+  - "\U0001F1E8\U0001F1E6 CA 165 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 166 VMS"
+  - "\U0001F1E8\U0001F1E6 CA 167 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 168 VMS"
+  - "\U0001F1F0\U0001F1F7 KR 169 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 170 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 171 VMS"
+  - "\U0001F1F0\U0001F1F7 KR 172 TJN"
   - "\U0001F1ED\U0001F1F0 HK 173 VMS"
-  - "\U0001F1EE\U0001F1F3 IN 174 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 175 VMS"
-  - "\U0001F1F0\U0001F1F7 KR 176 VMS"
-  - "\U0001F1F0\U0001F1F7 KR 177 VMS"
-  - "\U0001F1F0\U0001F1F7 KR 178 TJN"
-  - "\U0001F1F0\U0001F1F7 KR 179 VMS"
-  - "\U0001F1F3\U0001F1F1 NL 180 VMS"
-  - "\U0001F1F3\U0001F1F1 NL 181 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 182 VMS"
-  - "\U0001F1F8\U0001F1EC SG 183 VMS"
-  - "\U0001F1E9\U0001F1EA DE 184 VMS"
-  - "\U0001F1EF\U0001F1F5 JP 185 VMS"
+  - "\U0001F1F3\U0001F1F1 NL 174 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 175 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 176 VMS"
+  - "\U0001F1F8\U0001F1EC SG 177 VMS"
+  - "\U0001F1F8\U0001F1EC SG 178 VMS"
+  - "\U0001F1F8\U0001F1EC SG 179 VMS"
+  - "\U0001F1F8\U0001F1EC SG 180 VMS"
+  - "\U0001F1E9\U0001F1EA DE 181 VMS"
+  - "\U0001F1E9\U0001F1EA DE 182 VMS"
+  - "\U0001F1FA\U0001F1F8 US 183 VMS"
+  - "\U0001F1FA\U0001F1F8 US 184 VMS"
+  - "\U0001F1FA\U0001F1F8 US 185 VMS"
   - "\U0001F1FA\U0001F1F8 US 186 VMS"
-  - "\U0001F1FA\U0001F1F8 US 187 TJN"
-  - "\U0001F1FA\U0001F1F8 US 188 VMS"
+  - "\U0001F1FA\U0001F1F8 US 187 VMS"
+  - "\U0001F1F0\U0001F1F7 KR 188 VMS"
   - "\U0001F1FA\U0001F1F8 US 189 VMS"
   - "\U0001F1FA\U0001F1F8 US 190 VMS"
   - "\U0001F1FA\U0001F1F8 US 191 VMS"
   - "\U0001F1FA\U0001F1F8 US 192 VMS"
   - "\U0001F1FA\U0001F1F8 US 193 VMS"
-  - "\U0001F1F0\U0001F1F7 KR 194 VMS"
-  - "\U0001F1FB\U0001F1F3 VN 195 VMS"
+  - "\U0001F1FA\U0001F1F8 US 194 VMS"
+  - "\U0001F1EB\U0001F1F7 FR 195 VMS"
   - "\U0001F1FA\U0001F1F3 UN 196 VMS"
-  - "\U0001F1E8\U0001F1E6 CA 197 TJN"
-  - "\U0001F1FA\U0001F1F8 US 198 VMS"
-  - "\U0001F1FA\U0001F1F8 US 199 VMS"
-  - "\U0001F1F8\U0001F1EC SG 200 VMS"
-  - "\U0001F1FA\U0001F1F8 US 201 TJN"
-  - "\U0001F1FA\U0001F1F8 US 202 VMS"
-  - "\U0001F1FA\U0001F1F8 US 203 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 204 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 205 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 206 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 207 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 208 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 209 SSR"
-  - "\U0001F1E8\U0001F1F3 CN 210 VMS"
+  - "\U0001F1F8\U0001F1EC SG 197 TJN"
+  - "\U0001F1EC\U0001F1E7 GB 198 VMS"
+  - "\U0001F1FA\U0001F1F8 US 199 TJN"
+  - "\U0001F1FB\U0001F1F3 VN 200 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 201 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 202 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 203 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 204 SSR"
+  - "\U0001F1ED\U0001F1F0 HK 205 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 206 VMS"
+  - "\U0001F1E8\U0001F1ED CH 207 VMS"
+  - "\U0001F1EF\U0001F1F5 JP 208 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 209 TJN"
+  - "\U0001F1F8\U0001F1EC SG 210 VMS"
   - "\U0001F1ED\U0001F1F0 HK 211 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 212 VMS"
-  - "\U0001F1EF\U0001F1F5 JP 213 TJN"
-  - "\U0001F1F9\U0001F1FC TW 214 VMS"
+  - "\U0001F1FA\U0001F1F8 US 212 VMS"
+  - "\U0001F1FA\U0001F1F8 US 213 TJN"
+  - "\U0001F1FA\U0001F1F8 US 214 VMS"
   - "\U0001F1FA\U0001F1F8 US 215 VMS"
-  - "\U0001F1F8\U0001F1EC SG 216 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 217 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 218 VMS"
-  - "\U0001F1EF\U0001F1F5 JP 219 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 216 VMS"
+  - "\U0001F1FA\U0001F1F8 US 217 VMS"
+  - "\U0001F1EF\U0001F1F5 JP 218 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 219 VMS"
   - "\U0001F1ED\U0001F1F0 HK 220 VMS"
-  - "\U0001F1EF\U0001F1F5 JP 221 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 222 VMS"
-  - "\U0001F1EF\U0001F1F5 JP 223 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 224 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 221 VMS"
+  - "\U0001F1FA\U0001F1F8 US 222 TJN"
+  - "\U0001F1E6\U0001F1FA AU 223 TJN"
+  - "\U0001F1E6\U0001F1FA AU 224 TJN"
   - "\U0001F1E6\U0001F1FA AU 225 TJN"
-  - "\U0001F1E6\U0001F1FA AU 226 TJN"
-  - "\U0001F1E8\U0001F1E6 CA 227 TJN"
+  - "\U0001F1E8\U0001F1E6 CA 226 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 227 TJN"
   - "\U0001F1E8\U0001F1F3 CN 228 TJN"
   - "\U0001F1E8\U0001F1F3 CN 229 TJN"
   - "\U0001F1E8\U0001F1F3 CN 230 TJN"
   - "\U0001F1E8\U0001F1F3 CN 231 TJN"
   - "\U0001F1E8\U0001F1F3 CN 232 TJN"
   - "\U0001F1E8\U0001F1F3 CN 233 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 234 TJN"
-  - "\U0001F1E8\U0001F1FF CZ 235 TJN"
-  - "\U0001F1EB\U0001F1F7 FR 236 TJN"
-  - "\U0001F1F0\U0001F1F7 KR 237 VMS"
-  - "\U0001F1FA\U0001F1F8 US 238 TJN"
-  - "\U0001F1E6\U0001F1FA AU 239 TJN"
+  - "\U0001F1E8\U0001F1FF CZ 234 TJN"
+  - "\U0001F1EB\U0001F1F7 FR 235 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 236 VMS"
+  - "\U0001F1FA\U0001F1F8 US 237 TJN"
+  - "\U0001F1E6\U0001F1FA AU 238 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 239 TJN"
   - "\U0001F1EF\U0001F1F5 JP 240 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 241 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 241 TJN"
   - "\U0001F1F0\U0001F1F7 KR 242 TJN"
-  - "\U0001F1F0\U0001F1F7 KR 243 TJN"
-  - "\U0001F1F3\U0001F1F1 NL 244 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 245 TJN"
-  - "\U0001F1E8\U0001F1ED CH 246 TJN"
+  - "\U0001F1F3\U0001F1F1 NL 243 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 244 TJN"
+  - "\U0001F1E8\U0001F1ED CH 245 TJN"
+  - "\U0001F1F8\U0001F1EC SG 246 TJN"
   - "\U0001F1F8\U0001F1EC SG 247 TJN"
   - "\U0001F1F8\U0001F1EC SG 248 TJN"
   - "\U0001F1F8\U0001F1EC SG 249 TJN"
@@ -3106,51 +3145,49 @@ proxy-groups:
   - "\U0001F1F8\U0001F1EC SG 254 TJN"
   - "\U0001F1F8\U0001F1EC SG 255 TJN"
   - "\U0001F1F8\U0001F1EC SG 256 TJN"
-  - "\U0001F1F8\U0001F1EC SG 257 TJN"
+  - "\U0001F1F9\U0001F1FC TW 257 TJN"
   - "\U0001F1F9\U0001F1FC TW 258 TJN"
   - "\U0001F1F9\U0001F1FC TW 259 TJN"
-  - "\U0001F1F9\U0001F1FC TW 260 TJN"
+  - "\U0001F1E8\U0001F1FF CZ 260 TJN"
   - "\U0001F1E8\U0001F1FF CZ 261 TJN"
-  - "\U0001F1E8\U0001F1FF CZ 262 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 263 VMS"
-  - "\U0001F1F0\U0001F1F7 KR 264 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 262 VMS"
+  - "\U0001F1FA\U0001F1F8 US 263 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 264 TJN"
   - "\U0001F1FA\U0001F1F8 US 265 TJN"
   - "\U0001F1EF\U0001F1F5 JP 266 TJN"
-  - "\U0001F1FA\U0001F1F8 US 267 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 268 TJN"
+  - "\U0001F1F8\U0001F1EC SG 267 TJN"
+  - "\U0001F1FA\U0001F1F8 US 268 TJN"
   - "\U0001F1F8\U0001F1EC SG 269 TJN"
   - "\U0001F1FA\U0001F1F8 US 270 TJN"
-  - "\U0001F1F8\U0001F1EC SG 271 TJN"
+  - "\U0001F1FA\U0001F1F8 US 271 TJN"
   - "\U0001F1FA\U0001F1F8 US 272 TJN"
   - "\U0001F1FA\U0001F1F8 US 273 TJN"
   - "\U0001F1FA\U0001F1F8 US 274 TJN"
-  - "\U0001F1FA\U0001F1F8 US 275 TJN"
-  - "\U0001F1FA\U0001F1F8 US 276 TJN"
-  - "\U0001F1E8\U0001F1E6 CA 277 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 278 TJN"
-  - "\U0001F1F8\U0001F1EC SG 279 TJN"
-  - "\U0001F1F8\U0001F1EC SG 280 TJN"
-  - "\U0001F1FB\U0001F1F3 VN 281 TJN"
+  - "\U0001F1E8\U0001F1E6 CA 275 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 276 TJN"
+  - "\U0001F1F8\U0001F1EC SG 277 TJN"
+  - "\U0001F1F8\U0001F1EC SG 278 TJN"
+  - "\U0001F1FB\U0001F1F3 VN 279 TJN"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
   type: select
   proxies:
   - automatic
-  - "\U0001F1EF\U0001F1F5 JP 1 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 2 VMS"
-  - "\U0001F1E6\U0001F1FA AU 3 TJN"
-  - "\U0001F1EB\U0001F1F7 FR 4 VMS"
-  - "\U0001F1FA\U0001F1F8 US 5 TJN"
-  - "\U0001F1F8\U0001F1EC SG 6 VMS"
-  - "\U0001F1E8\U0001F1E6 CA 7 TJN"
-  - "\U0001F1E8\U0001F1ED CH 8 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 9 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 10 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 11 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 12 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 1 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 2 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 3 VMS"
+  - "\U0001F1FA\U0001F1F8 US 4 VMS"
+  - "\U0001F1EF\U0001F1F5 JP 5 VMS"
+  - "\U0001F1EB\U0001F1F7 FR 6 VMS"
+  - "\U0001F1FA\U0001F1F8 US 7 TJN"
+  - "\U0001F1F8\U0001F1EC SG 8 VMS"
+  - "\U0001F1E8\U0001F1E6 CA 9 TJN"
+  - "\U0001F1E8\U0001F1ED CH 10 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 11 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 12 VMS"
   - "\U0001F1E8\U0001F1F3 CN 13 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 14 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 14 VMS"
   - "\U0001F1E8\U0001F1F3 CN 15 TJN"
   - "\U0001F1E8\U0001F1F3 CN 16 TJN"
   - "\U0001F1E8\U0001F1F3 CN 17 TJN"
@@ -3161,8 +3198,8 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 22 TJN"
   - "\U0001F1E8\U0001F1F3 CN 23 TJN"
   - "\U0001F1E8\U0001F1F3 CN 24 TJN"
-  - "\U0001F1F0\U0001F1F7 KR 25 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 26 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 25 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 26 TJN"
   - "\U0001F1E8\U0001F1F3 CN 27 TJN"
   - "\U0001F1E8\U0001F1F3 CN 28 TJN"
   - "\U0001F1E8\U0001F1F3 CN 29 TJN"
@@ -3191,54 +3228,54 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 52 TJN"
   - "\U0001F1E8\U0001F1F3 CN 53 TJN"
   - "\U0001F1E8\U0001F1F3 CN 54 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 55 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 56 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 57 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 58 TJN"
-  - "\U0001F1E8\U0001F1FF CZ 59 TJN"
-  - "\U0001F1FA\U0001F1F8 US 60 VMS"
-  - "\U0001F1FA\U0001F1F8 US 61 VMS"
-  - "\U0001F1E9\U0001F1EA DE 62 TJN"
+  - "\U0001F1E8\U0001F1FF CZ 55 TJN"
+  - "\U0001F1E9\U0001F1EA DE 56 VMS"
+  - "\U0001F1FA\U0001F1F8 US 57 VMS"
+  - "\U0001F1FA\U0001F1F8 US 58 VMS"
+  - "\U0001F1E9\U0001F1EA DE 59 TJN"
+  - "\U0001F1F8\U0001F1EC SG 60 TJN"
+  - "\U0001F1E9\U0001F1EA DE 61 TJN"
+  - "\U0001F1EB\U0001F1F7 FR 62 TJN"
   - "\U0001F1EB\U0001F1F7 FR 63 TJN"
-  - "\U0001F1F8\U0001F1EC SG 64 TJN"
+  - "\U0001F1EB\U0001F1F7 FR 64 TJN"
   - "\U0001F1EB\U0001F1F7 FR 65 TJN"
-  - "\U0001F1EB\U0001F1F7 FR 66 TJN"
+  - "\U0001F1EC\U0001F1E7 GB 66 VMS"
   - "\U0001F1EB\U0001F1F7 FR 67 TJN"
-  - "\U0001F1EC\U0001F1E7 GB 68 VMS"
+  - "\U0001F1EB\U0001F1F7 FR 68 TJN"
   - "\U0001F1F7\U0001F1FA RU 69 TJN"
-  - "\U0001F1EB\U0001F1F7 FR 70 TJN"
+  - "\U0001F1EC\U0001F1E7 GB 70 TJN"
   - "\U0001F1EB\U0001F1F7 FR 71 TJN"
-  - "\U0001F1EB\U0001F1F7 FR 72 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 72 TJN"
   - "\U0001F1EC\U0001F1E7 GB 73 TJN"
-  - "\U0001F1F0\U0001F1F7 KR 74 TJN"
-  - "\U0001F1EC\U0001F1E7 GB 75 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 74 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 75 VMS"
   - "\U0001F1ED\U0001F1F0 HK 76 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 77 VMS"
+  - "\U0001F1EF\U0001F1F5 JP 77 TJN"
   - "\U0001F1ED\U0001F1F0 HK 78 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 79 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 79 TJN"
   - "\U0001F1ED\U0001F1F0 HK 80 TJN"
   - "\U0001F1ED\U0001F1F0 HK 81 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 82 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 83 TJN"
-  - "\U0001F1EE\U0001F1E9 ID 84 TJN"
+  - "\U0001F1EE\U0001F1E9 ID 82 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 83 VMS"
+  - "\U0001F1EF\U0001F1F5 JP 84 VMS"
   - "\U0001F1EF\U0001F1F5 JP 85 TJN"
-  - "\U0001F1F0\U0001F1F7 KR 86 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 86 TJN"
   - "\U0001F1EF\U0001F1F5 JP 87 TJN"
   - "\U0001F1EF\U0001F1F5 JP 88 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 89 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 89 TJN"
   - "\U0001F1F0\U0001F1F7 KR 90 VMS"
-  - "\U0001F1F3\U0001F1F1 NL 91 TJN"
-  - "\U0001F1EC\U0001F1E7 GB 92 TJN"
-  - "\U0001F1FA\U0001F1F8 US 93 TJN"
-  - "\U0001F1F1\U0001F1FA LU 94 VMS"
-  - "\U0001F1F7\U0001F1FA RU 95 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 96 TJN"
-  - "\U0001F1F8\U0001F1EC SG 97 VMS"
-  - "\U0001F1F8\U0001F1EC SG 98 TJN"
-  - "\U0001F1F8\U0001F1EC SG 99 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 100 TJN"
-  - "\U0001F1F9\U0001F1FC TW 101 VMS"
-  - "\U0001F1F9\U0001F1FC TW 102 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 91 VMS"
+  - "\U0001F1F0\U0001F1F7 KR 92 VMS"
+  - "\U0001F1FA\U0001F1F8 US 93 VMS"
+  - "\U0001F1F3\U0001F1F1 NL 94 TJN"
+  - "\U0001F1F3\U0001F1F1 NL 95 TJN"
+  - "\U0001F1EC\U0001F1E7 GB 96 TJN"
+  - "\U0001F1FA\U0001F1F8 US 97 TJN"
+  - "\U0001F1F1\U0001F1FA LU 98 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 99 TJN"
+  - "\U0001F1F8\U0001F1EC SG 100 TJN"
+  - "\U0001F1F8\U0001F1EC SG 101 TJN"
+  - "\U0001F1F9\U0001F1FC TW 102 VMS"
   - "\U0001F1F9\U0001F1FC TW 103 TJN"
   - "\U0001F1F9\U0001F1FC TW 104 TJN"
   - "\U0001F1F9\U0001F1FC TW 105 TJN"
@@ -3248,141 +3285,141 @@ proxy-groups:
   - "\U0001F1F9\U0001F1FC TW 109 TJN"
   - "\U0001F1F9\U0001F1FC TW 110 TJN"
   - "\U0001F1F9\U0001F1FC TW 111 TJN"
-  - "\U0001F1E8\U0001F1FF CZ 112 TJN"
-  - "\U0001F1FA\U0001F1F8 US 113 TJN"
-  - "\U0001F1FA\U0001F1F8 US 114 VMS"
+  - "\U0001F1F9\U0001F1FC TW 112 TJN"
+  - "\U0001F1F9\U0001F1FC TW 113 TJN"
+  - "\U0001F1E8\U0001F1FF CZ 114 TJN"
   - "\U0001F1FA\U0001F1F8 US 115 VMS"
-  - "\U0001F1F0\U0001F1F7 KR 116 VMS"
-  - "\U0001F1EF\U0001F1F5 JP 117 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 118 VMS"
-  - "\U0001F1EF\U0001F1F5 JP 119 VMS"
-  - "\U0001F1FA\U0001F1F8 US 120 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 121 VMS"
-  - "\U0001F1FA\U0001F1F8 US 122 VMS"
+  - "\U0001F1FA\U0001F1F8 US 116 VMS"
+  - "\U0001F1FA\U0001F1F8 US 117 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 118 VMS"
+  - "\U0001F1FA\U0001F1F8 US 119 VMS"
+  - "\U0001F1F0\U0001F1F7 KR 120 VMS"
+  - "\U0001F1FA\U0001F1F8 US 121 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 122 VMS"
   - "\U0001F1FA\U0001F1F8 US 123 VMS"
-  - "\U0001F1FA\U0001F1F8 US 124 VMS"
-  - "\U0001F1FA\U0001F1F8 US 125 VMS"
-  - "\U0001F1FA\U0001F1F8 US 126 VMS"
-  - "\U0001F1FA\U0001F1F8 US 127 VMS"
-  - "\U0001F1FA\U0001F1F8 US 128 TJN"
+  - "\U0001F1FA\U0001F1F8 US 124 TJN"
+  - "\U0001F1FA\U0001F1F8 US 125 TJN"
+  - "\U0001F1FA\U0001F1F8 US 126 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 127 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 128 TJN"
   - "\U0001F1EE\U0001F1F3 IN 129 TJN"
-  - "\U0001F1FA\U0001F1F8 US 130 TJN"
-  - "\U0001F1FA\U0001F1F8 US 131 TJN"
-  - "\U0001F1F0\U0001F1F7 KR 132 TJN"
-  - "\U0001F1EE\U0001F1F3 IN 133 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 134 TJN"
-  - "\U0001F1F8\U0001F1EC SG 135 TJN"
-  - "\U0001F1FA\U0001F1F8 US 136 TJN"
+  - "\U0001F1EE\U0001F1F3 IN 130 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 131 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 132 TJN"
+  - "\U0001F1F8\U0001F1EC SG 133 TJN"
+  - "\U0001F1FA\U0001F1F8 US 134 TJN"
+  - "\U0001F1FA\U0001F1F8 US 135 TJN"
+  - "\U0001F1EE\U0001F1F3 IN 136 TJN"
   - "\U0001F1FA\U0001F1F8 US 137 TJN"
-  - "\U0001F1F8\U0001F1EC SG 138 TJN"
+  - "\U0001F1FA\U0001F1F8 US 138 TJN"
   - "\U0001F1FA\U0001F1F8 US 139 TJN"
-  - "\U0001F1FA\U0001F1F8 US 140 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 140 TJN"
   - "\U0001F1FA\U0001F1F8 US 141 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 142 TJN"
+  - "\U0001F1FA\U0001F1F8 US 142 TJN"
   - "\U0001F1FA\U0001F1F8 US 143 TJN"
-  - "\U0001F1FA\U0001F1F8 US 144 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 144 TJN"
   - "\U0001F1EF\U0001F1F5 JP 145 TJN"
-  - "\U0001F1EE\U0001F1F3 IN 146 TJN"
-  - "\U0001F1FA\U0001F1F8 US 147 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 148 TJN"
-  - "\U0001F1EE\U0001F1F3 IN 149 TJN"
-  - "\U0001F1F0\U0001F1F7 KR 150 TJN"
-  - "\U0001F1FA\U0001F1F8 US 151 TJN"
-  - "\U0001F1FA\U0001F1F8 US 152 TJN"
-  - "\U0001F1F0\U0001F1F7 KR 153 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 154 TJN"
+  - "\U0001F1FA\U0001F1F8 US 146 TJN"
+  - "\U0001F1EE\U0001F1F3 IN 147 TJN"
+  - "\U0001F1FA\U0001F1F8 US 148 TJN"
+  - "\U0001F1E8\U0001F1E6 CA 149 TJN"
+  - "\U0001F1F3\U0001F1F1 NL 150 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 151 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 152 TJN"
+  - "\U0001F1F2\U0001F1F4 MO 153 TJN"
+  - "\U0001F1E9\U0001F1EA DE 154 VMS"
   - "\U0001F1ED\U0001F1F0 HK 155 TJN"
-  - "\U0001F1FA\U0001F1F8 US 156 TJN"
-  - "\U0001F1F3\U0001F1F1 NL 157 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 158 TJN"
-  - "\U0001F1F2\U0001F1F4 MO 159 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 160 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 161 TJN"
-  - "\U0001F1F0\U0001F1F7 KR 162 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 163 TJN"
-  - "\U0001F1FA\U0001F1F8 US 164 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 165 SSR"
-  - "\U0001F1E8\U0001F1F3 CN 166 SSR"
-  - "\U0001F1E8\U0001F1F3 CN 167 SSR"
-  - "\U0001F1E8\U0001F1F3 CN 168 SSR"
-  - "\U0001F1E8\U0001F1F3 CN 169 SSR"
-  - "\U0001F1E8\U0001F1E6 CA 170 VMS"
-  - "\U0001F1E8\U0001F1E6 CA 171 VMS"
-  - "\U0001F1EC\U0001F1E7 GB 172 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 156 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 157 TJN"
+  - "\U0001F1E9\U0001F1EA DE 158 VMS"
+  - "\U0001F1F0\U0001F1F7 KR 159 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 160 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 161 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 162 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 163 SSR"
+  - "\U0001F1E8\U0001F1F3 CN 164 SSR"
+  - "\U0001F1E8\U0001F1E6 CA 165 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 166 VMS"
+  - "\U0001F1E8\U0001F1E6 CA 167 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 168 VMS"
+  - "\U0001F1F0\U0001F1F7 KR 169 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 170 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 171 VMS"
+  - "\U0001F1F0\U0001F1F7 KR 172 TJN"
   - "\U0001F1ED\U0001F1F0 HK 173 VMS"
-  - "\U0001F1EE\U0001F1F3 IN 174 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 175 VMS"
-  - "\U0001F1F0\U0001F1F7 KR 176 VMS"
-  - "\U0001F1F0\U0001F1F7 KR 177 VMS"
-  - "\U0001F1F0\U0001F1F7 KR 178 TJN"
-  - "\U0001F1F0\U0001F1F7 KR 179 VMS"
-  - "\U0001F1F3\U0001F1F1 NL 180 VMS"
-  - "\U0001F1F3\U0001F1F1 NL 181 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 182 VMS"
-  - "\U0001F1F8\U0001F1EC SG 183 VMS"
-  - "\U0001F1E9\U0001F1EA DE 184 VMS"
-  - "\U0001F1EF\U0001F1F5 JP 185 VMS"
+  - "\U0001F1F3\U0001F1F1 NL 174 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 175 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 176 VMS"
+  - "\U0001F1F8\U0001F1EC SG 177 VMS"
+  - "\U0001F1F8\U0001F1EC SG 178 VMS"
+  - "\U0001F1F8\U0001F1EC SG 179 VMS"
+  - "\U0001F1F8\U0001F1EC SG 180 VMS"
+  - "\U0001F1E9\U0001F1EA DE 181 VMS"
+  - "\U0001F1E9\U0001F1EA DE 182 VMS"
+  - "\U0001F1FA\U0001F1F8 US 183 VMS"
+  - "\U0001F1FA\U0001F1F8 US 184 VMS"
+  - "\U0001F1FA\U0001F1F8 US 185 VMS"
   - "\U0001F1FA\U0001F1F8 US 186 VMS"
-  - "\U0001F1FA\U0001F1F8 US 187 TJN"
-  - "\U0001F1FA\U0001F1F8 US 188 VMS"
+  - "\U0001F1FA\U0001F1F8 US 187 VMS"
+  - "\U0001F1F0\U0001F1F7 KR 188 VMS"
   - "\U0001F1FA\U0001F1F8 US 189 VMS"
   - "\U0001F1FA\U0001F1F8 US 190 VMS"
   - "\U0001F1FA\U0001F1F8 US 191 VMS"
   - "\U0001F1FA\U0001F1F8 US 192 VMS"
   - "\U0001F1FA\U0001F1F8 US 193 VMS"
-  - "\U0001F1F0\U0001F1F7 KR 194 VMS"
-  - "\U0001F1FB\U0001F1F3 VN 195 VMS"
+  - "\U0001F1FA\U0001F1F8 US 194 VMS"
+  - "\U0001F1EB\U0001F1F7 FR 195 VMS"
   - "\U0001F1FA\U0001F1F3 UN 196 VMS"
-  - "\U0001F1E8\U0001F1E6 CA 197 TJN"
-  - "\U0001F1FA\U0001F1F8 US 198 VMS"
-  - "\U0001F1FA\U0001F1F8 US 199 VMS"
-  - "\U0001F1F8\U0001F1EC SG 200 VMS"
-  - "\U0001F1FA\U0001F1F8 US 201 TJN"
-  - "\U0001F1FA\U0001F1F8 US 202 VMS"
-  - "\U0001F1FA\U0001F1F8 US 203 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 204 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 205 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 206 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 207 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 208 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 209 SSR"
-  - "\U0001F1E8\U0001F1F3 CN 210 VMS"
+  - "\U0001F1F8\U0001F1EC SG 197 TJN"
+  - "\U0001F1EC\U0001F1E7 GB 198 VMS"
+  - "\U0001F1FA\U0001F1F8 US 199 TJN"
+  - "\U0001F1FB\U0001F1F3 VN 200 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 201 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 202 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 203 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 204 SSR"
+  - "\U0001F1ED\U0001F1F0 HK 205 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 206 VMS"
+  - "\U0001F1E8\U0001F1ED CH 207 VMS"
+  - "\U0001F1EF\U0001F1F5 JP 208 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 209 TJN"
+  - "\U0001F1F8\U0001F1EC SG 210 VMS"
   - "\U0001F1ED\U0001F1F0 HK 211 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 212 VMS"
-  - "\U0001F1EF\U0001F1F5 JP 213 TJN"
-  - "\U0001F1F9\U0001F1FC TW 214 VMS"
+  - "\U0001F1FA\U0001F1F8 US 212 VMS"
+  - "\U0001F1FA\U0001F1F8 US 213 TJN"
+  - "\U0001F1FA\U0001F1F8 US 214 VMS"
   - "\U0001F1FA\U0001F1F8 US 215 VMS"
-  - "\U0001F1F8\U0001F1EC SG 216 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 217 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 218 VMS"
-  - "\U0001F1EF\U0001F1F5 JP 219 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 216 VMS"
+  - "\U0001F1FA\U0001F1F8 US 217 VMS"
+  - "\U0001F1EF\U0001F1F5 JP 218 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 219 VMS"
   - "\U0001F1ED\U0001F1F0 HK 220 VMS"
-  - "\U0001F1EF\U0001F1F5 JP 221 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 222 VMS"
-  - "\U0001F1EF\U0001F1F5 JP 223 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 224 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 221 VMS"
+  - "\U0001F1FA\U0001F1F8 US 222 TJN"
+  - "\U0001F1E6\U0001F1FA AU 223 TJN"
+  - "\U0001F1E6\U0001F1FA AU 224 TJN"
   - "\U0001F1E6\U0001F1FA AU 225 TJN"
-  - "\U0001F1E6\U0001F1FA AU 226 TJN"
-  - "\U0001F1E8\U0001F1E6 CA 227 TJN"
+  - "\U0001F1E8\U0001F1E6 CA 226 TJN"
+  - "\U0001F1E8\U0001F1F3 CN 227 TJN"
   - "\U0001F1E8\U0001F1F3 CN 228 TJN"
   - "\U0001F1E8\U0001F1F3 CN 229 TJN"
   - "\U0001F1E8\U0001F1F3 CN 230 TJN"
   - "\U0001F1E8\U0001F1F3 CN 231 TJN"
   - "\U0001F1E8\U0001F1F3 CN 232 TJN"
   - "\U0001F1E8\U0001F1F3 CN 233 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 234 TJN"
-  - "\U0001F1E8\U0001F1FF CZ 235 TJN"
-  - "\U0001F1EB\U0001F1F7 FR 236 TJN"
-  - "\U0001F1F0\U0001F1F7 KR 237 VMS"
-  - "\U0001F1FA\U0001F1F8 US 238 TJN"
-  - "\U0001F1E6\U0001F1FA AU 239 TJN"
+  - "\U0001F1E8\U0001F1FF CZ 234 TJN"
+  - "\U0001F1EB\U0001F1F7 FR 235 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 236 VMS"
+  - "\U0001F1FA\U0001F1F8 US 237 TJN"
+  - "\U0001F1E6\U0001F1FA AU 238 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 239 TJN"
   - "\U0001F1EF\U0001F1F5 JP 240 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 241 TJN"
+  - "\U0001F1F0\U0001F1F7 KR 241 TJN"
   - "\U0001F1F0\U0001F1F7 KR 242 TJN"
-  - "\U0001F1F0\U0001F1F7 KR 243 TJN"
-  - "\U0001F1F3\U0001F1F1 NL 244 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 245 TJN"
-  - "\U0001F1E8\U0001F1ED CH 246 TJN"
+  - "\U0001F1F3\U0001F1F1 NL 243 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 244 TJN"
+  - "\U0001F1E8\U0001F1ED CH 245 TJN"
+  - "\U0001F1F8\U0001F1EC SG 246 TJN"
   - "\U0001F1F8\U0001F1EC SG 247 TJN"
   - "\U0001F1F8\U0001F1EC SG 248 TJN"
   - "\U0001F1F8\U0001F1EC SG 249 TJN"
@@ -3393,30 +3430,28 @@ proxy-groups:
   - "\U0001F1F8\U0001F1EC SG 254 TJN"
   - "\U0001F1F8\U0001F1EC SG 255 TJN"
   - "\U0001F1F8\U0001F1EC SG 256 TJN"
-  - "\U0001F1F8\U0001F1EC SG 257 TJN"
+  - "\U0001F1F9\U0001F1FC TW 257 TJN"
   - "\U0001F1F9\U0001F1FC TW 258 TJN"
   - "\U0001F1F9\U0001F1FC TW 259 TJN"
-  - "\U0001F1F9\U0001F1FC TW 260 TJN"
+  - "\U0001F1E8\U0001F1FF CZ 260 TJN"
   - "\U0001F1E8\U0001F1FF CZ 261 TJN"
-  - "\U0001F1E8\U0001F1FF CZ 262 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 263 VMS"
-  - "\U0001F1F0\U0001F1F7 KR 264 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 262 VMS"
+  - "\U0001F1FA\U0001F1F8 US 263 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 264 TJN"
   - "\U0001F1FA\U0001F1F8 US 265 TJN"
   - "\U0001F1EF\U0001F1F5 JP 266 TJN"
-  - "\U0001F1FA\U0001F1F8 US 267 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 268 TJN"
+  - "\U0001F1F8\U0001F1EC SG 267 TJN"
+  - "\U0001F1FA\U0001F1F8 US 268 TJN"
   - "\U0001F1F8\U0001F1EC SG 269 TJN"
   - "\U0001F1FA\U0001F1F8 US 270 TJN"
-  - "\U0001F1F8\U0001F1EC SG 271 TJN"
+  - "\U0001F1FA\U0001F1F8 US 271 TJN"
   - "\U0001F1FA\U0001F1F8 US 272 TJN"
   - "\U0001F1FA\U0001F1F8 US 273 TJN"
   - "\U0001F1FA\U0001F1F8 US 274 TJN"
-  - "\U0001F1FA\U0001F1F8 US 275 TJN"
-  - "\U0001F1FA\U0001F1F8 US 276 TJN"
-  - "\U0001F1E8\U0001F1E6 CA 277 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 278 TJN"
-  - "\U0001F1F8\U0001F1EC SG 279 TJN"
-  - "\U0001F1F8\U0001F1EC SG 280 TJN"
-  - "\U0001F1FB\U0001F1F3 VN 281 TJN"
+  - "\U0001F1E8\U0001F1E6 CA 275 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 276 TJN"
+  - "\U0001F1F8\U0001F1EC SG 277 TJN"
+  - "\U0001F1F8\U0001F1EC SG 278 TJN"
+  - "\U0001F1FB\U0001F1F3 VN 279 TJN"
 rules:
 - "MATCH,\U0001F310 Proxy"
