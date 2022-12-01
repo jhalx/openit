@@ -1,41 +1,42 @@
 proxies:
 - name: "\U0001F1E8\U0001F1E6 CA 1 TJN"
   server: cat-1.opensvr.net
-  port: 443
   type: trojan
-  country: "\U0001F1E8\U0001F1E6 CA"
+  country: "\U0001F1E8\U0001F1E6CA"
+  port: 443
   password: opentunnel.net-sdertyuijh
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1EF\U0001F1F5 JP 2 VMS"
   server: 152.69.197.60
-  port: 1069
   type: vmess
-  country: "\U0001F1FA\U0001F1F8 US"
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 1069
   uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
   alterId: 0
   cipher: auto
   network: tcp
-  http-opts: {}
   ws-path: /
+  http-opts: {}
+  h2-opts: {}
   skip-cert-verify: true
 - name: "\U0001F1F0\U0001F1F7 KR 3 TJN"
   server: kr05.wangxd.life
-  port: 3052
   type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
+  country: "\U0001F1FA\U0001F1F8US"
+  port: 3052
   password: 3a2c0c6c-9ee5-c05f-c951-fcd73831983e
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 4 SSS"
   server: hnt.cndns.shop
-  port: 27761
+  port: 27766
   type: ss
   password: 31347057-7af5-4562-b912-f1c217c4c160
   cipher: chacha20-ietf-poly1305
 - name: "\U0001F1E8\U0001F1F3 CN 5 SSS"
   server: hnt.cndns.shop
-  port: 27766
+  port: 27761
   type: ss
   password: 31347057-7af5-4562-b912-f1c217c4c160
   cipher: chacha20-ietf-poly1305
@@ -895,7 +896,7 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: "\U0001F1F0\U0001F1F7 KR 62 TJN"
+- name: "\U0001F1F8\U0001F1EC SG 62 TJN"
   server: tw1111.tfzhc.top
   type: trojan
   country: "\U0001F1E8\U0001F1E6CA"
@@ -2436,15 +2437,7 @@ proxies:
   password: a1e12464-9208-4583-bd21-ab6889fdd242
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1ED\U0001F1F0 HK 216 TJN"
-  server: in01.awcloud.top
-  type: trojan
-  country: "\U0001F1FA\U0001F1F8 US"
-  port: 443
-  password: 7f9ef59e-20fb-4343-bafc-3a84fa22fe70
-  skip-cert-verify: true
-  udp: true
-- name: "\U0001F1EF\U0001F1F5 JP 217 TJN"
+- name: "\U0001F1EF\U0001F1F5 JP 216 TJN"
   server: jpa.llbb.cf
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
@@ -2452,7 +2445,7 @@ proxies:
   password: 5713b236-0e0d-4efd-ad60-eb14e6ff9162
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 218 TJN"
+- name: "\U0001F1F8\U0001F1EC SG 217 TJN"
   server: 5.44.249.43
   type: trojan
   country: "\U0001F3C1 ZZ"
@@ -2460,7 +2453,7 @@ proxies:
   password: ffec9f6ea19e1dd1
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FB\U0001F1F3 VN 219 TJN"
+- name: "\U0001F1FB\U0001F1F3 VN 218 TJN"
   server: 103.173.155.72
   type: trojan
   country: "\U0001F3C1 ZZ"
@@ -2533,7 +2526,7 @@ proxy-groups:
   - "\U0001F1E9\U0001F1EA DE 59 TJN"
   - "\U0001F1F0\U0001F1F7 KR 60 VMS"
   - "\U0001F1F8\U0001F1EC SG 61 VMS"
-  - "\U0001F1F0\U0001F1F7 KR 62 TJN"
+  - "\U0001F1F8\U0001F1EC SG 62 TJN"
   - "\U0001F1ED\U0001F1F0 HK 63 TJN"
   - "\U0001F1FA\U0001F1F8 US 64 TJN"
   - "\U0001F1ED\U0001F1F0 HK 65 VMS"
@@ -2687,10 +2680,9 @@ proxy-groups:
   - "\U0001F1F8\U0001F1EC SG 213 TJN"
   - "\U0001F1FA\U0001F1F8 US 214 TJN"
   - "\U0001F1E8\U0001F1E6 CA 215 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 216 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 217 TJN"
-  - "\U0001F1F8\U0001F1EC SG 218 TJN"
-  - "\U0001F1FB\U0001F1F3 VN 219 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 216 TJN"
+  - "\U0001F1F8\U0001F1EC SG 217 TJN"
+  - "\U0001F1FB\U0001F1F3 VN 218 TJN"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -2758,7 +2750,7 @@ proxy-groups:
   - "\U0001F1E9\U0001F1EA DE 59 TJN"
   - "\U0001F1F0\U0001F1F7 KR 60 VMS"
   - "\U0001F1F8\U0001F1EC SG 61 VMS"
-  - "\U0001F1F0\U0001F1F7 KR 62 TJN"
+  - "\U0001F1F8\U0001F1EC SG 62 TJN"
   - "\U0001F1ED\U0001F1F0 HK 63 TJN"
   - "\U0001F1FA\U0001F1F8 US 64 TJN"
   - "\U0001F1ED\U0001F1F0 HK 65 VMS"
@@ -2912,9 +2904,8 @@ proxy-groups:
   - "\U0001F1F8\U0001F1EC SG 213 TJN"
   - "\U0001F1FA\U0001F1F8 US 214 TJN"
   - "\U0001F1E8\U0001F1E6 CA 215 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 216 TJN"
-  - "\U0001F1EF\U0001F1F5 JP 217 TJN"
-  - "\U0001F1F8\U0001F1EC SG 218 TJN"
-  - "\U0001F1FB\U0001F1F3 VN 219 TJN"
+  - "\U0001F1EF\U0001F1F5 JP 216 TJN"
+  - "\U0001F1F8\U0001F1EC SG 217 TJN"
+  - "\U0001F1FB\U0001F1F3 VN 218 TJN"
 rules:
 - "MATCH,\U0001F310 Proxy"
