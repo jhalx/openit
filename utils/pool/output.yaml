@@ -1,24 +1,23 @@
 proxies:
 - name: "\U0001F1E8\U0001F1E6 CA 1 TJN"
   server: cat-1.opensvr.net
-  type: trojan
-  country: "\U0001F1E8\U0001F1E6CA"
   port: 443
+  type: trojan
+  country: "\U0001F1E8\U0001F1E6 CA"
   password: opentunnel.net-sdertyuijh
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1EF\U0001F1F5 JP 2 VMS"
   server: 152.69.197.60
-  type: vmess
-  country: "\U0001F1FA\U0001F1F8US"
   port: 1069
+  type: vmess
+  country: "\U0001F1FA\U0001F1F8 US"
   uuid: ac8e26fe-8150-4b60-ae64-82fc77eba2cf
   alterId: 0
   cipher: auto
   network: tcp
-  ws-path: /
   http-opts: {}
-  h2-opts: {}
+  ws-path: /
   skip-cert-verify: true
 - name: "\U0001F1F0\U0001F1F7 KR 3 TJN"
   server: kr05.wangxd.life
@@ -30,13 +29,13 @@ proxies:
   udp: true
 - name: "\U0001F1E8\U0001F1F3 CN 4 SSS"
   server: hnt.cndns.shop
-  port: 27766
+  port: 27761
   type: ss
   password: 31347057-7af5-4562-b912-f1c217c4c160
   cipher: chacha20-ietf-poly1305
 - name: "\U0001F1E8\U0001F1F3 CN 5 SSS"
   server: hnt.cndns.shop
-  port: 27761
+  port: 27766
   type: ss
   password: 31347057-7af5-4562-b912-f1c217c4c160
   cipher: chacha20-ietf-poly1305
@@ -258,7 +257,7 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: "\U0001F1FA\U0001F1F8 US 21 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 21 VMS"
   server: ca.0112233.xyz
   type: vmess
   country: "\U0001F1FA\U0001F1F8US"
@@ -725,7 +724,7 @@ proxies:
   http-opts: {}
   h2-opts: {}
   skip-cert-verify: true
-- name: "\U0001F1EE\U0001F1F9 IT 50 TJN"
+- name: "\U0001F1F8\U0001F1EC SG 50 TJN"
   server: tw1111.tfzhc.top
   type: trojan
   country: "\U0001F1E8\U0001F1E6CA"
@@ -733,7 +732,7 @@ proxies:
   password: 03b5ded3-2ec2-407d-b327-71048098c803
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1EE\U0001F1F9 IT 51 TJN"
+- name: "\U0001F1ED\U0001F1F0 HK 51 TJN"
   server: tw1114.tfzhc.top
   type: trojan
   country: "\U0001F1E8\U0001F1E6CA"
@@ -2049,7 +2048,7 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 18 VMS"
   - "\U0001F1FA\U0001F1F8 US 19 VMS"
   - "\U0001F1FA\U0001F1F8 US 20 VMS"
-  - "\U0001F1FA\U0001F1F8 US 21 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 21 VMS"
   - "\U0001F1FA\U0001F1F8 US 22 VMS"
   - "\U0001F1FA\U0001F1F8 US 23 VMS"
   - "\U0001F1FA\U0001F1F8 US 24 VMS"
@@ -2078,8 +2077,8 @@ proxy-groups:
   - "\U0001F1E9\U0001F1EA DE 47 TJN"
   - "\U0001F1F0\U0001F1F7 KR 48 VMS"
   - "\U0001F1F8\U0001F1EC SG 49 VMS"
-  - "\U0001F1EE\U0001F1F9 IT 50 TJN"
-  - "\U0001F1EE\U0001F1F9 IT 51 TJN"
+  - "\U0001F1F8\U0001F1EC SG 50 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 51 TJN"
   - "\U0001F1ED\U0001F1F0 HK 52 VMS"
   - "\U0001F1FA\U0001F1F8 US 53 TJN"
   - "\U0001F1F8\U0001F1EC SG 54 TJN"
@@ -2246,7 +2245,7 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 18 VMS"
   - "\U0001F1FA\U0001F1F8 US 19 VMS"
   - "\U0001F1FA\U0001F1F8 US 20 VMS"
-  - "\U0001F1FA\U0001F1F8 US 21 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 21 VMS"
   - "\U0001F1FA\U0001F1F8 US 22 VMS"
   - "\U0001F1FA\U0001F1F8 US 23 VMS"
   - "\U0001F1FA\U0001F1F8 US 24 VMS"
@@ -2275,8 +2274,8 @@ proxy-groups:
   - "\U0001F1E9\U0001F1EA DE 47 TJN"
   - "\U0001F1F0\U0001F1F7 KR 48 VMS"
   - "\U0001F1F8\U0001F1EC SG 49 VMS"
-  - "\U0001F1EE\U0001F1F9 IT 50 TJN"
-  - "\U0001F1EE\U0001F1F9 IT 51 TJN"
+  - "\U0001F1F8\U0001F1EC SG 50 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 51 TJN"
   - "\U0001F1ED\U0001F1F0 HK 52 VMS"
   - "\U0001F1FA\U0001F1F8 US 53 TJN"
   - "\U0001F1F8\U0001F1EC SG 54 TJN"
