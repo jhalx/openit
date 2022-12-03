@@ -187,7 +187,7 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: "\U0001F1FA\U0001F1F8 US 14 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 14 VMS"
   server: uicdn.cf
   type: vmess
   country: "\U0001F1FA\U0001F1F8US"
@@ -254,7 +254,7 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: "\U0001F1FA\U0001F1F3 UN 18 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 18 VMS"
   server: de01-cdn.airport-v2.com
   type: vmess
   country: "\U0001F1FA\U0001F1F8US"
@@ -374,13 +374,13 @@ proxies:
   skip-cert-verify: true
 - name: "\U0001F1E8\U0001F1F3 CN 25 SSS"
   server: hnt.cndns.shop
-  port: 27766
+  port: 27761
   type: ss
   password: 31347057-7af5-4562-b912-f1c217c4c160
   cipher: chacha20-ietf-poly1305
 - name: "\U0001F1E8\U0001F1F3 CN 26 SSS"
   server: hnt.cndns.shop
-  port: 27761
+  port: 27766
   type: ss
   password: 31347057-7af5-4562-b912-f1c217c4c160
   cipher: chacha20-ietf-poly1305
@@ -928,7 +928,7 @@ proxies:
   password: 96983eb4-c8f1-316e-ab00-500014ed3d8b
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 83 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 83 VMS"
   server: ag01-cdn.myn1des.com
   type: vmess
   country: "\U0001F1FA\U0001F1F8US"
@@ -1596,11 +1596,11 @@ proxies:
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1ED\U0001F1F0 HK 158 TJN"
-  server: uk.liangyuandian.top
+  server: de01.awcloud.top
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
   port: 443
-  password: ceaea123-1b4b-469b-8358-bcd5f5529305
+  password: 7f9ef59e-20fb-4343-bafc-3a84fa22fe70
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1EF\U0001F1F5 JP 159 TJN"
@@ -1732,7 +1732,7 @@ proxies:
   network: ws
   tls: true
 - type: vmess
-  name: "\U0001F1FA\U0001F1F3 UN 174 VMS"
+  name: "\U0001F1FA\U0001F1F8 US 174 VMS"
   ws-opts:
     path: /sshkit/1736960111/63859bc177a33/
     headers:
@@ -1757,244 +1757,7 @@ proxies:
   network: ws
   tls: true
 - type: vmess
-  name: "\U0001F1FA\U0001F1F3 UN 176 VMS"
-  ws-opts:
-    path: /aries
-  server: '[2001:1b40:5000:42::b3c6:f43a]'
-  port: 2086
-  uuid: ad1454a4-c9e2-4836-c98d-66e3646c2aa4
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: vmess
-  name: "\U0001F1FA\U0001F1F8 US 177 VMS"
-  ws-opts:
-    path: /aries
-    headers:
-      host: azstu.cloudflare.quest
-  server: racknerd.com
-  port: 2086
-  uuid: e3cfb09c-deb9-4a83-d5e3-1c96ea2d93b1
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: vmess
-  name: "\U0001F1FA\U0001F1F8 US 178 VMS"
-  ws-opts:
-    path: /aries
-    headers:
-      host: buyvm.cloudflare.quest
-  server: ip.skk.moe
-  port: 2086
-  uuid: e91c45c9-2c0f-46a9-c56d-21663b9e2c18
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: vmess
-  name: "\U0001F1F1\U0001F1FA LU 179 VMS"
-  ws-opts:
-    path: /aries
-    headers:
-      host: buyvm.oppo.quest
-  server: buyvm.oppo.quest
-  port: 2086
-  uuid: e91c45c9-2c0f-46a9-c56d-21663b9e2c18
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: vmess
-  name: "\U0001F1E8\U0001F1FE CY 180 VMS"
-  ws-opts:
-    path: /aries
-    headers:
-      host: ee.cloudflare.quest
-  server: CSGO.COM
-  port: 2086
-  uuid: f44898b5-8386-4228-b967-2bd0dcc8b1aa
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: vmess
-  name: "\U0001F1ED\U0001F1F0 HK 181 VMS"
-  ws-opts:
-    path: /aries
-    headers:
-      host: wapsd.189.cn
-  server: gcorehk.arc.pics
-  port: 2086
-  uuid: 7a8a19ec-94f5-4262-edbe-a308e1d0c66d
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: vmess
-  name: "\U0001F1FA\U0001F1F3 UN 182 VMS"
-  ws-opts:
-    path: /aries
-    headers:
-      host: kz.cloudflare.quest
-  server: www.dynadot.com
-  port: 2086
-  uuid: 078b436e-de58-42d9-cfe9-ffdcf72e1ab8
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: vmess
-  name: "\U0001F1FA\U0001F1F3 UN 183 VMS"
-  ws-opts:
-    path: /aries
-    headers:
-      host: safrica.cloudflare.quest
-  server: www.dynadot.com
-  port: 2086
-  uuid: 747c2f34-17b7-4eec-8a25-34fed2640820
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: vmess
-  name: "\U0001F1F1\U0001F1FA LU 184 VMS"
-  ws-opts:
-    path: /aries
-    headers:
-      host: a.189.cn
-  server: sg.gcore.arc.pics
-  port: 2086
-  uuid: 8c067a46-155c-402a-a762-f42b40179438
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: vmess
-  name: "\U0001F1FA\U0001F1F8 US 185 VMS"
-  ws-opts:
-    path: /aries
-    headers:
-      host: linus.cloudflare.quest
-  server: www.gov.hk
-  port: 2086
-  uuid: 1ab91f18-6168-4cb6-c9ca-2c3c7158fe4c
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: vmess
-  name: "\U0001F1FA\U0001F1F8 US 186 VMS"
-  ws-opts:
-    path: /aries
-  server: linus.oppo.quest
-  port: 2086
-  uuid: 1ab91f18-6168-4cb6-c9ca-2c3c7158fe4c
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: vmess
-  name: "\U0001F1FA\U0001F1F3 UN 187 VMS"
-  ws-opts:
-    path: /aries
-  server: linus6.oppo.quest
-  port: 2086
-  uuid: 1ab91f18-6168-4cb6-c9ca-2c3c7158fe4c
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: vmess
-  name: "\U0001F1FA\U0001F1F3 UN 188 VMS"
-  ws-opts:
-    path: /aries
-  server: uk.oppo.quest
-  port: 2086
-  uuid: 80837af3-1ed8-4686-fa8a-6bf9214d5351
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: trojan
-  name: "\U0001F1FA\U0001F1F8 US 189 TJN"
-  server: rn.oppo.quest
-  port: 2077
-  password: KQpgOwsK0p
-  udp: true
-  skip-cert-verify: true
-  sni: rn.oppo.quest
-- type: vmess
-  name: "\U0001F1FA\U0001F1F8 US 190 VMS"
-  ws-opts:
-    path: /aries
-    headers:
-      host: scw.cloudflare.quest
-  server: www.gov.hk
-  port: 2086
-  uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: vmess
-  name: "\U0001F1F8\U0001F1EC SG 191 VMS"
-  ws-opts:
-    path: /aries
-  server: azstu.oppo.quest
-  port: 2082
-  uuid: f46d5b0d-c103-406c-df16-105976fc2aa3
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: vmess
-  name: "\U0001F1FA\U0001F1F8 US 192 VMS"
-  ws-opts:
-    path: /aries
-    headers:
-      host: vultrjp.cloudflare.quest
-  server: RACKNERD.COM
-  port: 2086
-  uuid: 76203202-4c53-4399-a3c9-ddaf6455fb07
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: vmess
-  name: "\U0001F1FA\U0001F1F8 US 193 VMS"
-  ws-opts:
-    path: /aries
-    headers:
-      host: vu1.cloudflare.quest
-  server: ip.skk.moe
-  port: 2082
-  uuid: ab19dee3-3e70-4f70-aa54-6f0af8dd1a6f
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: vmess
-  name: "\U0001F1FA\U0001F1F8 US 194 VMS"
-  ws-opts:
-    path: /aries
-  server: vu1.oppo.quest
-  port: 2082
-  uuid: ab19dee3-3e70-4f70-aa54-6f0af8dd1a6f
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: vmess
-  name: "\U0001F1FA\U0001F1F3 UN 195 VMS"
-  ws-opts:
-    path: /imkcpyyds
-    headers:
-      host: buyvm.imkcp.eu.org
-  server: buyvm.imkcp.eu.org
-  port: 443
-  uuid: 6fb9a750-55b8-4e6e-857b-242b795399dc
-  alterId: '0'
-  cipher: auto
-  network: ws
-  tls: true
-- type: vmess
-  name: "\U0001F1FA\U0001F1F3 UN 196 VMS"
-  ws-opts:
-    path: /share
-    headers:
-      host: us.awsbest.com
-  server: cfhk.oppo.quest
-  port: 80
-  uuid: 615a1285-5848-42a1-9859-d4cb37b1fbd8
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 197 VMS"
+  name: "\U0001F1E8\U0001F1F3 CN 176 VMS"
   ws-opts:
     path: /
     headers:
@@ -2007,7 +1770,7 @@ proxies:
   network: ws
   tls: true
 - type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 198 VMS"
+  name: "\U0001F1E8\U0001F1F3 CN 177 VMS"
   ws-opts:
     path: /mg
     headers:
@@ -2020,7 +1783,7 @@ proxies:
   network: ws
   tls: true
 - type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 199 VMS"
+  name: "\U0001F1E8\U0001F1F3 CN 178 VMS"
   ws-opts:
     path: /
     headers:
@@ -2032,7 +1795,7 @@ proxies:
   cipher: auto
   network: ws
 - type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 200 VMS"
+  name: "\U0001F1E8\U0001F1F3 CN 179 VMS"
   ws-opts:
     path: /
     headers:
@@ -2045,13 +1808,277 @@ proxies:
   network: ws
   tls: true
 - type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 201 VMS"
+  name: "\U0001F1E8\U0001F1F3 CN 180 VMS"
   ws-opts:
     path: /hls
     headers:
       host: mugua-in01.airport-v2.com
   server: 223.166.159.208
   port: 63051
+  uuid: 87d9da8f-7839-37f8-b7f2-a7be22ae3833
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1E8\U0001F1F3 CN 181 VMS"
+  ws-opts:
+    path: /
+    headers:
+      host: mugua-ru01.myn1des.com
+  server: 223.166.159.208
+  port: 63071
+  uuid: 87d9da8f-7839-37f8-b7f2-a7be22ae3833
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1E8\U0001F1F3 CN 182 VMS"
+  ws-opts:
+    path: /
+    headers:
+      host: ag01-cdn.myn1des.com
+  server: 223.166.159.208
+  port: 63072
+  uuid: 87d9da8f-7839-37f8-b7f2-a7be22ae3833
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: vmess
+  name: "\U0001F1E8\U0001F1F3 CN 183 VMS"
+  ws-opts:
+    path: /
+    headers:
+      host: hk-balancer.airport-v2.com
+  server: 223.166.159.208
+  port: 63078
+  uuid: 87d9da8f-7839-37f8-b7f2-a7be22ae3833
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1E8\U0001F1F3 CN 184 VMS"
+  ws-opts:
+    path: /
+    headers:
+      host: hkt2-cdn.tencent.best
+  server: 223.166.159.208
+  port: 63081
+  uuid: 87d9da8f-7839-37f8-b7f2-a7be22ae3833
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: vmess
+  name: "\U0001F1E8\U0001F1F3 CN 185 VMS"
+  ws-opts:
+    path: /
+    headers:
+      host: hkt3-cdn.tencent.best
+  server: 223.166.159.208
+  port: 63082
+  uuid: 87d9da8f-7839-37f8-b7f2-a7be22ae3833
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: vmess
+  name: "\U0001F1E8\U0001F1F3 CN 186 VMS"
+  ws-opts:
+    path: /
+    headers:
+      host: de01-cdn.airport-v2.com
+  server: 223.166.159.208
+  port: 63084
+  uuid: 87d9da8f-7839-37f8-b7f2-a7be22ae3833
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: vmess
+  name: "\U0001F1E8\U0001F1F3 CN 187 VMS"
+  ws-opts:
+    path: /mugua
+    headers:
+      host: sg-balancer.tencent.best
+  server: 223.166.159.208
+  port: 63087
+  uuid: 87d9da8f-7839-37f8-b7f2-a7be22ae3833
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1E8\U0001F1F3 CN 188 VMS"
+  ws-opts:
+    path: /mugua
+    headers:
+      host: tw-load-balancer.myn1des.com
+  server: 223.166.159.208
+  port: 63088
+  uuid: 87d9da8f-7839-37f8-b7f2-a7be22ae3833
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1E8\U0001F1F3 CN 189 VMS"
+  ws-opts:
+    path: /
+    headers:
+      host: mugua-kr01.covid19.rip
+  server: 223.111.202.183
+  port: 63004
+  uuid: 87d9da8f-7839-37f8-b7f2-a7be22ae3833
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1E8\U0001F1F3 CN 190 VMS"
+  ws-opts:
+    path: /
+    headers:
+      host: uk01-cdn.airport-v2.com
+  server: 223.111.202.183
+  port: 63021
+  uuid: 87d9da8f-7839-37f8-b7f2-a7be22ae3833
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: vmess
+  name: "\U0001F1E8\U0001F1F3 CN 191 VMS"
+  ws-opts:
+    path: /hls
+    headers:
+      host: mugua-in01.airport-v2.com
+  server: 223.111.202.183
+  port: 63051
+  uuid: 87d9da8f-7839-37f8-b7f2-a7be22ae3833
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1E8\U0001F1F3 CN 192 VMS"
+  ws-opts:
+    path: /
+    headers:
+      host: mugua-ru01.myn1des.com
+  server: 223.111.202.183
+  port: 63071
+  uuid: 87d9da8f-7839-37f8-b7f2-a7be22ae3833
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1E8\U0001F1F3 CN 193 VMS"
+  ws-opts:
+    path: /
+    headers:
+      host: ag01-cdn.myn1des.com
+  server: 223.111.202.183
+  port: 63072
+  uuid: 87d9da8f-7839-37f8-b7f2-a7be22ae3833
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: vmess
+  name: "\U0001F1E8\U0001F1F3 CN 194 VMS"
+  ws-opts:
+    path: /
+    headers:
+      host: hk-balancer.airport-v2.com
+  server: 223.111.202.183
+  port: 63078
+  uuid: 87d9da8f-7839-37f8-b7f2-a7be22ae3833
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1E8\U0001F1F3 CN 195 VMS"
+  ws-opts:
+    path: /
+    headers:
+      host: hkt2-cdn.tencent.best
+  server: 223.111.202.183
+  port: 63081
+  uuid: 87d9da8f-7839-37f8-b7f2-a7be22ae3833
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: vmess
+  name: "\U0001F1E8\U0001F1F3 CN 196 VMS"
+  ws-opts:
+    path: /
+    headers:
+      host: hkt3-cdn.tencent.best
+  server: 223.111.202.183
+  port: 63082
+  uuid: 87d9da8f-7839-37f8-b7f2-a7be22ae3833
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: vmess
+  name: "\U0001F1E8\U0001F1F3 CN 197 VMS"
+  ws-opts:
+    path: /
+    headers:
+      host: de01-cdn.airport-v2.com
+  server: 223.111.202.183
+  port: 63084
+  uuid: 87d9da8f-7839-37f8-b7f2-a7be22ae3833
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: vmess
+  name: "\U0001F1E8\U0001F1F3 CN 198 VMS"
+  ws-opts:
+    path: /mugua
+    headers:
+      host: sg-balancer.tencent.best
+  server: 223.111.202.183
+  port: 63087
+  uuid: 87d9da8f-7839-37f8-b7f2-a7be22ae3833
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1E8\U0001F1F3 CN 199 VMS"
+  ws-opts:
+    path: /mugua
+    headers:
+      host: tw-load-balancer.myn1des.com
+  server: 223.111.202.183
+  port: 63088
+  uuid: 87d9da8f-7839-37f8-b7f2-a7be22ae3833
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1E8\U0001F1F3 CN 200 VMS"
+  ws-opts:
+    path: /
+    headers:
+      host: mugua-kr01.covid19.rip
+  server: 223.167.41.29
+  port: 63004
+  uuid: 87d9da8f-7839-37f8-b7f2-a7be22ae3833
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1E8\U0001F1F3 CN 201 VMS"
+  ws-opts:
+    path: /mg
+    headers:
+      host: mugua-us01.covid19.rip
+  server: 223.167.41.29
+  port: 63014
   uuid: 87d9da8f-7839-37f8-b7f2-a7be22ae3833
   alterId: '0'
   cipher: auto
@@ -2062,279 +2089,15 @@ proxies:
   ws-opts:
     path: /
     headers:
-      host: mugua-ru01.myn1des.com
-  server: 223.166.159.208
-  port: 63071
+      host: uk01-cdn.airport-v2.com
+  server: 223.167.41.29
+  port: 63021
   uuid: 87d9da8f-7839-37f8-b7f2-a7be22ae3833
   alterId: '0'
   cipher: auto
   network: ws
-  tls: true
 - type: vmess
   name: "\U0001F1E8\U0001F1F3 CN 203 VMS"
-  ws-opts:
-    path: /
-    headers:
-      host: ag01-cdn.myn1des.com
-  server: 223.166.159.208
-  port: 63072
-  uuid: 87d9da8f-7839-37f8-b7f2-a7be22ae3833
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 204 VMS"
-  ws-opts:
-    path: /
-    headers:
-      host: hk-balancer.airport-v2.com
-  server: 223.166.159.208
-  port: 63078
-  uuid: 87d9da8f-7839-37f8-b7f2-a7be22ae3833
-  alterId: '0'
-  cipher: auto
-  network: ws
-  tls: true
-- type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 205 VMS"
-  ws-opts:
-    path: /
-    headers:
-      host: hkt2-cdn.tencent.best
-  server: 223.166.159.208
-  port: 63081
-  uuid: 87d9da8f-7839-37f8-b7f2-a7be22ae3833
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 206 VMS"
-  ws-opts:
-    path: /
-    headers:
-      host: hkt3-cdn.tencent.best
-  server: 223.166.159.208
-  port: 63082
-  uuid: 87d9da8f-7839-37f8-b7f2-a7be22ae3833
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 207 VMS"
-  ws-opts:
-    path: /
-    headers:
-      host: de01-cdn.airport-v2.com
-  server: 223.166.159.208
-  port: 63084
-  uuid: 87d9da8f-7839-37f8-b7f2-a7be22ae3833
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 208 VMS"
-  ws-opts:
-    path: /mugua
-    headers:
-      host: sg-balancer.tencent.best
-  server: 223.166.159.208
-  port: 63087
-  uuid: 87d9da8f-7839-37f8-b7f2-a7be22ae3833
-  alterId: '0'
-  cipher: auto
-  network: ws
-  tls: true
-- type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 209 VMS"
-  ws-opts:
-    path: /mugua
-    headers:
-      host: tw-load-balancer.myn1des.com
-  server: 223.166.159.208
-  port: 63088
-  uuid: 87d9da8f-7839-37f8-b7f2-a7be22ae3833
-  alterId: '0'
-  cipher: auto
-  network: ws
-  tls: true
-- type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 210 VMS"
-  ws-opts:
-    path: /
-    headers:
-      host: mugua-kr01.covid19.rip
-  server: 223.111.202.183
-  port: 63004
-  uuid: 87d9da8f-7839-37f8-b7f2-a7be22ae3833
-  alterId: '0'
-  cipher: auto
-  network: ws
-  tls: true
-- type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 211 VMS"
-  ws-opts:
-    path: /
-    headers:
-      host: uk01-cdn.airport-v2.com
-  server: 223.111.202.183
-  port: 63021
-  uuid: 87d9da8f-7839-37f8-b7f2-a7be22ae3833
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 212 VMS"
-  ws-opts:
-    path: /hls
-    headers:
-      host: mugua-in01.airport-v2.com
-  server: 223.111.202.183
-  port: 63051
-  uuid: 87d9da8f-7839-37f8-b7f2-a7be22ae3833
-  alterId: '0'
-  cipher: auto
-  network: ws
-  tls: true
-- type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 213 VMS"
-  ws-opts:
-    path: /
-    headers:
-      host: mugua-ru01.myn1des.com
-  server: 223.111.202.183
-  port: 63071
-  uuid: 87d9da8f-7839-37f8-b7f2-a7be22ae3833
-  alterId: '0'
-  cipher: auto
-  network: ws
-  tls: true
-- type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 214 VMS"
-  ws-opts:
-    path: /
-    headers:
-      host: ag01-cdn.myn1des.com
-  server: 223.111.202.183
-  port: 63072
-  uuid: 87d9da8f-7839-37f8-b7f2-a7be22ae3833
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 215 VMS"
-  ws-opts:
-    path: /
-    headers:
-      host: hk-balancer.airport-v2.com
-  server: 223.111.202.183
-  port: 63078
-  uuid: 87d9da8f-7839-37f8-b7f2-a7be22ae3833
-  alterId: '0'
-  cipher: auto
-  network: ws
-  tls: true
-- type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 216 VMS"
-  ws-opts:
-    path: /
-    headers:
-      host: hkt2-cdn.tencent.best
-  server: 223.111.202.183
-  port: 63081
-  uuid: 87d9da8f-7839-37f8-b7f2-a7be22ae3833
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 217 VMS"
-  ws-opts:
-    path: /
-    headers:
-      host: hkt3-cdn.tencent.best
-  server: 223.111.202.183
-  port: 63082
-  uuid: 87d9da8f-7839-37f8-b7f2-a7be22ae3833
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 218 VMS"
-  ws-opts:
-    path: /
-    headers:
-      host: de01-cdn.airport-v2.com
-  server: 223.111.202.183
-  port: 63084
-  uuid: 87d9da8f-7839-37f8-b7f2-a7be22ae3833
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 219 VMS"
-  ws-opts:
-    path: /mugua
-    headers:
-      host: sg-balancer.tencent.best
-  server: 223.111.202.183
-  port: 63087
-  uuid: 87d9da8f-7839-37f8-b7f2-a7be22ae3833
-  alterId: '0'
-  cipher: auto
-  network: ws
-  tls: true
-- type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 220 VMS"
-  ws-opts:
-    path: /mugua
-    headers:
-      host: tw-load-balancer.myn1des.com
-  server: 223.111.202.183
-  port: 63088
-  uuid: 87d9da8f-7839-37f8-b7f2-a7be22ae3833
-  alterId: '0'
-  cipher: auto
-  network: ws
-  tls: true
-- type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 221 VMS"
-  ws-opts:
-    path: /
-    headers:
-      host: mugua-kr01.covid19.rip
-  server: 223.167.41.29
-  port: 63004
-  uuid: 87d9da8f-7839-37f8-b7f2-a7be22ae3833
-  alterId: '0'
-  cipher: auto
-  network: ws
-  tls: true
-- type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 222 VMS"
-  ws-opts:
-    path: /mg
-    headers:
-      host: mugua-us01.covid19.rip
-  server: 223.167.41.29
-  port: 63014
-  uuid: 87d9da8f-7839-37f8-b7f2-a7be22ae3833
-  alterId: '0'
-  cipher: auto
-  network: ws
-  tls: true
-- type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 223 VMS"
-  ws-opts:
-    path: /
-    headers:
-      host: uk01-cdn.airport-v2.com
-  server: 223.167.41.29
-  port: 63021
-  uuid: 87d9da8f-7839-37f8-b7f2-a7be22ae3833
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 224 VMS"
   ws-opts:
     path: /
     headers:
@@ -2347,7 +2110,7 @@ proxies:
   network: ws
   tls: true
 - type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 225 VMS"
+  name: "\U0001F1E8\U0001F1F3 CN 204 VMS"
   ws-opts:
     path: /hls
     headers:
@@ -2360,7 +2123,7 @@ proxies:
   network: ws
   tls: true
 - type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 226 VMS"
+  name: "\U0001F1E8\U0001F1F3 CN 205 VMS"
   ws-opts:
     path: /
     headers:
@@ -2373,7 +2136,7 @@ proxies:
   network: ws
   tls: true
 - type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 227 VMS"
+  name: "\U0001F1E8\U0001F1F3 CN 206 VMS"
   ws-opts:
     path: /
     headers:
@@ -2385,7 +2148,7 @@ proxies:
   cipher: auto
   network: ws
 - type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 228 VMS"
+  name: "\U0001F1E8\U0001F1F3 CN 207 VMS"
   ws-opts:
     path: /
     headers:
@@ -2398,7 +2161,7 @@ proxies:
   network: ws
   tls: true
 - type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 229 VMS"
+  name: "\U0001F1E8\U0001F1F3 CN 208 VMS"
   ws-opts:
     path: /
     headers:
@@ -2410,7 +2173,7 @@ proxies:
   cipher: auto
   network: ws
 - type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 230 VMS"
+  name: "\U0001F1E8\U0001F1F3 CN 209 VMS"
   ws-opts:
     path: /
     headers:
@@ -2422,7 +2185,7 @@ proxies:
   cipher: auto
   network: ws
 - type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 231 VMS"
+  name: "\U0001F1E8\U0001F1F3 CN 210 VMS"
   ws-opts:
     path: /
     headers:
@@ -2434,7 +2197,7 @@ proxies:
   cipher: auto
   network: ws
 - type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 232 VMS"
+  name: "\U0001F1E8\U0001F1F3 CN 211 VMS"
   ws-opts:
     path: /mugua
     headers:
@@ -2447,7 +2210,7 @@ proxies:
   network: ws
   tls: true
 - type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 233 VMS"
+  name: "\U0001F1E8\U0001F1F3 CN 212 VMS"
   ws-opts:
     path: /mugua
     headers:
@@ -2460,7 +2223,7 @@ proxies:
   network: ws
   tls: true
 - type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 234 VMS"
+  name: "\U0001F1E8\U0001F1F3 CN 213 VMS"
   ws-opts:
     path: /
     headers:
@@ -2472,7 +2235,7 @@ proxies:
   cipher: auto
   network: ws
 - type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 235 VMS"
+  name: "\U0001F1E8\U0001F1F3 CN 214 VMS"
   ws-opts:
     path: /hls
     headers:
@@ -2485,7 +2248,7 @@ proxies:
   network: ws
   tls: true
 - type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 236 VMS"
+  name: "\U0001F1E8\U0001F1F3 CN 215 VMS"
   ws-opts:
     path: /
     headers:
@@ -2497,7 +2260,7 @@ proxies:
   cipher: auto
   network: ws
 - type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 237 VMS"
+  name: "\U0001F1E8\U0001F1F3 CN 216 VMS"
   ws-opts:
     path: /
     headers:
@@ -2510,7 +2273,7 @@ proxies:
   network: ws
   tls: true
 - type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 238 VMS"
+  name: "\U0001F1E8\U0001F1F3 CN 217 VMS"
   ws-opts:
     path: /
     headers:
@@ -2522,7 +2285,7 @@ proxies:
   cipher: auto
   network: ws
 - type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 239 VMS"
+  name: "\U0001F1E8\U0001F1F3 CN 218 VMS"
   ws-opts:
     path: /
     headers:
@@ -2534,7 +2297,7 @@ proxies:
   cipher: auto
   network: ws
 - type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 240 VMS"
+  name: "\U0001F1E8\U0001F1F3 CN 219 VMS"
   ws-opts:
     path: /
     headers:
@@ -2546,7 +2309,7 @@ proxies:
   cipher: auto
   network: ws
 - type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 241 VMS"
+  name: "\U0001F1E8\U0001F1F3 CN 220 VMS"
   ws-opts:
     path: /mugua
     headers:
@@ -2559,7 +2322,7 @@ proxies:
   network: ws
   tls: true
 - type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 242 VMS"
+  name: "\U0001F1E8\U0001F1F3 CN 221 VMS"
   ws-opts:
     path: /mugua
     headers:
@@ -2572,7 +2335,7 @@ proxies:
   network: ws
   tls: true
 - type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 243 VMS"
+  name: "\U0001F1E8\U0001F1F3 CN 222 VMS"
   ws-opts:
     path: /
     headers:
@@ -2585,7 +2348,7 @@ proxies:
   network: ws
   tls: true
 - type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 244 VMS"
+  name: "\U0001F1E8\U0001F1F3 CN 223 VMS"
   ws-opts:
     path: /mg
     headers:
@@ -2597,7 +2360,7 @@ proxies:
   cipher: auto
   network: ws
 - type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 245 VMS"
+  name: "\U0001F1E8\U0001F1F3 CN 224 VMS"
   ws-opts:
     path: /mg
     headers:
@@ -2610,7 +2373,7 @@ proxies:
   network: ws
   tls: true
 - type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 246 VMS"
+  name: "\U0001F1E8\U0001F1F3 CN 225 VMS"
   ws-opts:
     path: /
     headers:
@@ -2622,7 +2385,7 @@ proxies:
   cipher: auto
   network: ws
 - type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 247 VMS"
+  name: "\U0001F1E8\U0001F1F3 CN 226 VMS"
   ws-opts:
     path: /
     headers:
@@ -2635,7 +2398,7 @@ proxies:
   network: ws
   tls: true
 - type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 248 VMS"
+  name: "\U0001F1E8\U0001F1F3 CN 227 VMS"
   ws-opts:
     path: /hls
     headers:
@@ -2648,7 +2411,7 @@ proxies:
   network: ws
   tls: true
 - type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 249 VMS"
+  name: "\U0001F1E8\U0001F1F3 CN 228 VMS"
   ws-opts:
     path: /
     headers:
@@ -2661,7 +2424,7 @@ proxies:
   network: ws
   tls: true
 - type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 250 VMS"
+  name: "\U0001F1E8\U0001F1F3 CN 229 VMS"
   ws-opts:
     path: /
     headers:
@@ -2673,7 +2436,7 @@ proxies:
   cipher: auto
   network: ws
 - type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 251 VMS"
+  name: "\U0001F1E8\U0001F1F3 CN 230 VMS"
   ws-opts:
     path: /
     headers:
@@ -2686,7 +2449,7 @@ proxies:
   network: ws
   tls: true
 - type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 252 VMS"
+  name: "\U0001F1E8\U0001F1F3 CN 231 VMS"
   ws-opts:
     path: /
     headers:
@@ -2698,7 +2461,7 @@ proxies:
   cipher: auto
   network: ws
 - type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 253 VMS"
+  name: "\U0001F1E8\U0001F1F3 CN 232 VMS"
   ws-opts:
     path: /
     headers:
@@ -2710,7 +2473,7 @@ proxies:
   cipher: auto
   network: ws
 - type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 254 VMS"
+  name: "\U0001F1E8\U0001F1F3 CN 233 VMS"
   ws-opts:
     path: /
     headers:
@@ -2722,7 +2485,7 @@ proxies:
   cipher: auto
   network: ws
 - type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 255 VMS"
+  name: "\U0001F1E8\U0001F1F3 CN 234 VMS"
   ws-opts:
     path: /mugua
     headers:
@@ -2735,7 +2498,7 @@ proxies:
   network: ws
   tls: true
 - type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 256 VMS"
+  name: "\U0001F1E8\U0001F1F3 CN 235 VMS"
   ws-opts:
     path: /mugua
     headers:
@@ -2748,7 +2511,7 @@ proxies:
   network: ws
   tls: true
 - type: vmess
-  name: "\U0001F1E8\U0001F1F3 CN 257 VMS"
+  name: "\U0001F1E8\U0001F1F3 CN 236 VMS"
   ws-opts:
     path: /
     headers:
@@ -2761,7 +2524,7 @@ proxies:
   network: ws
   tls: true
 - type: vmess
-  name: "\U0001F1ED\U0001F1F0 HK 258 VMS"
+  name: "\U0001F1ED\U0001F1F0 HK 237 VMS"
   ws-opts:
     path: /
     headers:
@@ -2774,7 +2537,7 @@ proxies:
   network: ws
   tls: true
 - type: vmess
-  name: "\U0001F1ED\U0001F1F0 HK 259 VMS"
+  name: "\U0001F1ED\U0001F1F0 HK 238 VMS"
   ws-opts:
     path: /
     headers:
@@ -2787,7 +2550,7 @@ proxies:
   network: ws
   tls: true
 - type: vmess
-  name: "\U0001F1ED\U0001F1F0 HK 260 VMS"
+  name: "\U0001F1ED\U0001F1F0 HK 239 VMS"
   ws-opts:
     path: /
     headers:
@@ -2800,7 +2563,7 @@ proxies:
   network: ws
   tls: true
 - type: vmess
-  name: "\U0001F1ED\U0001F1F0 HK 261 VMS"
+  name: "\U0001F1ED\U0001F1F0 HK 240 VMS"
   ws-opts:
     path: /
     headers:
@@ -2813,7 +2576,7 @@ proxies:
   network: ws
   tls: true
 - type: vmess
-  name: "\U0001F1FA\U0001F1F3 UN 262 VMS"
+  name: "\U0001F1FA\U0001F1F8 US 241 VMS"
   ws-opts:
     path: /
     headers:
@@ -2825,7 +2588,7 @@ proxies:
   cipher: auto
   network: ws
 - type: vmess
-  name: "\U0001F1FA\U0001F1F8 US 263 VMS"
+  name: "\U0001F1FA\U0001F1F3 UN 242 VMS"
   ws-opts:
     path: /
     headers:
@@ -2837,7 +2600,7 @@ proxies:
   cipher: auto
   network: ws
 - type: vmess
-  name: "\U0001F1FA\U0001F1F8 US 264 VMS"
+  name: "\U0001F1FA\U0001F1F3 UN 243 VMS"
   ws-opts:
     path: /
     headers:
@@ -2849,19 +2612,7 @@ proxies:
   cipher: auto
   network: ws
 - type: vmess
-  name: "\U0001F1FA\U0001F1F3 UN 265 VMS"
-  ws-opts:
-    path: /
-    headers:
-      host: hkt3-cdn.tencent.best
-  server: hkt3-cdn.tencent.best
-  port: 2086
-  uuid: 87d9da8f-7839-37f8-b7f2-a7be22ae3833
-  alterId: '0'
-  cipher: auto
-  network: ws
-- type: vmess
-  name: "\U0001F1F5\U0001F1F1 PL 266 VMS"
+  name: "\U0001F1F5\U0001F1F1 PL 244 VMS"
   ws-opts:
     path: /
     headers:
@@ -2874,7 +2625,7 @@ proxies:
   network: ws
   tls: true
 - type: vmess
-  name: "\U0001F1F8\U0001F1EC SG 267 VMS"
+  name: "\U0001F1F8\U0001F1EC SG 245 VMS"
   ws-opts:
     path: /mugua
     headers:
@@ -2887,7 +2638,7 @@ proxies:
   network: ws
   tls: true
 - type: vmess
-  name: "\U0001F1F0\U0001F1F7 KR 268 VMS"
+  name: "\U0001F1F0\U0001F1F7 KR 246 VMS"
   ws-opts:
     path: /
     headers:
@@ -2900,7 +2651,7 @@ proxies:
   network: ws
   tls: true
 - type: vmess
-  name: "\U0001F1E6\U0001F1F7 AR 269 VMS"
+  name: "\U0001F1E6\U0001F1F7 AR 247 VMS"
   ws-opts:
     path: /
     headers:
@@ -2912,7 +2663,7 @@ proxies:
   cipher: auto
   network: ws
 - type: vmess
-  name: "\U0001F1E9\U0001F1EA DE 270 VMS"
+  name: "\U0001F1E9\U0001F1EA DE 248 VMS"
   ws-opts:
     path: /
     headers:
@@ -2924,7 +2675,7 @@ proxies:
   cipher: auto
   network: ws
 - type: vmess
-  name: "\U0001F1ED\U0001F1F0 HK 271 VMS"
+  name: "\U0001F1ED\U0001F1F0 HK 249 VMS"
   ws-opts:
     path: /
     headers:
@@ -2936,7 +2687,7 @@ proxies:
   cipher: auto
   network: ws
 - type: vmess
-  name: "\U0001F1ED\U0001F1F0 HK 272 VMS"
+  name: "\U0001F1ED\U0001F1F0 HK 250 VMS"
   ws-opts:
     path: /
     headers:
@@ -2948,7 +2699,7 @@ proxies:
   cipher: auto
   network: ws
 - type: vmess
-  name: "\U0001F1EC\U0001F1E7 GB 273 VMS"
+  name: "\U0001F1EC\U0001F1E7 GB 251 VMS"
   ws-opts:
     path: /
     headers:
@@ -2956,6 +2707,243 @@ proxies:
   server: 37.61.229.13
   port: 2086
   uuid: 87d9da8f-7839-37f8-b7f2-a7be22ae3833
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: vmess
+  name: "\U0001F1FA\U0001F1F3 UN 252 VMS"
+  ws-opts:
+    path: /aries
+  server: '[2001:1b40:5000:42::b3c6:f43a]'
+  port: 2086
+  uuid: ad1454a4-c9e2-4836-c98d-66e3646c2aa4
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8 US 253 VMS"
+  ws-opts:
+    path: /aries
+    headers:
+      host: azstu.cloudflare.quest
+  server: racknerd.com
+  port: 2086
+  uuid: e3cfb09c-deb9-4a83-d5e3-1c96ea2d93b1
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8 US 254 VMS"
+  ws-opts:
+    path: /aries
+    headers:
+      host: buyvm.cloudflare.quest
+  server: ip.skk.moe
+  port: 2086
+  uuid: e91c45c9-2c0f-46a9-c56d-21663b9e2c18
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: vmess
+  name: "\U0001F1F1\U0001F1FA LU 255 VMS"
+  ws-opts:
+    path: /aries
+    headers:
+      host: buyvm.oppo.quest
+  server: buyvm.oppo.quest
+  port: 2086
+  uuid: e91c45c9-2c0f-46a9-c56d-21663b9e2c18
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: vmess
+  name: "\U0001F1E8\U0001F1FE CY 256 VMS"
+  ws-opts:
+    path: /aries
+    headers:
+      host: ee.cloudflare.quest
+  server: CSGO.COM
+  port: 2086
+  uuid: f44898b5-8386-4228-b967-2bd0dcc8b1aa
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: vmess
+  name: "\U0001F1ED\U0001F1F0 HK 257 VMS"
+  ws-opts:
+    path: /aries
+    headers:
+      host: wapsd.189.cn
+  server: gcorehk.arc.pics
+  port: 2086
+  uuid: 7a8a19ec-94f5-4262-edbe-a308e1d0c66d
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: vmess
+  name: "\U0001F1FA\U0001F1F3 UN 258 VMS"
+  ws-opts:
+    path: /aries
+    headers:
+      host: kz.cloudflare.quest
+  server: www.dynadot.com
+  port: 2086
+  uuid: 078b436e-de58-42d9-cfe9-ffdcf72e1ab8
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: vmess
+  name: "\U0001F1FA\U0001F1F3 UN 259 VMS"
+  ws-opts:
+    path: /aries
+    headers:
+      host: safrica.cloudflare.quest
+  server: www.dynadot.com
+  port: 2086
+  uuid: 747c2f34-17b7-4eec-8a25-34fed2640820
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: vmess
+  name: "\U0001F1F1\U0001F1FA LU 260 VMS"
+  ws-opts:
+    path: /aries
+    headers:
+      host: a.189.cn
+  server: sg.gcore.arc.pics
+  port: 2086
+  uuid: 8c067a46-155c-402a-a762-f42b40179438
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8 US 261 VMS"
+  ws-opts:
+    path: /aries
+    headers:
+      host: linus.cloudflare.quest
+  server: www.gov.hk
+  port: 2086
+  uuid: 1ab91f18-6168-4cb6-c9ca-2c3c7158fe4c
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8 US 262 VMS"
+  ws-opts:
+    path: /aries
+  server: linus.oppo.quest
+  port: 2086
+  uuid: 1ab91f18-6168-4cb6-c9ca-2c3c7158fe4c
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: vmess
+  name: "\U0001F1FA\U0001F1F3 UN 263 VMS"
+  ws-opts:
+    path: /aries
+  server: linus6.oppo.quest
+  port: 2086
+  uuid: 1ab91f18-6168-4cb6-c9ca-2c3c7158fe4c
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: vmess
+  name: "\U0001F1FA\U0001F1F3 UN 264 VMS"
+  ws-opts:
+    path: /aries
+  server: uk.oppo.quest
+  port: 2086
+  uuid: 80837af3-1ed8-4686-fa8a-6bf9214d5351
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: trojan
+  name: "\U0001F1FA\U0001F1F8 US 265 TJN"
+  server: rn.oppo.quest
+  port: 2077
+  password: KQpgOwsK0p
+  udp: true
+  skip-cert-verify: true
+  sni: rn.oppo.quest
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8 US 266 VMS"
+  ws-opts:
+    path: /aries
+    headers:
+      host: scw.cloudflare.quest
+  server: www.gov.hk
+  port: 2086
+  uuid: ddcd66fd-c716-439c-9ab8-2adb1400ff48
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: vmess
+  name: "\U0001F1F8\U0001F1EC SG 267 VMS"
+  ws-opts:
+    path: /aries
+  server: azstu.oppo.quest
+  port: 2082
+  uuid: f46d5b0d-c103-406c-df16-105976fc2aa3
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8 US 268 VMS"
+  ws-opts:
+    path: /aries
+    headers:
+      host: vultrjp.cloudflare.quest
+  server: RACKNERD.COM
+  port: 2086
+  uuid: 76203202-4c53-4399-a3c9-ddaf6455fb07
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8 US 269 VMS"
+  ws-opts:
+    path: /aries
+    headers:
+      host: vu1.cloudflare.quest
+  server: ip.skk.moe
+  port: 2082
+  uuid: ab19dee3-3e70-4f70-aa54-6f0af8dd1a6f
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8 US 270 VMS"
+  ws-opts:
+    path: /aries
+  server: vu1.oppo.quest
+  port: 2082
+  uuid: ab19dee3-3e70-4f70-aa54-6f0af8dd1a6f
+  alterId: '0'
+  cipher: auto
+  network: ws
+- type: vmess
+  name: "\U0001F1FA\U0001F1F8 US 271 VMS"
+  ws-opts:
+    path: /imkcpyyds
+    headers:
+      host: buyvm.imkcp.eu.org
+  server: buyvm.imkcp.eu.org
+  port: 443
+  uuid: 6fb9a750-55b8-4e6e-857b-242b795399dc
+  alterId: '0'
+  cipher: auto
+  network: ws
+  tls: true
+- type: vmess
+  name: "\U0001F1FA\U0001F1F3 UN 272 VMS"
+  ws-opts:
+    path: /share
+    headers:
+      host: us.awsbest.com
+  server: cfhk.oppo.quest
+  port: 80
+  uuid: 615a1285-5848-42a1-9859-d4cb37b1fbd8
   alterId: '0'
   cipher: auto
   network: ws
@@ -2976,11 +2964,11 @@ proxy-groups:
   - "\U0001F1F2\U0001F1F4 MO 11 VMS"
   - "\U0001F1F3\U0001F1F1 NL 12 TJN"
   - "\U0001F1FA\U0001F1F8 US 13 VMS"
-  - "\U0001F1FA\U0001F1F8 US 14 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 14 VMS"
   - "\U0001F1FA\U0001F1F8 US 15 VMS"
   - "\U0001F1FA\U0001F1F8 US 16 VMS"
   - "\U0001F1FA\U0001F1F8 US 17 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 18 VMS"
+  - "\U0001F1FA\U0001F1F8 US 18 VMS"
   - "\U0001F1FA\U0001F1F8 US 19 VMS"
   - "\U0001F1FA\U0001F1F8 US 20 VMS"
   - "\U0001F1FA\U0001F1F3 UN 21 VMS"
@@ -3045,7 +3033,7 @@ proxy-groups:
   - "\U0001F1F8\U0001F1EC SG 80 VMS"
   - "\U0001F1EE\U0001F1F3 IN 81 TJN"
   - "\U0001F1F0\U0001F1F7 KR 82 TJN"
-  - "\U0001F1FA\U0001F1F8 US 83 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 83 VMS"
   - "\U0001F1F0\U0001F1F7 KR 84 TJN"
   - "\U0001F1ED\U0001F1F0 HK 85 VMS"
   - "\U0001F1ED\U0001F1F0 HK 86 VMS"
@@ -3136,29 +3124,29 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 171 SSS"
   - "\U0001F1FA\U0001F1F8 US 172 VMS"
   - "\U0001F1FA\U0001F1F3 UN 173 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 174 VMS"
+  - "\U0001F1FA\U0001F1F8 US 174 VMS"
   - "\U0001F1E7\U0001F1FF BZ 175 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 176 VMS"
-  - "\U0001F1FA\U0001F1F8 US 177 VMS"
-  - "\U0001F1FA\U0001F1F8 US 178 VMS"
-  - "\U0001F1F1\U0001F1FA LU 179 VMS"
-  - "\U0001F1E8\U0001F1FE CY 180 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 181 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 182 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 183 VMS"
-  - "\U0001F1F1\U0001F1FA LU 184 VMS"
-  - "\U0001F1FA\U0001F1F8 US 185 VMS"
-  - "\U0001F1FA\U0001F1F8 US 186 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 187 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 188 VMS"
-  - "\U0001F1FA\U0001F1F8 US 189 TJN"
-  - "\U0001F1FA\U0001F1F8 US 190 VMS"
-  - "\U0001F1F8\U0001F1EC SG 191 VMS"
-  - "\U0001F1FA\U0001F1F8 US 192 VMS"
-  - "\U0001F1FA\U0001F1F8 US 193 VMS"
-  - "\U0001F1FA\U0001F1F8 US 194 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 195 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 196 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 176 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 177 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 178 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 179 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 180 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 181 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 182 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 183 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 184 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 185 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 186 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 187 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 188 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 189 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 190 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 191 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 192 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 193 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 194 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 195 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 196 VMS"
   - "\U0001F1E8\U0001F1F3 CN 197 VMS"
   - "\U0001F1E8\U0001F1F3 CN 198 VMS"
   - "\U0001F1E8\U0001F1F3 CN 199 VMS"
@@ -3199,43 +3187,42 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 234 VMS"
   - "\U0001F1E8\U0001F1F3 CN 235 VMS"
   - "\U0001F1E8\U0001F1F3 CN 236 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 237 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 238 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 239 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 240 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 241 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 242 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 243 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 244 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 245 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 246 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 247 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 248 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 249 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 250 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 251 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 252 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 253 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 254 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 255 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 256 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 257 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 258 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 259 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 260 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 261 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 262 VMS"
-  - "\U0001F1FA\U0001F1F8 US 263 VMS"
-  - "\U0001F1FA\U0001F1F8 US 264 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 265 VMS"
-  - "\U0001F1F5\U0001F1F1 PL 266 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 237 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 238 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 239 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 240 VMS"
+  - "\U0001F1FA\U0001F1F8 US 241 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 242 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 243 VMS"
+  - "\U0001F1F5\U0001F1F1 PL 244 VMS"
+  - "\U0001F1F8\U0001F1EC SG 245 VMS"
+  - "\U0001F1F0\U0001F1F7 KR 246 VMS"
+  - "\U0001F1E6\U0001F1F7 AR 247 VMS"
+  - "\U0001F1E9\U0001F1EA DE 248 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 249 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 250 VMS"
+  - "\U0001F1EC\U0001F1E7 GB 251 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 252 VMS"
+  - "\U0001F1FA\U0001F1F8 US 253 VMS"
+  - "\U0001F1FA\U0001F1F8 US 254 VMS"
+  - "\U0001F1F1\U0001F1FA LU 255 VMS"
+  - "\U0001F1E8\U0001F1FE CY 256 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 257 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 258 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 259 VMS"
+  - "\U0001F1F1\U0001F1FA LU 260 VMS"
+  - "\U0001F1FA\U0001F1F8 US 261 VMS"
+  - "\U0001F1FA\U0001F1F8 US 262 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 263 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 264 VMS"
+  - "\U0001F1FA\U0001F1F8 US 265 TJN"
+  - "\U0001F1FA\U0001F1F8 US 266 VMS"
   - "\U0001F1F8\U0001F1EC SG 267 VMS"
-  - "\U0001F1F0\U0001F1F7 KR 268 VMS"
-  - "\U0001F1E6\U0001F1F7 AR 269 VMS"
-  - "\U0001F1E9\U0001F1EA DE 270 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 271 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 272 VMS"
-  - "\U0001F1EC\U0001F1E7 GB 273 VMS"
+  - "\U0001F1FA\U0001F1F8 US 268 VMS"
+  - "\U0001F1FA\U0001F1F8 US 269 VMS"
+  - "\U0001F1FA\U0001F1F8 US 270 VMS"
+  - "\U0001F1FA\U0001F1F8 US 271 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 272 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -3255,11 +3242,11 @@ proxy-groups:
   - "\U0001F1F2\U0001F1F4 MO 11 VMS"
   - "\U0001F1F3\U0001F1F1 NL 12 TJN"
   - "\U0001F1FA\U0001F1F8 US 13 VMS"
-  - "\U0001F1FA\U0001F1F8 US 14 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 14 VMS"
   - "\U0001F1FA\U0001F1F8 US 15 VMS"
   - "\U0001F1FA\U0001F1F8 US 16 VMS"
   - "\U0001F1FA\U0001F1F8 US 17 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 18 VMS"
+  - "\U0001F1FA\U0001F1F8 US 18 VMS"
   - "\U0001F1FA\U0001F1F8 US 19 VMS"
   - "\U0001F1FA\U0001F1F8 US 20 VMS"
   - "\U0001F1FA\U0001F1F3 UN 21 VMS"
@@ -3324,7 +3311,7 @@ proxy-groups:
   - "\U0001F1F8\U0001F1EC SG 80 VMS"
   - "\U0001F1EE\U0001F1F3 IN 81 TJN"
   - "\U0001F1F0\U0001F1F7 KR 82 TJN"
-  - "\U0001F1FA\U0001F1F8 US 83 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 83 VMS"
   - "\U0001F1F0\U0001F1F7 KR 84 TJN"
   - "\U0001F1ED\U0001F1F0 HK 85 VMS"
   - "\U0001F1ED\U0001F1F0 HK 86 VMS"
@@ -3415,29 +3402,29 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 171 SSS"
   - "\U0001F1FA\U0001F1F8 US 172 VMS"
   - "\U0001F1FA\U0001F1F3 UN 173 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 174 VMS"
+  - "\U0001F1FA\U0001F1F8 US 174 VMS"
   - "\U0001F1E7\U0001F1FF BZ 175 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 176 VMS"
-  - "\U0001F1FA\U0001F1F8 US 177 VMS"
-  - "\U0001F1FA\U0001F1F8 US 178 VMS"
-  - "\U0001F1F1\U0001F1FA LU 179 VMS"
-  - "\U0001F1E8\U0001F1FE CY 180 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 181 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 182 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 183 VMS"
-  - "\U0001F1F1\U0001F1FA LU 184 VMS"
-  - "\U0001F1FA\U0001F1F8 US 185 VMS"
-  - "\U0001F1FA\U0001F1F8 US 186 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 187 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 188 VMS"
-  - "\U0001F1FA\U0001F1F8 US 189 TJN"
-  - "\U0001F1FA\U0001F1F8 US 190 VMS"
-  - "\U0001F1F8\U0001F1EC SG 191 VMS"
-  - "\U0001F1FA\U0001F1F8 US 192 VMS"
-  - "\U0001F1FA\U0001F1F8 US 193 VMS"
-  - "\U0001F1FA\U0001F1F8 US 194 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 195 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 196 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 176 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 177 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 178 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 179 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 180 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 181 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 182 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 183 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 184 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 185 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 186 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 187 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 188 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 189 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 190 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 191 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 192 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 193 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 194 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 195 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 196 VMS"
   - "\U0001F1E8\U0001F1F3 CN 197 VMS"
   - "\U0001F1E8\U0001F1F3 CN 198 VMS"
   - "\U0001F1E8\U0001F1F3 CN 199 VMS"
@@ -3478,42 +3465,41 @@ proxy-groups:
   - "\U0001F1E8\U0001F1F3 CN 234 VMS"
   - "\U0001F1E8\U0001F1F3 CN 235 VMS"
   - "\U0001F1E8\U0001F1F3 CN 236 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 237 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 238 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 239 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 240 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 241 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 242 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 243 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 244 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 245 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 246 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 247 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 248 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 249 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 250 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 251 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 252 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 253 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 254 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 255 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 256 VMS"
-  - "\U0001F1E8\U0001F1F3 CN 257 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 258 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 259 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 260 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 261 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 262 VMS"
-  - "\U0001F1FA\U0001F1F8 US 263 VMS"
-  - "\U0001F1FA\U0001F1F8 US 264 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 265 VMS"
-  - "\U0001F1F5\U0001F1F1 PL 266 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 237 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 238 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 239 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 240 VMS"
+  - "\U0001F1FA\U0001F1F8 US 241 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 242 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 243 VMS"
+  - "\U0001F1F5\U0001F1F1 PL 244 VMS"
+  - "\U0001F1F8\U0001F1EC SG 245 VMS"
+  - "\U0001F1F0\U0001F1F7 KR 246 VMS"
+  - "\U0001F1E6\U0001F1F7 AR 247 VMS"
+  - "\U0001F1E9\U0001F1EA DE 248 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 249 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 250 VMS"
+  - "\U0001F1EC\U0001F1E7 GB 251 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 252 VMS"
+  - "\U0001F1FA\U0001F1F8 US 253 VMS"
+  - "\U0001F1FA\U0001F1F8 US 254 VMS"
+  - "\U0001F1F1\U0001F1FA LU 255 VMS"
+  - "\U0001F1E8\U0001F1FE CY 256 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 257 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 258 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 259 VMS"
+  - "\U0001F1F1\U0001F1FA LU 260 VMS"
+  - "\U0001F1FA\U0001F1F8 US 261 VMS"
+  - "\U0001F1FA\U0001F1F8 US 262 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 263 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 264 VMS"
+  - "\U0001F1FA\U0001F1F8 US 265 TJN"
+  - "\U0001F1FA\U0001F1F8 US 266 VMS"
   - "\U0001F1F8\U0001F1EC SG 267 VMS"
-  - "\U0001F1F0\U0001F1F7 KR 268 VMS"
-  - "\U0001F1E6\U0001F1F7 AR 269 VMS"
-  - "\U0001F1E9\U0001F1EA DE 270 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 271 VMS"
-  - "\U0001F1ED\U0001F1F0 HK 272 VMS"
-  - "\U0001F1EC\U0001F1E7 GB 273 VMS"
+  - "\U0001F1FA\U0001F1F8 US 268 VMS"
+  - "\U0001F1FA\U0001F1F8 US 269 VMS"
+  - "\U0001F1FA\U0001F1F8 US 270 VMS"
+  - "\U0001F1FA\U0001F1F8 US 271 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 272 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
