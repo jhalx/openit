@@ -1497,7 +1497,7 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: "\U0001F1FA\U0001F1F8 US 127 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 127 VMS"
   server: buyvm.imkcp.eu.org
   type: vmess
   country: "\U0001F1FA\U0001F1F8US"
@@ -2117,7 +2117,15 @@ proxies:
   password: b64b0f9c-23df-3112-a790-d8aa068aa2fe
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F8 US 201 TJN"
+- name: "\U0001F1ED\U0001F1F0 HK 201 TJN"
+  server: uk.liangyuandian.top
+  type: trojan
+  country: "\U0001F1FA\U0001F1F8 US"
+  port: 443
+  password: ceaea123-1b4b-469b-8358-bcd5f5529305
+  skip-cert-verify: true
+  udp: true
+- name: "\U0001F1FA\U0001F1F8 US 202 TJN"
   server: permissions.freetrade.link
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
@@ -2125,15 +2133,15 @@ proxies:
   password: lCYI0KOB8exTgp736ac3ZR3DnXwaOFS5pACRuZzSyeYy4N3j2D8qAxF9alDSEC
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1ED\U0001F1F0 HK 202 TJN"
-  server: sg02.awcloud.top
+- name: "\U0001F1ED\U0001F1F0 HK 203 TJN"
+  server: in01.awcloud.top
   type: trojan
   country: "\U0001F1FA\U0001F1F8 US"
   port: 443
   password: 7f9ef59e-20fb-4343-bafc-3a84fa22fe70
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1F8\U0001F1EC SG 203 TJN"
+- name: "\U0001F1F8\U0001F1EC SG 204 TJN"
   server: 5.44.249.43
   type: trojan
   country: "\U0001F3C1 ZZ"
@@ -2141,7 +2149,7 @@ proxies:
   password: cd39f62aed7b90f6
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FB\U0001F1F3 VN 204 TJN"
+- name: "\U0001F1FB\U0001F1F3 VN 205 TJN"
   server: 103.173.155.72
   type: trojan
   country: "\U0001F3C1 ZZ"
@@ -2150,7 +2158,7 @@ proxies:
   skip-cert-verify: true
   udp: true
 - type: vmess
-  name: "\U0001F1FA\U0001F1F3 UN 205 VMS"
+  name: "\U0001F1FA\U0001F1F3 UN 206 VMS"
   ws-opts:
     path: /sshkit/fdfadsfa/63848bfe228fd/
     headers:
@@ -2291,7 +2299,7 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 124 TJN"
   - "\U0001F1EB\U0001F1F7 FR 125 TJN"
   - "\U0001F1ED\U0001F1F0 HK 126 VMS"
-  - "\U0001F1FA\U0001F1F8 US 127 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 127 VMS"
   - "\U0001F1FA\U0001F1F3 UN 128 VMS"
   - "\U0001F1EC\U0001F1E7 GB 129 VMS"
   - "\U0001F1E6\U0001F1FA AU 130 TJN"
@@ -2365,11 +2373,12 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 198 TJN"
   - "\U0001F1FA\U0001F1F8 US 199 TJN"
   - "\U0001F1F8\U0001F1EC SG 200 TJN"
-  - "\U0001F1FA\U0001F1F8 US 201 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 202 TJN"
-  - "\U0001F1F8\U0001F1EC SG 203 TJN"
-  - "\U0001F1FB\U0001F1F3 VN 204 TJN"
-  - "\U0001F1FA\U0001F1F3 UN 205 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 201 TJN"
+  - "\U0001F1FA\U0001F1F8 US 202 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 203 TJN"
+  - "\U0001F1F8\U0001F1EC SG 204 TJN"
+  - "\U0001F1FB\U0001F1F3 VN 205 TJN"
+  - "\U0001F1FA\U0001F1F3 UN 206 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -2502,7 +2511,7 @@ proxy-groups:
   - "\U0001F1EF\U0001F1F5 JP 124 TJN"
   - "\U0001F1EB\U0001F1F7 FR 125 TJN"
   - "\U0001F1ED\U0001F1F0 HK 126 VMS"
-  - "\U0001F1FA\U0001F1F8 US 127 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 127 VMS"
   - "\U0001F1FA\U0001F1F3 UN 128 VMS"
   - "\U0001F1EC\U0001F1E7 GB 129 VMS"
   - "\U0001F1E6\U0001F1FA AU 130 TJN"
@@ -2576,10 +2585,11 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 198 TJN"
   - "\U0001F1FA\U0001F1F8 US 199 TJN"
   - "\U0001F1F8\U0001F1EC SG 200 TJN"
-  - "\U0001F1FA\U0001F1F8 US 201 TJN"
-  - "\U0001F1ED\U0001F1F0 HK 202 TJN"
-  - "\U0001F1F8\U0001F1EC SG 203 TJN"
-  - "\U0001F1FB\U0001F1F3 VN 204 TJN"
-  - "\U0001F1FA\U0001F1F3 UN 205 VMS"
+  - "\U0001F1ED\U0001F1F0 HK 201 TJN"
+  - "\U0001F1FA\U0001F1F8 US 202 TJN"
+  - "\U0001F1ED\U0001F1F0 HK 203 TJN"
+  - "\U0001F1F8\U0001F1EC SG 204 TJN"
+  - "\U0001F1FB\U0001F1F3 VN 205 TJN"
+  - "\U0001F1FA\U0001F1F3 UN 206 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
