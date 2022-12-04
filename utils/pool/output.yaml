@@ -146,11 +146,12 @@ proxies:
   h2-opts: {}
   skip-cert-verify: true
 - name: "\U0001F1ED\U0001F1F0 HK 12 TJN"
-  server: de01.awcloud.top
+  server: in01.awcloud.top
   type: trojan
   country: "\U0001F1ED\U0001F1F0HK"
   port: 443
   password: b88a1a71-5250-4ddc-8337-3a28594b6192
+  sni: in01.awcloud.top
   skip-cert-verify: true
   udp: true
 - name: "\U0001F1ED\U0001F1F0 HK 13 VMS"
@@ -318,7 +319,7 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: "\U0001F1FA\U0001F1F8 US 24 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 24 VMS"
   server: uicdn.cf
   type: vmess
   country: "\U0001F1FA\U0001F1F8US"
@@ -1805,7 +1806,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 21 VMS"
   - "\U0001F1FA\U0001F1F3 UN 22 VMS"
   - "\U0001F1FA\U0001F1F8 US 23 VMS"
-  - "\U0001F1FA\U0001F1F8 US 24 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 24 VMS"
   - "\U0001F1FA\U0001F1F8 US 25 VMS"
   - "\U0001F1FA\U0001F1F8 US 26 VMS"
   - "\U0001F1F8\U0001F1EC SG 27 VMS"
@@ -1984,7 +1985,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 21 VMS"
   - "\U0001F1FA\U0001F1F3 UN 22 VMS"
   - "\U0001F1FA\U0001F1F8 US 23 VMS"
-  - "\U0001F1FA\U0001F1F8 US 24 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 24 VMS"
   - "\U0001F1FA\U0001F1F8 US 25 VMS"
   - "\U0001F1FA\U0001F1F8 US 26 VMS"
   - "\U0001F1F8\U0001F1EC SG 27 VMS"
