@@ -323,7 +323,7 @@ proxies:
   h2-opts: {}
   tls: true
   skip-cert-verify: true
-- name: "\U0001F1FA\U0001F1F8 US 25 VMS"
+- name: "\U0001F1FA\U0001F1F3 UN 25 VMS"
   server: 30.tehvp.xyz
   type: vmess
   country: "\U0001F1FA\U0001F1F8US"
@@ -1234,7 +1234,7 @@ proxies:
   password: e05c749b-7c6b-41b8-9c71-9dcf685edf4a
   skip-cert-verify: true
   udp: true
-- name: "\U0001F1FA\U0001F1F3 UN 104 VMS"
+- name: "\U0001F1FA\U0001F1F8 US 104 VMS"
   server: 30.tehvp.xyz
   type: vmess
   country: "\U0001F1FA\U0001F1F8US"
@@ -1972,28 +1972,8 @@ proxies:
   password: 6f6ae34d-fe7f-4ca1-a912-ecc01386bdc4
   skip-cert-verify: true
   udp: true
-- type: ssr
-  name: "\U0001F1E8\U0001F1F3 CN 188 SSR"
-  server: 116.162.120.23
-  port: 561
-  protocol: auth_aes128_md5
-  cipher: chacha20-ietf
-  obfs: plain
-  password: mblank1port
-  obfs-param: dC5tZS92cG5oYXQ=
-  protocol-param: 27445:jgjgjgjgjgjg
-- type: ssr
-  name: "\U0001F1E8\U0001F1F3 CN 189 SSR"
-  server: 116.162.120.30
-  port: 561
-  protocol: auth_aes128_md5
-  cipher: chacha20-ietf
-  obfs: plain
-  password: mblank1port
-  obfs-param: dC5tZS92cG5oYXQ=
-  protocol-param: 27445:jgjgjgjgjgjg
 - type: vmess
-  name: "\U0001F1E7\U0001F1FF BZ 190 VMS"
+  name: "\U0001F1E7\U0001F1FF BZ 188 VMS"
   ws-opts:
     path: /IYKLD53M
     headers:
@@ -2006,7 +1986,7 @@ proxies:
   network: ws
   tls: true
 - type: vmess
-  name: "\U0001F1FA\U0001F1F3 UN 191 VMS"
+  name: "\U0001F1FA\U0001F1F3 UN 189 VMS"
   ws-opts:
     path: /9JZFDTKE
     headers:
@@ -2018,8 +1998,18 @@ proxies:
   cipher: auto
   network: ws
   tls: true
+- type: ssr
+  name: "\U0001F1E8\U0001F1F3 CN 190 SSR"
+  server: 116.162.120.30
+  port: 561
+  protocol: auth_aes128_md5
+  cipher: chacha20-ietf
+  obfs: plain
+  password: mblank1port
+  obfs-param: dC5tZS92cG5oYXQ=
+  protocol-param: 27445:jgjgjgjgjgjg
 - type: vmess
-  name: "\U0001F1E7\U0001F1FF BZ 192 VMS"
+  name: "\U0001F1E7\U0001F1FF BZ 191 VMS"
   ws-opts:
     path: /5QNROSRV
     headers:
@@ -2031,8 +2021,18 @@ proxies:
   cipher: auto
   network: ws
   tls: true
+- type: ssr
+  name: "\U0001F1E8\U0001F1F3 CN 192 SSR"
+  server: 116.162.120.23
+  port: 561
+  protocol: auth_aes128_md5
+  cipher: chacha20-ietf
+  obfs: plain
+  password: mblank1port
+  obfs-param: dC5tZS92cG5oYXQ=
+  protocol-param: 27445:jgjgjgjgjgjg
 - type: vmess
-  name: "\U0001F1FA\U0001F1F8 US 193 VMS"
+  name: "\U0001F1FA\U0001F1F3 UN 193 VMS"
   ws-opts:
     path: /sshkit/fdfadsfa/63848bfe228fd/
     headers:
@@ -2071,7 +2071,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 22 VMS"
   - "\U0001F1FA\U0001F1F8 US 23 VMS"
   - "\U0001F1FA\U0001F1F8 US 24 VMS"
-  - "\U0001F1FA\U0001F1F8 US 25 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 25 VMS"
   - "\U0001F1FA\U0001F1F3 UN 26 VMS"
   - "\U0001F1FA\U0001F1F3 UN 27 VMS"
   - "\U0001F1FA\U0001F1F3 UN 28 VMS"
@@ -2150,7 +2150,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 101 TJN"
   - "\U0001F1F9\U0001F1FC TW 102 TJN"
   - "\U0001F1EE\U0001F1F3 IN 103 TJN"
-  - "\U0001F1FA\U0001F1F3 UN 104 VMS"
+  - "\U0001F1FA\U0001F1F8 US 104 VMS"
   - "\U0001F1FA\U0001F1F8 US 105 VMS"
   - "\U0001F1ED\U0001F1F0 HK 106 VMS"
   - "\U0001F1EC\U0001F1E7 GB 107 TJN"
@@ -2234,12 +2234,12 @@ proxy-groups:
   - "\U0001F1E8\U0001F1E6 CA 185 TJN"
   - "\U0001F1F8\U0001F1EC SG 186 TJN"
   - "\U0001F1FB\U0001F1F3 VN 187 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 188 SSR"
-  - "\U0001F1E8\U0001F1F3 CN 189 SSR"
-  - "\U0001F1E7\U0001F1FF BZ 190 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 191 VMS"
-  - "\U0001F1E7\U0001F1FF BZ 192 VMS"
-  - "\U0001F1FA\U0001F1F8 US 193 VMS"
+  - "\U0001F1E7\U0001F1FF BZ 188 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 189 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 190 SSR"
+  - "\U0001F1E7\U0001F1FF BZ 191 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 192 SSR"
+  - "\U0001F1FA\U0001F1F3 UN 193 VMS"
   url: https://www.google.com/favicon.ico
   interval: 300
 - name: "\U0001F310 Proxy"
@@ -2270,7 +2270,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 22 VMS"
   - "\U0001F1FA\U0001F1F8 US 23 VMS"
   - "\U0001F1FA\U0001F1F8 US 24 VMS"
-  - "\U0001F1FA\U0001F1F8 US 25 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 25 VMS"
   - "\U0001F1FA\U0001F1F3 UN 26 VMS"
   - "\U0001F1FA\U0001F1F3 UN 27 VMS"
   - "\U0001F1FA\U0001F1F3 UN 28 VMS"
@@ -2349,7 +2349,7 @@ proxy-groups:
   - "\U0001F1FA\U0001F1F8 US 101 TJN"
   - "\U0001F1F9\U0001F1FC TW 102 TJN"
   - "\U0001F1EE\U0001F1F3 IN 103 TJN"
-  - "\U0001F1FA\U0001F1F3 UN 104 VMS"
+  - "\U0001F1FA\U0001F1F8 US 104 VMS"
   - "\U0001F1FA\U0001F1F8 US 105 VMS"
   - "\U0001F1ED\U0001F1F0 HK 106 VMS"
   - "\U0001F1EC\U0001F1E7 GB 107 TJN"
@@ -2433,11 +2433,11 @@ proxy-groups:
   - "\U0001F1E8\U0001F1E6 CA 185 TJN"
   - "\U0001F1F8\U0001F1EC SG 186 TJN"
   - "\U0001F1FB\U0001F1F3 VN 187 TJN"
-  - "\U0001F1E8\U0001F1F3 CN 188 SSR"
-  - "\U0001F1E8\U0001F1F3 CN 189 SSR"
-  - "\U0001F1E7\U0001F1FF BZ 190 VMS"
-  - "\U0001F1FA\U0001F1F3 UN 191 VMS"
-  - "\U0001F1E7\U0001F1FF BZ 192 VMS"
-  - "\U0001F1FA\U0001F1F8 US 193 VMS"
+  - "\U0001F1E7\U0001F1FF BZ 188 VMS"
+  - "\U0001F1FA\U0001F1F3 UN 189 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 190 SSR"
+  - "\U0001F1E7\U0001F1FF BZ 191 VMS"
+  - "\U0001F1E8\U0001F1F3 CN 192 SSR"
+  - "\U0001F1FA\U0001F1F3 UN 193 VMS"
 rules:
 - "MATCH,\U0001F310 Proxy"
